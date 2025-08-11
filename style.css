@@ -1,0 +1,340 @@
+h1, h2, h3, p, li, ul {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(135deg, black, orangered); 
+  background-attachment: fixed;
+  background-size: cover;
+  color: #000;
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  background-color: black; 
+  color: orangered;            
+  margin: 0;
+  padding: 20px;
+  font-size: 36px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+#nav {
+  background-color: orangered;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-btn {
+  background-color: black;
+  color: orangered;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  scale: 1.09;
+}
+
+#content {
+  padding: 30px;
+  font-size: 18px;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  min-height: 300px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+  display: flex;
+  transition: transform 0.3s ease;
+   display: flex;
+  justify-content: center; /* по горизонтали */
+  align-items: center;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+.player-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.player-card {
+  background: #eef4ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+.players-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.player-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+.player-card:hover img {
+  transform: scale(1.05);
+}
+.player-card h3 {
+  margin: 10px 0 6px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.player-card p {
+  margin: 4px 0;
+  font-size: 0.95em;
+  color: #333;
+}
+
+.player-group {
+  margin-bottom: 2rem;
+  
+}
+
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.news-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 16px 20px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.news-card h4 {
+  margin-top: 0;
+  color: #ffe600;
+  font-size: 20px;
+}
+
+.news-card p {
+  color: #fff;
+  font-size: 15px;
+  margin: 8px 0 0;
+}
+.back-btn {
+  background-color: orangered;
+  color: black;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  background-color: #005599;
+}
+
+.shop-btn {
+  background-color: orangered;
+  color: black;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.shop-btn:hover {
+  background-color: #ffea4d;
+  transform: scale(1.05);
+}
+.coaches-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.coach-card {
+  background: #eef4ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.coach-card:hover {
+  transform: scale(1.05);
+}
+
+.coach-info p {
+  margin: 6px 0;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.coach-info strong {
+  color: #004080;
+}
+.matches-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.match-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.match-card {
+  background: #f9fbff;
+  border: 1px solid #cdd9ed;
+  border-radius: 14px;
+  padding: 18px 22px;
+  width: 340px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.match-card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+.match-card .match-date {
+  font-size: 14px;
+  color: #0066cc;
+  font-weight: bold;
+  text-align: center;
+}
+
+.match-card .match-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #003366;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.match-card .match-info {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.match-card .match-score {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.match-card .match-status {
+  font-size: 13px;
+  color: #888;
+  text-align: center;
+  font-style: italic;
+}
+.players-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.coaches-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+#matches {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#matches h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.match-card {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ff6600;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.match-card div {
+  margin: 5px 0;
+}
