@@ -248,7 +248,8 @@ function showFullNews(id) {
     img.alt = item.title;
     img.style.maxWidth = '100%';
     img.style.borderRadius = '10px';
-    img.style.margin = '20px 0';
+    img.style.margin = '20px auto'; // <-- тут auto по бокам
+  img.style.display = 'block';
     content.appendChild(img);
   }
 

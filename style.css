@@ -44,6 +44,21 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  width: 600px;
+  height:7px; /* Толщина линии */
+  background-color: orangered; /* Цвет */
+  border: none; /* Убираем стандартную границу */
+  margin: 20px auto; /* По центру */
+}
+
+
 .nav-btn:hover {
   scale: 1.09;
 }
