@@ -216,6 +216,14 @@ window.team = [
     photo: "https://shakhtar.com/-/media/fcsd/players/alisson/alisson_p2.png?h=610&iar=0&w=473"
   },
   {
+    name: "Луккас Феррейра",
+    age: 19,
+    position: "Півзахісник",
+    number: 37,
+    nationality: "Бразілія",
+    photo: "https://shakhtar.com/-/media/fcsd/players/ferreira-lucas/lukasferreira_bio_25_26.png?h=610&iar=0&w=473"
+  },
+  {
     name: "Педріньо",
     age: 27,
     position: "Півзахісник",
