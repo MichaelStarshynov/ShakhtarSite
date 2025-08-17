@@ -353,3 +353,9 @@ img:hover {
 .match-card div {
   margin: 5px 0;
 }
+h4 {
+  color: orangered;
+}
+a {
+  color: orangered;
+}
