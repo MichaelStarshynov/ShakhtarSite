@@ -58,7 +58,11 @@ const pages = {
             `
   },
   Команда: { title: `Команда` },
-  Матчі: { title: `Матчі` },
+  Матчі: { 
+    title: `Матчі`, 
+    text:  `<p>Поточне місце в УПЛ: 2 місце.</p><br><p>Поточне місце в ЛК: раунд плей-оф кваліфікації Ліги конференцій УЄФА</p>`
+
+  },
   Квітки: {
     title: `Купити квітки`,
     text: `Квітки можна купити <a href="https://tickets.shakhtar.com/" target="_blank">тут</a>.<br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReVDgvWW2ZjnAG5b-EV_JWxg1cgHvDxt3zKw&s" style="max-width:300px;">`
@@ -168,6 +172,11 @@ function showTeam() {
 function showMatches() {
   content.innerHTML = '<h2>Матчі</h2>';
 
+  // берем текст из pages
+  const info = document.createElement('div');
+  info.innerHTML = pages['Матчі'].text;
+  content.appendChild(info);
+
   const grid = document.createElement('div');
   grid.className = 'matches-grid';
 
@@ -194,6 +203,7 @@ function showMatches() {
 
   content.appendChild(grid);
 }
+
 
 
 

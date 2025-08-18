@@ -5,7 +5,7 @@ window.team = [
     position: "Голкіпер",
     number: 23,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/fesiun-kiril/fesiun_b_24_25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/fesiun-kiril/fesiun_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Дмитро Різник",
@@ -13,7 +13,7 @@ window.team = [
     position: "Голкіпер",
     number: 31,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/riznyk-dmytro/riznyk_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/riznyk-dmytro/riznyk_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Денис Твардовський",
@@ -21,7 +21,7 @@ window.team = [
     position: "Голкіпер",
     number: 48,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/tvardovskyi/tvardovskyi_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/tvardovskyi/tvardovskyi_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Дієго Арройо",
@@ -29,7 +29,7 @@ window.team = [
     position: "Захисник",
     number: 3,
     nationality: "Болівія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/arroyo-diego/arroyo_p2.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/arroyo-diego/arroyo_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Марлон Сантос",
@@ -37,15 +37,7 @@ window.team = [
     position: "Захисник",
     number: 4,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/marlon/marlon_santos_2025_bio.png?h=610&iar=0&w=473"
-  },
-   {
-    name: "Валерій Бондар",
-    age: 26,
-    position: "Захисник",
-    number: 5,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/bondar-valeriy/bondar_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/marlon/marlon_santos_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Валерій Бондар",
@@ -53,15 +45,7 @@ window.team = [
     position: "Захисник",
     number: 5,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/bondar-valeriy/bondar_p2_2024-25.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Георгій Гочолеішвілі",
-    age: 24,
-    position: "Захисник",
-    number: 12,
-    nationality: "Грузія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/giorgi-gocholeishvili/gocholeishvili_2025_bio.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/bondar-valeriy/bondar_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Педро Енріке",
@@ -69,7 +53,7 @@ window.team = [
     position: "Захисник",
     number: 13,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho_pedro-henrique-azevedo-pereira/pedro_henrique_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho_pedro-henrique-azevedo-pereira/pedro_henrique_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Іраклі Азаров",
@@ -77,7 +61,7 @@ window.team = [
     position: "Захисник",
     number: 16,
     nationality: "Грузія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/azarov-irakli/azarov_p2-2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/azarov-irakli/azarov_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Вінісіус Тобіас",
@@ -85,7 +69,7 @@ window.team = [
     position: "Захисник",
     number: 17,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/vinicius-tobias/tobias_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/vinicius-tobias/tobias_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Алаа Грам",
@@ -93,7 +77,7 @@ window.team = [
     position: "Захисник",
     number: 18,
     nationality: "Туніс",
-    photo: "https://shakhtar.com/-/media/fcsd/players/ghram-alaa/ghram_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/ghram-alaa/ghram_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Микола Матвіенко",
@@ -101,7 +85,7 @@ window.team = [
     position: "Захисник",
     number: 22,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/22-mykola-matviienko/matviienko_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/22-mykola-matviienko/matviienko_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Юхим Конопля",
@@ -109,7 +93,7 @@ window.team = [
     position: "Захисник",
     number: 26,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/konoplya/konoplia_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/konoplya/konoplia_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Мар'ян Фарина",
@@ -117,7 +101,7 @@ window.team = [
     position: "Захисник",
     number: 74,
     nationality: "україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/faryna-marian/faryna_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/faryna-marian/faryna_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Марлон Гомес",
@@ -125,7 +109,7 @@ window.team = [
     position: "Півзахісник",
     number: 6,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/gomes-marlon/marlon_gomes_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/gomes-marlon/marlon_gomes_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Егіналду",
@@ -133,7 +117,7 @@ window.team = [
     position: "Півзахісник",
     number: 7,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/eguinaldo/eguinaldo_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/eguinaldo/eguinaldo_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Дмитро Криськів",
@@ -141,7 +125,7 @@ window.team = [
     position: "Півзахісник",
     number: 8,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/kryskiv-dmytro/kryskiv_b_24_25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/kryskiv-dmytro/kryskiv_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Мар'ян Швед",
@@ -149,7 +133,7 @@ window.team = [
     position: "Півзахісник",
     number: 9,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/shved-marian/shved_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/shved-marian/shved_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Георгій Судаков",
@@ -157,7 +141,7 @@ window.team = [
     position: "Півзахісник",
     number: 10,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/sudakov-heorgiy/sudakov_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/sudakov-heorgiy/sudakov_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Кевін",
@@ -165,7 +149,7 @@ window.team = [
     position: "Півзахісник",
     number: 11,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/kevin/kevin_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/kevin/kevin_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Антон Глущенко",
@@ -173,7 +157,7 @@ window.team = [
     position: "Півзахісник",
     number: 20,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/hlushchenko/hlushchenko_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/hlushchenko/hlushchenko_bio__25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Артем Бондаренко",
@@ -181,7 +165,7 @@ window.team = [
     position: "Півзахісник",
     number: 21,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/bondarenko-artem/bondarenko_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/bondarenko-artem/bondarenko_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Віктор Цуканов",
@@ -189,7 +173,7 @@ window.team = [
     position: "Півзахісник",
     number: 24,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/under_19/tsukanov/tsukanov_b_24_25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/under_19/tsukanov/tsukanov_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Олег Очеретько",
@@ -197,7 +181,7 @@ window.team = [
     position: "Півзахісник",
     number: 27,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/ocheretko-oleh/ocheretko_2025_bio.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/ocheretko-oleh/ocheretko_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Єгор Назарина",
@@ -205,7 +189,7 @@ window.team = [
     position: "Півзахісник",
     number: 29,
     nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/nazaryna/nazaryna_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/nazaryna/nazaryna_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Аліссон Сантана",
@@ -213,7 +197,7 @@ window.team = [
     position: "Півзахісник",
     number: 30,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/alisson/alisson_p2.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/alisson/alisson_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Луккас Феррейра",
@@ -229,7 +213,7 @@ window.team = [
     position: "Півзахісник",
     number: 38,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
     name: "Невертон",
@@ -237,7 +221,7 @@ window.team = [
     position: "Півзахісник",
     number: 39,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_bio_25_26.png?h=610&iar=0&w=473"
   },
 {
     name: "Лассіна Траоре",
@@ -245,7 +229,7 @@ window.team = [
     position: "Нападник",
     number: 2,
     nationality: "Буркін-Фасо",
-    photo: "https://shakhtar.com/-/media/fcsd/players/traore-lassina/traore_p2_2024-25.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/traore-lassina/traore_bio_25_26.png?h=610&iar=0&w=473"
   },
 {
     name: "Кауан Еліас",
@@ -253,7 +237,7 @@ window.team = [
     position: "Нападник",
     number: 19,
     nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/elias-kaua/elias_p2.png?h=610&iar=0&w=473"
+    photo: "https://shakhtar.com/-/media/fcsd/players/elias-kaua/elias_bio_25_26.png?h=610&iar=0&w=473"
   },
    
 
