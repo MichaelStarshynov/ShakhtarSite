@@ -83,6 +83,8 @@ for (const key in pages) {
   nav.appendChild(btn);
 }
 
+
+
 // Показ страницы
 function showPage(pageKey) {
   const page = pages[pageKey];
