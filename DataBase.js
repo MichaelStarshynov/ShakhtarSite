@@ -332,13 +332,6 @@ name: "Арда Туран",
 ];
   window.matches = [
   {
-    date: "17.08.25",
-    opponent: "Верес",
-    time: "15:30",
-    score: "2-0",
-    place: "Рівне (виїзд)"
-  },
-  {
     date: "24.08.25",
     opponent: "Серветт",
     time: "21:00",
