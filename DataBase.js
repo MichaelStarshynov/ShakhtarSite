@@ -136,14 +136,6 @@ window.team = [
     photo: "https://shakhtar.com/-/media/fcsd/players/shved-marian/shved_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
-    name: "Кевін",
-    age: 22,
-    position: "Півзахісник",
-    number: 11,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/kevin/kevin_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
     name: "Антон Глущенко",
     age: 21,
     position: "Півзахісник",
@@ -324,13 +316,6 @@ name: "Арда Туран",
 ];
   window.matches = [
   {
-    date: "31.08.2025",
-    opponent: "Олександрія",
-    time: "17:00",
-    score: "2-0",
-    place: "Львів (вдома)"
-  },
-  {
     date: "13.09.25",
     opponent: "Металіст 1925",
     time: "17:00",
@@ -340,7 +325,7 @@ name: "Арда Туран",
   {
     date: "17.09.25",
     opponent: "Полісся (Ставки)",
-    time: "Час ще не відомо",
+    time: "16:00",
     score: "Матч ще не відбувся",
     place: "Львів (вдома)",
   },
