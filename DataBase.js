@@ -135,6 +135,30 @@ window.team = [
     nationality: "Україна",
     photo: "https://shakhtar.com/-/media/fcsd/players/shved-marian/shved_bio_25_26.png?h=610&iar=0&w=473"
   },
+   {
+    name: "Педріньо",
+    age: 27,
+    position: "Півзахісник",
+    number: 10,
+    nationality: "Бразілія",
+    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_bio_25_26.png?h=610&iar=0&w=473"
+  },
+  {
+    name: "Невертон",
+    age: 20,
+    position: "Півзахісник",
+    number: 11,
+    nationality: "Бразілія",
+    photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_bio_25_26.png?h=610&iar=0&w=473"
+  },
+  {
+    name: "Ізаке Сілва",
+    age: "18",
+    position: "Півзахісник",
+    number: "14",
+    nationality: "Бразилія",
+    photo: "https://i.postimg.cc/xCTg02Q7/79ac6fac-6959-4d07-a743-4906a2c8f35d.jpg"
+  },
   {
     name: "Антон Глущенко",
     age: 21,
@@ -191,22 +215,6 @@ window.team = [
     nationality: "Бразілія",
     photo: "https://shakhtar.com/-/media/fcsd/players/ferreira-lucas/lukasferreira_bio_25_26.png?h=610&iar=0&w=473"
   },
-  {
-    name: "Педріньо",
-    age: 27,
-    position: "Півзахісник",
-    number: 38,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Невертон",
-    age: 20,
-    position: "Півзахісник",
-    number: 39,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_bio_25_26.png?h=610&iar=0&w=473"
-  },
 {
     name: "Лассіна Траоре",
     age: 24,
@@ -223,6 +231,14 @@ window.team = [
     nationality: "Бразілія",
     photo: "https://shakhtar.com/-/media/fcsd/players/elias-kaua/elias_bio_25_26.png?h=610&iar=0&w=473"
   },
+  {
+    name: "Лука Мейрелліш",
+    age: "18",
+    position: "Нападник",
+    number: "49",
+    nationality: "Бразілія",
+    photo: "https://i.postimg.cc/7h5FZ74p/de23b366-75ad-42b8-b86a-cb050c37f76b.jpg",
+  }
    
 
   
