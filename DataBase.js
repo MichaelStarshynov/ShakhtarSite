@@ -257,6 +257,20 @@ window.legends = [
     photo: "https://shakhtar.com/-/media/fcsd/players/33-darijo-srna/srna2_.jpg?h=610&iar=0&w=473"
   },
   {
+     name: "Генріх Мхитарян ",
+     age: "36",
+     position: "Півзахісник",
+     nationality: "Вірменія",
+     photo: "https://i.postimg.cc/P5QY5vkF/f995a3a0-f66a-4977-99fd-76e4e6981f69.jpg",
+  },
+  {
+     name: "Фернандіньо",
+     age: "40",
+     position: "Півзахісник",
+     nationality: "Бразілія",
+     photo: "https://i.postimg.cc/kXXdpkg6/5dac1b85-7c8b-449a-b89b-1e97272a59f3.jpg",
+  },
+  {
     name: "Жадсон",
     age: "41",
     position: "Півзахісник",
@@ -269,6 +283,13 @@ window.legends = [
     position: "Нападник",
     nationality: "Україна",
     photo: "https://shakhtar.com/-/media/fcsd/legends/vorobey/vorobey-bio.png?h=610&iar=0&w=473",
+  },
+  {
+     name: "Вілліан",
+     age: "37",
+     position: "Нападник",
+     nationality: "Бразілія",
+     photo: "https://i.postimg.cc/nrSS5S3B/580fbc0f-039a-40a4-ae4b-e6f9c77e5657.jpg",
   },
   {
     name: "Луїс Адріано",
