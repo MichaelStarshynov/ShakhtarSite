@@ -86,7 +86,7 @@ const pages = {
   Телеграм: {
     title: `Телеграм-канал`,
     text: `<p>Підписуйтесь на наш <a href="https://web.telegram.org/a/#-1002610472309" target="_blank">телеграм-канал</a> для більше новин.</p>
-    <img src="https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-4x3-seo/v1733758150/cms/public/images/fcbayern-com/homepage/Saison-24-25/Gegnerteams/Donetsk/20241209_shakthar_imago_04.jpg">`
+    <img src="https://i.postimg.cc/3Nh7fV0N/b67d0faa-4437-4fe4-bb6d-843c00cd8edc.jpg" alt="@FanShakhtarDonetsk">`
   }
 };
 
