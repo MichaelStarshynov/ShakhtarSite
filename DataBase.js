@@ -239,10 +239,52 @@ window.team = [
     nationality: "Бразілія",
     photo: "https://i.postimg.cc/7h5FZ74p/de23b366-75ad-42b8-b86a-cb050c37f76b.jpg",
   }
-   
-
-  
 ];
+
+window.legends = [
+  {
+    name: "Андрій Пятов",
+    age: "41",
+    position: "Голкіпер",
+    nationality: "Україна",
+    photo: "https://shakhtar.com/-/media/fcsd/players/30-andriy-pyatov/bio_pyatov_2017.png?h=610&iar=0&w=473",
+  },
+  {
+    name: "Дарійо Срна",
+    age: "43",
+    postion: "Захісник",
+    nationality: "Хорватія",
+    photo: "https://shakhtar.com/-/media/fcsd/players/33-darijo-srna/srna2_.jpg?h=610&iar=0&w=473"
+  },
+  {
+    name: "Жадсон",
+    age: "41",
+    position: "Півзахісник",
+    nationality: "Бразілія",
+    photo: "https://shakhtar.com/-/media/fcsd/legends/j/jadson_halfturn.jpg?h=610&iar=0&w=473"
+  },
+  {
+    name: "Андрій Воробей",
+    age: "46",
+    position: "Нападник",
+    nationality: "Україна",
+    photo: "https://shakhtar.com/-/media/fcsd/legends/vorobey/vorobey-bio.png?h=610&iar=0&w=473",
+  },
+  {
+    name: "Луїс Адріано",
+    age: "38",
+    position: "Нападник",
+    nationality: "Бразілія",
+    photo: "https://shakhtar.com/-/media/fcsd/legends/adriano/adriano-bio.png?h=610&iar=0&w=473",
+  },
+  {
+    name: "Мірча Луческу",
+    age: 80,
+    position: "Тренер",
+    nationality: "Румунія",
+    photo: "https://shakhtar.com/-/media/fcsd/legends/ml/ml.png?h=610&iar=0&w=473",
+  }
+]
 window.coaches = [
     {
 name: "Арда Туран",
