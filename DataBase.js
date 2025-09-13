@@ -33,7 +33,7 @@ window.team = [
   },
   {
     name: "Марлон Сантос",
-    age: 29,
+    age: 30,
     position: "Захисник",
     number: 4,
     nationality: "Бразілія",
