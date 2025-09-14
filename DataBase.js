@@ -100,7 +100,7 @@ window.team = [
     age: 21,
     position: "Захисник",
     number: 74,
-    nationality: "україна",
+    nationality: "Україна",
     photo: "https://shakhtar.com/-/media/fcsd/players/faryna-marian/faryna_bio_25_26.png?h=610&iar=0&w=473"
   },
   {
@@ -395,10 +395,10 @@ name: "Арда Туран",
 ];
   window.matches = [
   {
-    date: "13.09.25",
+    date: "14.09.25",
     opponent: "Металіст 1925",
     time: "17:00",
-    score: "Матч ще не відбувся",
+    score: "1-1",
     place: "Житомир (виїзд)"
   },
   {
