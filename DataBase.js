@@ -157,7 +157,7 @@ window.team = [
     position: "Півзахісник",
     number: "14",
     nationality: "Бразилія",
-    photo: "https://i.postimg.cc/xCTg02Q7/79ac6fac-6959-4d07-a743-4906a2c8f35d.jpg"
+    photo: "https://shakhtar.com/-/media/fcsd/players/isaque-silva/isaque_silva_bio_2025-09-18.png?h=610&iar=0&w=473"
   },
   {
     name: "Антон Глущенко",
@@ -237,7 +237,7 @@ window.team = [
     position: "Нападник",
     number: "49",
     nationality: "Бразілія",
-    photo: "https://i.postimg.cc/7h5FZ74p/de23b366-75ad-42b8-b86a-cb050c37f76b.jpg",
+    photo: "https://shakhtar.com/-/media/fcsd/players/luca-meirelles/luca_meirelles_bio_2025-09-18.png?h=610&iar=0&w=473",
   }
 ];
 
@@ -395,16 +395,9 @@ name: "Арда Туран",
 ];
   window.matches = [
   {
-    date: "17.09.25",
-    opponent: "Полісся (Ставки)",
-    time: "16:00",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)",
-  },
-  {
-    date: "20.09.25",
+    date: "22.09.25",
     opponent: "Зоря",
-    time: "15:00",
+    time: "18:00",
     score: "Матч ще не відбувся",
     place: "Львів (вдома)"
   },
