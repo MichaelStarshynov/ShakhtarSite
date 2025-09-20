@@ -24,7 +24,7 @@ const pages = {
       <button onclick="showPage('Билеты')" class="shop-btn">🎟️ Купить билеты</button>
       <button onclick="showPage('Новости')" class="shop-btn">📰 Читать новости</button>
       <button onclick="showPage('Команда')" class="shop-btn">👥 Команда</button>
-      <img src="https://shakhtar.com/-/media/fcsd/players/slider_2024_25_2/1250_800_25_1.jpg" style="max-width:100%; border-radius:10px; margin:20px 0;">
+      <img src="https://zbirna.com/storage/benfika-lissabon-1629790211PMyrX.jpg" style="max-width:100%; border-radius:10px; margin:20px 0;">
     </div>`
   },
   Новости: { title: `Новини нашого клубу` },
