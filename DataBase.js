@@ -1,615 +1,265 @@
 window.team = [
   {
-    name: "Кіріл Фесюн",
-    age: 23,
-    position: "Голкіпер",
-    number: 23,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/fesiun-kiril/fesiun_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Дмитро Різник",
-    age: 26,
-    position: "Голкіпер",
-    number: 31,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/riznyk-dmytro/riznyk_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Денис Твардовський",
-    age: 22,
-    position: "Голкіпер",
-    number: 48,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/tvardovskyi/tvardovskyi_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Дієго Арройо",
-    age: 20,
-    position: "Захисник",
-    number: 3,
-    nationality: "Болівія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/arroyo-diego/arroyo_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Марлон Сантос",
-    age: 30,
-    position: "Захисник",
-    number: 4,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/marlon/marlon_santos_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Валерій Бондар",
-    age: 26,
-    position: "Захисник",
-    number: 5,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/bondar-valeriy/bondar_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Педро Енріке",
-    age: 23,
-    position: "Захисник",
-    number: 13,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho_pedro-henrique-azevedo-pereira/pedro_henrique_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Іраклі Азаров",
-    age: 23,
-    position: "Захисник",
-    number: 16,
-    nationality: "Грузія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/azarov-irakli/azarov_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Вінісіус Тобіас",
-    age: 21,
-    position: "Захисник",
-    number: 17,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/vinicius-tobias/tobias_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Алаа Грам",
+    name: "Анатолий Трубин",
     age: 24,
-    position: "Захисник",
-    number: 18,
-    nationality: "Туніс",
-    photo: "https://shakhtar.com/-/media/fcsd/players/ghram-alaa/ghram_bio_25_26.png?h=610&iar=0&w=473"
+    number: 1,
+    position: "Вратарь",
+    nationality: "Украина",
+    photo: "https://img.sofascore.com/api/v1/player/966616/image",
   },
   {
-    name: "Микола Матвіенко",
-    age: 29,
-    position: "Захисник",
-    number: 22,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/22-mykola-matviienko/matviienko_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Самуел Соарес",
+    age: "23",
+     number: 24,
+     position: "Вратарь",
+     nationality: "Португалия",
+     photo: "https://img.sofascore.com/api/v1/player/983550/image",
   },
   {
-    name: "Юхим Конопля",
-    age: 25,
-    position: "Захисник",
-    number: 26,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/konoplya/konoplia_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Николас Отаменди",
+    age: "37",
+    number: "30",
+    position: "Защитник",
+    nationality: "Аргентина",
+    photo: "https://img.sofascore.com/api/v1/player/74915/image",
   },
   {
-    name: "Мар'ян Фарина",
-    age: 21,
-    position: "Захисник",
-    number: 74,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/faryna-marian/faryna_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Антонио Силва",
+    age: "21",
+    number: "4",
+    position: "Защитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/1006069/image",
   },
   {
-    name: "Марлон Гомес",
-    age: 21,
-    position: "Півзахісник",
-    number: 6,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/gomes-marlon/marlon_gomes_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Амар Дедич",
+    age: "17",
+    number: "30",
+    position: "Защитник",
+    nationality: "Босния и Герциговина",
+    photo: "https://img.sofascore.com/api/v1/player/1102791/image",
   },
   {
-    name: "Егіналду",
-    age: 21,
-    position: "Півзахісник",
-    number: 7,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/eguinaldo/eguinaldo_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Томас Араухо",
+    age: "23",
+    number: "44",
+    position: "Защитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/983542/image",
   },
   {
-    name: "Дмитро Криськів",
-    age: 24,
-    position: "Півзахісник",
-    number: 8,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/kryskiv-dmytro/kryskiv_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Александер Бах",
+    age: "27",
+    number: "6",
+    position: "Защитник",
+    nationality: "Дания",
+    photo: "https://img.sofascore.com/api/v1/player/850976/image",
   },
   {
-    name: "Мар'ян Швед",
-    age: 28,
-    position: "Півзахісник",
-    number: 9,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/shved-marian/shved_bio_25_26.png?h=610&iar=0&w=473"
-  },
-   {
-    name: "Педріньо",
-    age: 27,
-    position: "Півзахісник",
-    number: 10,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Самюел Дахл",
+    age: "22",
+    number: "26",
+    position: "Защитник",
+    nationality: "Щвеция",
+    photo: "https://img.sofascore.com/api/v1/player/993101/image",
   },
   {
-    name: "Невертон",
-    age: 20,
-    position: "Півзахісник",
-    number: 11,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Рафаел Обрадор",
+    age: "21",
+    number: "3",
+    position: "Защитник",
+    nationality: "Испания",
+    photo: "https://img.sofascore.com/api/v1/player/1142692/image",
   },
   {
-    name: "Ізаке Сілва",
+    name: "Леонардо Сантос",
+    age: "19",
+    number: "71",
+    position: "Защитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/1489200/image",
+  },
+  {
+    name: "Гонсало Оливера",
+    age: "19",
+    number: "64",
+    position: "Защитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/1432417/image",
+  },
+  {
+    name: "Кевин Пинто",
     age: "18",
-    position: "Півзахісник",
+    number: "79",
+    position: "Защитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/1545199/image",
+  },
+  {
+    name: "Ричард Риос",
+    age: "25",
+    number: "20",
+    position: "Полузащитник",
+    nationality: "Колумбия",
+    photo: "https://img.sofascore.com/api/v1/player/1015292/image",
+  },
+  {
+    name: "Энзо Барренчеа",
+    age: "24",
+    number: "5",
+    position: "Полузащитник",
+    nationality: "Аргентина",
+    photo: "https://img.sofascore.com/api/v1/player/1087316/image",
+  },
+  {
+    name: "Георгий Судаков",
+    age: "23",
+    number: "10",
+    position: "Полузащитник",
+    nationality: "Украина",
+    photo: "https://img.sofascore.com/api/v1/player/1123925/image",
+  },
+  {
+    name: "Доди Лукебакио",
+    age: "27",
+    number: "11",
+    position: "Полузащитник",
+    nationality: "Бельгия",
+    photo: "https://img.sofascore.com/api/v1/player/823631/image",
+  },
+  {
+    name: "Джанлука Престиани",
+    age: "19",
+    number: "25",
+    position: "Полузащитник",
+    nationality: "Аргентина",
+    photo: "https://img.sofascore.com/api/v1/player/1201395/image",
+  },
+  {
+    name: "Фредрик Аурснес",
+    age: "29",
+    number: "8",
+    position: "Полузащитник",
+    nationality: "Норвегия",
+    photo: "https://img.sofascore.com/api/v1/player/228364/image",
+  },
+  {
+    name: "Леонардо Барреиро",
+    age: "25",
+    number: "18",
+    position: "Полузащитник",
+    nationality: "Люксембург",
+    photo: "https://img.sofascore.com/api/v1/player/906800/image",
+  },
+  {
+    name: "Жоао Рего",
+    age: "20",
+    number: "84",
+    position: "Полузащитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/1158353/image",
+  },
+  {
+    name: "Манюель  Силва",
+    age: "24",
+    number: "6",
+    position: "Полузащитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/1085740/image",
+  },
+  {
+    name: "Диэго Приосте",
+    age: "21",
+    number: "86",
+    position: "Полузащитник",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/1146008/image",
+  },
+  {
+    name: "Ванджелис Павлидюс",
+    age: "26",
     number: "14",
-    nationality: "Бразилія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/isaque-silva/isaque_silva_bio_2025-09-18.png?h=610&iar=0&w=473"
+    position: "Нападающий",
+    nationality: "Греция",
+    photo: "https://img.sofascore.com/api/v1/player/795236/image",
   },
   {
-    name: "Антон Глущенко",
-    age: 21,
-    position: "Півзахісник",
-    number: 20,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/hlushchenko/hlushchenko_bio__25_26.png?h=610&iar=0&w=473"
+    name: "Франьо Иванович",
+    age: "21",
+    number: "9",
+    position: "Нападающий",
+    nationality: "Хорватия",
+    photo: "https://img.sofascore.com/api/v1/player/1103333/image",
   },
   {
-    name: "Артем Бондаренко",
-    age: 24,
-    position: "Півзахісник",
-    number: 21,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/bondarenko-artem/bondarenko_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Андреас Шелдюрп",
+    age: "21",
+    number: "21",
+    position: "Нападающий",
+    nationality: "Норвегия",
+    photo: "https://img.sofascore.com/api/v1/player/1100952/image",
   },
   {
-    name: "Віктор Цуканов",
-    age: 19,
-    position: "Півзахісник",
-    number: 24,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/under_19/tsukanov/tsukanov_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Олег Очеретько",
-    age: 22,
-    position: "Півзахісник",
-    number: 27,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/ocheretko-oleh/ocheretko_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Єгор Назарина",
-    age: 28,
-    position: "Півзахісник",
-    number: 29,
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/nazaryna/nazaryna_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Аліссон Сантана",
-    age: 19,
-    position: "Півзахісник",
-    number: 30,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/alisson/alisson_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Луккас Феррейра",
-    age: 19,
-    position: "Півзахісник",
-    number: 37,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/ferreira-lucas/lukasferreira_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Брума",
+    age: "30",
+    number: "27",
+    position: "Нападающий",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/97012/image",
   },
 {
-    name: "Лассіна Траоре",
-    age: 24,
-    position: "Нападник",
-    number: 2,
-    nationality: "Буркін-Фасо",
-    photo: "https://shakhtar.com/-/media/fcsd/players/traore-lassina/traore_bio_25_26.png?h=610&iar=0&w=473"
+    name: "Энрике Араухо",
+    age: "23",
+    number: "39",
+    position: "Нападающий",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/player/998870/image",
   },
-{
-    name: "Кауан Еліас",
-    age: 19,
-    position: "Нападник",
-    number: 19,
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/elias-kaua/elias_bio_25_26.png?h=610&iar=0&w=473"
-  },
-  {
-    name: "Лука Мейрелліш",
-    age: "18",
-    position: "Нападник",
-    number: "49",
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/luca-meirelles/luca_meirelles_bio_2025-09-18.png?h=610&iar=0&w=473",
-  }
 ];
-
-window.legends = [
-  {
-    name: "Андрій Пятов",
-    age: "41",
-    position: "Голкіпер",
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/players/30-andriy-pyatov/bio_pyatov_2017.png?h=610&iar=0&w=473",
-  },
-  {
-    name: "Дарійо Срна",
-    age: "43",
-    postion: "Захісник",
-    nationality: "Хорватія",
-    photo: "https://shakhtar.com/-/media/fcsd/players/33-darijo-srna/srna2_.jpg?h=610&iar=0&w=473"
-  },
-  {
-     name: "Генріх Мхитарян ",
-     age: "36",
-     position: "Півзахісник",
-     nationality: "Вірменія",
-     photo: "https://i.postimg.cc/P5QY5vkF/f995a3a0-f66a-4977-99fd-76e4e6981f69.jpg",
-  },
-  {
-     name: "Фернандіньо",
-     age: "40",
-     position: "Півзахісник",
-     nationality: "Бразілія",
-     photo: "https://i.postimg.cc/kXXdpkg6/5dac1b85-7c8b-449a-b89b-1e97272a59f3.jpg",
-  },
-  {
-    name: "Жадсон",
-    age: "41",
-    position: "Півзахісник",
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/legends/j/jadson_halfturn.jpg?h=610&iar=0&w=473"
-  },
-  {
-    name: "Андрій Воробей",
-    age: "46",
-    position: "Нападник",
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/legends/vorobey/vorobey-bio.png?h=610&iar=0&w=473",
-  },
-  {
-     name: "Вілліан",
-     age: "37",
-     position: "Нападник",
-     nationality: "Бразілія",
-     photo: "https://i.postimg.cc/nrSS5S3B/580fbc0f-039a-40a4-ae4b-e6f9c77e5657.jpg",
-  },
-  {
-    name: "Луїс Адріано",
-    age: "38",
-    position: "Нападник",
-    nationality: "Бразілія",
-    photo: "https://shakhtar.com/-/media/fcsd/legends/adriano/adriano-bio.png?h=610&iar=0&w=473",
-  },
-  {
-    name: "Мірча Луческу",
-    age: 80,
-    position: "Тренер",
-    nationality: "Румунія",
-    photo: "https://shakhtar.com/-/media/fcsd/legends/ml/ml.png?h=610&iar=0&w=473",
-  }
-]
 window.coaches = [
     {
-name: "Арда Туран",
-    age: 38,
-    position: "Тренерскій штаб",
-    coach: "Головний Тренер",
-    nationality: "Турція",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/arda-turan/turan_p2.png?h=610&iar=0&w=473"
-  }, 
-  { name: "Керем Яваш",
-    age: 41,
-    position: "Тренерскій штаб",
-    coach: "Ассітент головного тренера",
-    nationality: "Турція",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/kerem-yavas/yava_p2.png?h=610&iar=0&w=473"
-  }, 
-  { name: "Сінан Сарікурт",
-    age: 38,
-    position: "Тренерскій штаб",
-    coach: "Ассістент головного тренера",
-    nationality: "Турція",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/sinan-sarikurt/sarkurt_p2.png?h=610&iar=0&w=473"
-  }, 
-  { name: "Карло Ніколіні",
-    age: 55,
-    position: "Тренерскій штаб",
-    coach: "Ассістент головного тренера",
-    nationality: "Італія",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/carlo-nicolini/nicolini_p2.png?h=610&iar=0&w=473"
-  }, 
-  { name: "Окан Джан Янтир ",
-    age: 46,
-    position: "Тренерскій штаб",
-    coach: "Особистий консультант",
-    nationality: "Турція",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/okan-can-yantir/yantir_p2.png?h=610&iar=0&w=473"
-  },  
-  { name: "Емрах Каракован",
-    age: 41,
-    position: "Тренерскій штаб",
-    coach: "Тренер воротарів",
-    nationality: "Турція",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/emrah-karakovan/karakovan_p2.png?h=610&iar=0&w=473"
-  }, 
-  { name: "Андрій Пятов",
-    age: 41,
-    position: "Тренерскій штаб",
-    coach: "Тренер воротарів",
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/andrii-piatov/piatov_p2_.png?h=610&iar=0&w=473"
-  },
-  { name: "Утку Алемдароглу",
-    age: 44,
-    position: "Тренерскій штаб",
-    coach: "Тренер з фізподготовки",
-    nationality: "Турція",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/utku-alemdaroglu/alemdarolu_p2.png?h=610&iar=0&w=473"
-  },
-  { name: "Іван Баштовий",
-    age: 38,
-    position: "Тренерскій штаб",
-    coach: "Тренер з фізподготовки",
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/ivan-bashtovyi/bashtovyi_bio_2025.png?h=610&iar=0&w=473"
-  },
-  { name: "Рдіон Пальцун",
-    age: 38,
-    position: "Тренерскій штаб",
-    coach: "Аналітик",
-    nationality: "Україна",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/radion-paltsun/paltsun_bio_2025.png?h=610&iar=0&w=473"
-  },
-  { name: "Мерт Сомай",
-    age: 39,
-    position: "Тренерскій штаб",
-    coach: "Аналітик",
-    nationality: "Турція",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/mert-somay/somay_p2.png?h=610&iar=0&w=473"
-  },
-  { name: "Олексій Гай",
-    age: 42,
-    position: "Тренерскій штаб",
-    coach: "Аналітик",
-    nationality: "",
-    photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/oleksii-hai/gai_p2.png?h=610&iar=0&w=473"
+name: "Жозе Моуриньо",
+    age: 62,
+    position: "Тренерский штаб",
+    coach: "Главный тренер",
+    nationality: "Португалия",
+    photo: "https://img.sofascore.com/api/v1/manager/53418/image"
   },
 ];
   window.matches = [
   {
-    date: "22.09.25",
-    opponent: "Зоря",
-    time: "18:00",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
+    date: "20-09-2025",
+    opponent: "AVS Futebol SAD",
+    time: "19:00",
+    score: "Матча еще не было",
+    place: "Ештадиу да Луш, Лиссабон",
   },
   {
-    date: "27.09.2025",
-    opponent: "Рух Львів",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (виїзд)"
-  },
-  {
-    date: "02.10.25",
-    opponent: "Абердин",
-    time: "21:00",
-    score: "Матч ще не відбувся",
-    place: "Абердин, (виїзд)",
-  },
-  {
-    date: "04.10.25",
-    opponent: "ЛНЗ Черкаси",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "18.10.25",
-    opponent: "Полісся Житомир",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Житомир (виїзд)"
-  },
-  {
-   date: "23.10.25",
-   opponent: "Легія Варшава",
-   time: "18:45",
-   score: "Матч ще не відбувся",
-   place: "Краків (вдома)"
-  },
-  {
-    date: "25.10.25",
-    opponent: "Кудрівка",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "01.11.25",
-    opponent: "Динамо Київ",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-   date: "06.11.25",
-   opponent: "Брейдаблік",
-   time: "18:45",
-   score: "Матч ще не відбувся",
-   place: "Кракв (вдома)"
-  },
-  {
-    date: "08.11.25",
-    opponent: "Полтава",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "22.11.25",
-    opponent: "Оболонь Київ",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Київ (виїзд)"
-  },
-  {
-   date: "27.11.2025",
-   opponent: "Шемрок Роверс",
-   time: "21:00",
-   score: "Матч ще не відбувся",
-   place: "Дублін (виїзд)"
-  },
-  {
-    date: "29.11.25",
-    opponent: "Кривбас",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Кривий Ріг (виїзд)"
-  },
-  {
-    date: "06.12.25",
-    opponent: "Колос Ковалівка",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Ковалівка (виїзд)"
-  },
-  {
-   date: "11.12.25",
-   opponent: "Гамрун Спартанс",
-   time: "21:00",
-   score: "Матч ще не відбувся",
-   place: "Гамрун (виїзд)"
-  },
-  {
-    date: "13.12.25",
-    opponent: "Епіцентр",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (виїзд)"
-  },
-  {
-   date: "18.12.2025",
-   opponent: "ГНК Рієка",
-   time: "21:00",
-   score: "Матч ще не відбувся",
-   place: "Краків (вдома)"
-  },
-  {
-    date: "21.02.26",
-    opponent: "Карпати Львів",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  
-  {
-    date: "28.02.26",
-    opponent: "Верес",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "07.03.25",
-    opponent: "Олександрія",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Олександрія (виїзд)"
-  },
-  {
-    date: "14.03.26",
-    opponent: "Металіст 1925",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "21.03.26",
-    opponent: "Зоря",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Київ (виїзд)"
-  },
-  {
-    date: "04.04.26",
-    opponent: "Рух Львів",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "11.04.26",
-    opponent: "ЛНЗ Черкаси",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Черкаси (виїзд)"
-  },
-  {
-    date: "18.04.26",
-    opponent: "Полісся Житомир",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "25.04.26",
-    opponent: "Кудрівка",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Кудрівка (виїзд)"
-  },
-  {
-    date: "02.05.06",
-    opponent: "Динамо Київ",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Київ (виїзд)"
-  },
-  {
-    date: "09.05.26",
-    opponent: "Полтава",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Полтава (виїзд)"
-  },
-  {
-    date: "16.05.26",
-    opponent: "Оболонь Київ",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  },
-  {
-    date: "23.05.26",
-    opponent: "Кривбас",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Кривий Ріг (виїзд)"
-  },
-  {
-    date: "29.05.26",
-    opponent: "Колос Ковалівка",
-    time: "Час ще не відомо",
-    score: "Матч ще не відбувся",
-    place: "Львів (вдома)"
-  }
+  date: "23-09-2025",
+  opponent: "Rio Ave",
+  time: "19:15",
+  score: "Матч ещё не был сыгран",
+  place: "Эштадиу да Луж, Лиссабон"
+},
+{
+  date: "26-09-2025",
+  opponent: "Gil Vicente",
+  time: "19:15",
+  score: "Матч ещё не был сыгран",
+  place: "Эштадиу да Луж, Лиссабон"
+},
+{
+  date: "30-09-2025",
+  opponent: "Chelsea",
+  time: "21:00",
+  score: "Матч ещё не был сыгран",
+  place: "Стэмфорд Бридж, Лондон"
+},
+{
+  date: "05-10-2025",
+  opponent: "Pоrto",
+  time: "22:15",
+  score: "Матч ещё не был сыгран",
+  place: "Эштадиу да Драгао, Порту"
+}
 ];
