@@ -5,7 +5,7 @@ window.team = [
     number: 1,
     position: "Вратарь",
     nationality: "Украина",
-    photo: "https://img.sofascore.com/api/v1/player/966616/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/1_TRUBIN_1b71446798.png",
   },
   {
     name: "Самуел Соарес",
@@ -13,7 +13,7 @@ window.team = [
      number: 24,
      position: "Вратарь",
      nationality: "Португалия",
-     photo: "https://img.sofascore.com/api/v1/player/983550/image",
+     photo: "https://www.ligaportugal.pt/backoffice/assets/24_SAMU_este_ef6cead330.png",
   },
   {
     name: "Николас Отаменди",
@@ -21,7 +21,7 @@ window.team = [
     number: "30",
     position: "Защитник",
     nationality: "Аргентина",
-    photo: "https://img.sofascore.com/api/v1/player/74915/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/30_OTAMENDI_958dc8f15a.png",
   },
   {
     name: "Антонио Силва",
@@ -29,7 +29,7 @@ window.team = [
     number: "4",
     position: "Защитник",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/1006069/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/4_ANTONIO_S_0af15b3d22.png",
   },
   {
     name: "Амар Дедич",
@@ -37,7 +37,7 @@ window.team = [
     number: "30",
     position: "Защитник",
     nationality: "Босния и Герциговина",
-    photo: "https://img.sofascore.com/api/v1/player/1102791/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/17_DEDIC_1c7dff1ea0.png",
   },
   {
     name: "Томас Араухо",
@@ -45,7 +45,7 @@ window.team = [
     number: "44",
     position: "Защитник",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/983542/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/44_TOMAS_A_6fdf8e38de.png",
   },
   {
     name: "Александер Бах",
@@ -53,7 +53,7 @@ window.team = [
     number: "6",
     position: "Защитник",
     nationality: "Дания",
-    photo: "https://img.sofascore.com/api/v1/player/850976/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/6_BAH_ecbc464f74.png",
   },
   {
     name: "Самюел Дахл",
@@ -61,7 +61,7 @@ window.team = [
     number: "26",
     position: "Защитник",
     nationality: "Щвеция",
-    photo: "https://img.sofascore.com/api/v1/player/993101/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/26_DAHL_e68213c7dc.png",
   },
   {
     name: "Рафаел Обрадор",
@@ -85,7 +85,7 @@ window.team = [
     number: "64",
     position: "Защитник",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/1432417/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/64_G_OLIVEIRA_7c09096082.png",
   },
   {
     name: "Кевин Пинто",
@@ -93,7 +93,7 @@ window.team = [
     number: "79",
     position: "Защитник",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/1545199/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/KEVIN_PINTO_bc10fcf23b.png",
   },
   {
     name: "Ричард Риос",
@@ -101,7 +101,7 @@ window.team = [
     number: "20",
     position: "Полузащитник",
     nationality: "Колумбия",
-    photo: "https://img.sofascore.com/api/v1/player/1015292/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/20_Richard_Rios_127d55b106.png",
   },
   {
     name: "Энзо Барренчеа",
@@ -109,7 +109,7 @@ window.team = [
     number: "5",
     position: "Полузащитник",
     nationality: "Аргентина",
-    photo: "https://img.sofascore.com/api/v1/player/1087316/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/5_BARRENECHEA_cb1617aeae.png",
   },
   {
     name: "Георгий Судаков",
@@ -133,7 +133,7 @@ window.team = [
     number: "25",
     position: "Полузащитник",
     nationality: "Аргентина",
-    photo: "https://img.sofascore.com/api/v1/player/1201395/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/25_PRESTIANNI_c052021f60.png",
   },
   {
     name: "Фредрик Аурснес",
@@ -141,7 +141,7 @@ window.team = [
     number: "8",
     position: "Полузащитник",
     nationality: "Норвегия",
-    photo: "https://img.sofascore.com/api/v1/player/228364/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/8_AURSNES_067cd1baad.png",
   },
   {
     name: "Леонардо Барреиро",
@@ -149,7 +149,7 @@ window.team = [
     number: "18",
     position: "Полузащитник",
     nationality: "Люксембург",
-    photo: "https://img.sofascore.com/api/v1/player/906800/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/medium_18_BARREIRO_ec04059aee.png",
   },
   {
     name: "Жоао Рего",
@@ -157,10 +157,10 @@ window.team = [
     number: "84",
     position: "Полузащитник",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/1158353/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/84_JOAO_REGO_abedd1416a.png",
   },
   {
-    name: "Манюель  Силва",
+    name: "Манюель Силва",
     age: "24",
     number: "6",
     position: "Полузащитник",
@@ -173,7 +173,7 @@ window.team = [
     number: "86",
     position: "Полузащитник",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/1146008/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/86_D_PRIOSTE_0755eebc4d.png",
   },
   {
     name: "Ванджелис Павлидюс",
@@ -181,7 +181,7 @@ window.team = [
     number: "14",
     position: "Нападающий",
     nationality: "Греция",
-    photo: "https://img.sofascore.com/api/v1/player/795236/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/14_PAVLIDIS_8b6bcc1424.png",
   },
   {
     name: "Франьо Иванович",
@@ -205,7 +205,7 @@ window.team = [
     number: "27",
     position: "Нападающий",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/97012/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/27_BRUMA_ebc9ae7165.png",
   },
 {
     name: "Энрике Араухо",
@@ -213,7 +213,7 @@ window.team = [
     number: "39",
     position: "Нападающий",
     nationality: "Португалия",
-    photo: "https://img.sofascore.com/api/v1/player/998870/image",
+    photo: "https://www.ligaportugal.pt/backoffice/assets/39_H_ARAUJO_1c9c715b79.png",
   },
 ];
 window.coaches = [
@@ -231,8 +231,8 @@ name: "Жозе Моуриньо",
     date: "20-09-2025",
     opponent: "AVS Futebol SAD",
     time: "19:00",
-    score: "Матча еще не было",
-    place: "Ештадиу да Луш, Лиссабон",
+    score: "0-3",
+    place: "Авеш Вила-Даз-Авишы",
   },
   {
   date: "23-09-2025",

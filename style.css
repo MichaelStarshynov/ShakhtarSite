@@ -359,3 +359,7 @@ a {
 .history-picture:hover {
     transform: scale(1.05)
 }
+.news-img {
+  width: 400px;
+  height: auto,
+}
