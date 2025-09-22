@@ -228,13 +228,6 @@ name: "Жозе Моуриньо",
 ];
   window.matches = [
   {
-    date: "20-09-2025",
-    opponent: "AVS Futebol SAD",
-    time: "19:00",
-    score: "0-3",
-    place: "Авеш Вила-Даз-Авишы",
-  },
-  {
   date: "23-09-2025",
   opponent: "Rio Ave",
   time: "19:15",
@@ -261,5 +254,12 @@ name: "Жозе Моуриньо",
   time: "22:15",
   score: "Матч ещё не был сыгран",
   place: "Эштадиу да Драгао, Порту"
+},
+{
+  date: "21-10-2025",
+  opponent: "Newcastle United",
+  time: "21:00",
+  score: "Матч ещё не был сыгран",
+  place: "Синт Джеймс Парк",
 }
 ];
