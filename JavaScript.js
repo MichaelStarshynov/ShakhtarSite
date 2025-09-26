@@ -92,7 +92,7 @@ const pages = {
   Команда: { title: `Команда` },
   Матчи: { 
     title: `Матчи`, 
-    text:  `<p>Место в Лиге: 2 место</p><p>Место в Лиге Чемпионов: 24</p><p>Место в кубке Португалии: кубок еще не начался</p>`
+    text:  `<p>Место в Лиге: 3 место</p><p>Место в Лиге Чемпионов: 24</p><p>Место в кубке Португалии: кубок еще не начался</p>`
 
   },
   Билеты: {
@@ -251,10 +251,11 @@ function showMatches() {
 
     card.innerHTML = `
       <p><strong>📅 Дата:</strong> ${match.date}</p>
-      <p><strong>⚔️ Суперник:</strong> ${match.opponent}</p>
-      <p><strong>🕒 Час:</strong> ${match.time}</p>
-      <p><strong>🎯 Рахунок:</strong> ${match.score}</p>
-      <p><strong>📍 Місце:</strong> ${match.place}</p>
+      <p><strong>⚔️ Соперник:</strong> ${match.opponent}</p>
+      <p><strong>🕒 Время:</strong> ${match.time}</p>
+      <p><strong>🎯 Счет:</strong> ${match.score}</p>
+      <p><strong>📍 Место:</strong> ${match.place}</p>
+      <p><strong>🏆 Соревнование:</strong> ${match.competition}</p>
     `;
 
     grid.appendChild(card);
