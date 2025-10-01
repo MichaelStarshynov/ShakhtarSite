@@ -3,18 +3,20 @@ h1, h2, h3, p, li, ul {
 }
 
 body {
-  background: red; 
-  background-attachment: fixed;
-  background-size: cover;
-  color: #000;
   margin: 0;
   font-family: sans-serif;
   text-align: center;
+  color: black;
+
+  background: linear-gradient(135deg, #ff4b1f, #000000);
+  background-attachment: fixed;
 }
 
+
+
 h1 {
-  background-color: red; 
-  color: white;            
+  background-color: orangered; 
+  color: black;            
   margin: 0;
   padding: 20px;
   font-size: 36px;
@@ -23,7 +25,7 @@ h1 {
 }
 
 #nav {
-  background-color: white;
+  background-color: black;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -33,8 +35,8 @@ h1 {
 }
 
 .nav-btn {
-  background-color: red;
-  color: white;
+  background-color: orangered;
+  color: black;
   border: none;
   padding: 10px 16px;
   font-size: 16px;
@@ -53,7 +55,7 @@ img {
 hr {
   width: 600px;
   height:3px; /* Толщина линии */
-  background-color: red; /* Цвет */
+  background-color: orangered; /* Цвет */
   border: none; /* Убираем стандартную границу */
   margin: 20px auto; /* По центру */
 }
@@ -189,7 +191,7 @@ img:hover {
   margin: 8px 0 0;
 }
 .back-btn {
-  background-color: red;
+  background-color: orangered;
   color: white;
   padding: 8px 16px;
   margin-bottom: 20px;
@@ -200,7 +202,7 @@ img:hover {
 }
 
 .shop-btn {
-  background-color: red;
+  background-color: orangered;
   color: white;
   padding: 12px 24px;
   font-size: 18px;
@@ -243,9 +245,6 @@ img:hover {
   color: #333;
 }
 
-.coach-info strong {
-  color: #004080;
-}
 .matches-grid {
   display: flex;
   flex-wrap: wrap;
@@ -339,7 +338,8 @@ img:hover {
 
 .match-card {
   background-color: #f9f9f9;
-  border-left: 5px solid red;
+  border-left: 5px solid black;
+  border-right: 5px solid orangered;
   padding: 15px;
   margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -350,7 +350,7 @@ img:hover {
 }
 
 a {
-  color: red;
+  color: orangered;
 }
 .history-picture {
  width: 300px;
