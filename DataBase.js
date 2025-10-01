@@ -211,7 +211,7 @@ window.team = [
     photo: "https://shakhtar.com/-/media/fcsd/players/alisson/alisson_bio_25_26.png?h=610&iar=0&w=473",
   },
   {
-    name: "Лука Феррейра",
+    name: "Лукаc Феррейра",
     age: "19",
     number: "37",
     position: "Півзахістник",
