@@ -104,7 +104,7 @@ const pages = {
   },
   Магазин: {
     title: `Купити атрибутику`,
-    text: `Атрибутику Шахтаря можно купити <a href="https://shop.shakhtar.com/ru/" target="_blank">тут</a>.<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvusJ_h7AcI6u3vAW2IKSlkF9CKU_9FtTHOA&s" style="max-width:300px;">`
+    text: `Атрибутику Шахтаря можно купити <a href="https://shop.shakhtar.com/ru/" target="_blank">тут</a>.<img src="https://i.postimg.cc/1X84sGyr/48872f43-1d91-4349-bb2e-ac96f6fb2697.jpg" style="max-width:300px;">`
   },
   Телеграм: {
     title: `Телеграм-канал`,
