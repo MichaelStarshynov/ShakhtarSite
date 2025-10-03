@@ -346,7 +346,7 @@ window.coaches = [
   date: "2-10-25",
   opponent: "Абердін",
   time: "21:00",
-  score: "Матч ще не відбувся",
+  score: "2-3",
   place: "Пітоддрі, Абердін",
    competition: "Ліга Конференцій",
 },
