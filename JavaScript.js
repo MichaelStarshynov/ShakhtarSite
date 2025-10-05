@@ -256,7 +256,7 @@ function showMatches() {
       <p><strong>📅 Дата:</strong> ${match.date}</p>
       <p><strong>⚔️ Суперник:</strong> ${match.opponent}</p>
       <p><strong>🕒 Час:</strong> ${match.time}</p>
-      <p><strong>🎯 Рахунок:</strong> ${match.score}</p>
+      <p><strong>🎯 Рахунок:</strong> ${match.score || "Матч ще не відбувся"}</p>
       <p><strong>📍 Місце</strong> ${match.place}</p>
       <p><strong>🏆 Турнір:</strong> ${match.competition}</p>
     `;
