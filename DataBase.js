@@ -122,7 +122,7 @@ window.team = [
   },
   {
     name: "Дмитро Криськив",
-    age: "24",
+    age: "25",
     number: "8",
     position: "Півзахістник",
     nationality: "Україна",
@@ -343,14 +343,6 @@ window.coaches = [
 ];
   window.matches = [
 {
-  date: "5-10-25",
-  opponent: "ЛНЗ Черкаси",
-  time: "17:00",
-  score: "1-4",
-  place: "Арена Львів, Львів",
-  competition: "УПЛ",
-},
-{
   date: "18-10-25",
   opponent: "Полісся Житомир",
   time: "17:00",
@@ -381,6 +373,14 @@ time: "16:00",
 score: "",
 place: "Стадіон імені Лобановського, Київ",
 competition: "Кубок України",
+},
+{
+  date: "1-11-25",
+  opponent: "Динамо Київ",
+  time: "15:00",
+  score: "",
+  place: "Арена Львів, Львів",
+  competition: "УПЛ",
 },
 {
   date: "6-11-25",
