@@ -58,7 +58,7 @@ const pages = {
     </ul>
   `
 },
-  Істория: {
+  Історія: {
   title: `Історія футбольного клубу «Шахтар»`,
   text: `<br><img src="https://shakhtar.com/assets/images/backgrounds/og-default.jpg"><br>
      <p>Футбольний клуб «Шахтар» Донецьк був заснований у 1936 році під назвою «Стахановець». Його історія — це шлях від робітничої команди Донбасу до одного з найсильніших клубів Східної Європи. Протягом десятиліть «Шахтар» став символом сили, характеру та незламності українського футболу.</p>
@@ -80,7 +80,7 @@ const pages = {
      <h4>Донбас Арена та війна</h4>
      <p>У 2009 році відкрилася «Донбас Арена» — один із найкращих стадіонів Європи з місткістю понад 52 000 глядачів. Проте через війну на сході України клуб був змушений залишити Донецьк. Відтоді «Шахтар» проводить свої домашні матчі у Львові, Харкові, Києві та інших містах, зберігаючи підтримку по всій Україні.</p>
      <img src="https://donjetsk.com/wp-content/uploads/2019/01/donbass-arena-gorbaseva.jpg" title="Донбасс Арена у 2012 році">
-     
+
      <h4>Сучасна епоха</h4>
      <p>Попри всі труднощі, «Шахтар» залишається провідною силою українського футболу. Клуб продовжує здобувати чемпіонські титули, виховувати нові покоління зірок та виступати на європейській арені. Саме у «Шахтарі» розкрилися таланти Сергія Реброва, Жадсона, Вілліана, Фернандіньйо, Михайла Мудрика та Георгія Судакова.</p>
      <img src="https://shakhtar.com/-/media/fcsd/news/2025/september/28_news/28_rukh_shakhtar/1245__.jpg?h=799&iar=0&w=1245" alt="Сучасний Шахтар" title="Сучасний Шахтар">
@@ -155,6 +155,44 @@ function showPage(pageKey) {
     content.appendChild(textElem);
   }
 }
+// Функція інформації гравців 
+
+function showPlayerDetails(player) {
+  content.innerHTML = ''; // очищаємо контент
+
+  const backBtn = document.createElement('button');
+  backBtn.textContent = '← Назад до складу';
+  backBtn.className = 'back-btn';
+  backBtn.onclick = showTeam;
+  content.appendChild(backBtn);
+
+  const title = document.createElement('h2');
+  title.textContent = `${player.name}`;
+  content.appendChild(title);
+
+  const img = document.createElement('img');
+  img.src = player.photo;
+  img.alt = player.name;
+  img.className = 'player-photo-large';
+  img.style.maxWidth = '250px';
+  img.style.borderRadius = '15px';
+  img.style.display = 'block';
+  img.style.margin = '20px auto';
+  content.appendChild(img);
+
+  const info = document.createElement('div');
+  info.className = 'player-info';
+  info.innerHTML = `
+    <p><strong>Номер:</strong> ${player.number}</p>
+    <p><strong>Позиція:</strong> ${player.position}</p>
+    <p><strong>Вік:</strong> ${player.age}</p>
+    <p><strong>Національність:</strong> ${player.nationality}</p>
+    <h3>Біографія та кар'єра</h3>
+    <p>${player.description}</p>
+  `;
+  content.appendChild(info);
+}
+
 
 // Показ команды с разделами по позициям + тренеры
 function showTeam() {
@@ -195,7 +233,9 @@ function showTeam() {
           <p>Національність: ${player.nationality}</p>
         `;
 
-        groupList.appendChild(card);
+        card.onclick = () => showPlayerDetails(player);
+groupList.appendChild(card);
+
       });
 
     if (groupList.children.length > 0) {

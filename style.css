@@ -55,7 +55,7 @@ img {
 hr {
   width: 600px;
   height:3px; /* Толщина линии */
-  background-color: orangered; /* Цвет */
+  background-color: black; /* Цвет */
   border: none; /* Убираем стандартную границу */
   margin: 20px auto; /* По центру */
 }
@@ -394,4 +394,92 @@ a {
 .news-img {
   width: 400px;
   height: auto,
+}
+/* Контейнер з деталями гравця */
+.player-info {
+  background: ;
+  color: black;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  line-height: 1.6;
+  font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Фото гравця */
+.player-photo-large {
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 3px solid #ff5a00; /* помаранчевий акцент клубу */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.player-photo-large:hover {
+  transform: scale(1.05);
+}
+
+/* Назва гравця */
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+/* Кнопка "Назад" */
+.back-btn {
+  background: #ff5a00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 20px 0;
+  transition: background 0.2s ease;
+  display: inline-block;
+}
+
+.back-btn:hover {
+  background: #e04e00;
+}
+
+/* Опис гравця */
+.player-info + p {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #111;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #ddd;
+  line-height: 1.7;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.3);
+}
+
+/* Адаптація для телефонів */
+@media (max-width: 600px) {
+  .player-info {
+    width: 90%;
+    font-size: 0.95rem;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .player-photo-large {
+    width: 80%;
+  }
+
+  .back-btn {
+    width: 90%;
+    display: block;
+    margin: 15px auto;
+  }
 }
