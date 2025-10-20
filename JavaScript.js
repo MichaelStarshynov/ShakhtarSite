@@ -47,7 +47,8 @@ const pages = {
     Через війну клуб проводить домашні матчі у різних містах України. Зараз Шахтар проводить домашні матчі на Арена Львів.</p>
     <img src="https://shakhtar.com/en/club/infrastructure/donbass-arena/~/media/cfd6d2a9ff114fc19d3c91b787b19f35.ashx" 
          alt="Домашній стадіон Шахтаря: Донбас Арена" 
-         style="max-width:300px; border-radius:10px;">
+         style="max-width:300px; border-radius:10px;"
+         title="Донбасс Арена під час Євро 2012">
 
     <h4>Рекорди:</h4>
     <ul>
@@ -56,6 +57,8 @@ const pages = {
       <li>Легендарний тренер: Мірча Луческу (виграв Кубок УЄФА та 22 трофеї з клубом)</li>
       <li>Найдорожчій трансфер: Михайло Мудрик → Челсі за €70 млн + бонуси</li>
     </ul>
+    <h3>Логотип:</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/a/a2/FC_Shakhtar_Donetsk_Logo.svg/1297px-FC_Shakhtar_Donetsk_Logo.svg.png" title="Логотип Шахтаря" style="max-width:300px; border-radius:10px;">
   `
 },
   Історія: {
