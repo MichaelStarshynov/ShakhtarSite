@@ -375,7 +375,7 @@ window.coaches = [
 date: "23-10-25",
 opponent: "Легія Варшава",
 time: "19:45",
-score: "",
+score: "1-2",
 place: "Хенрік-Рейман стадіон, Краків",
 competition: "Ліга Конференцй",
 },

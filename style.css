@@ -166,7 +166,7 @@ img:hover {
   border-radius: 20px;
   padding: 24px;
   max-width: 340px;
-  width: 100%;
+  flex: 1 1 300px; /* <── ключевая строка */
   border: 1px solid rgba(255, 102, 0, 0.2);
   box-shadow: 0 0 20px rgba(255, 102, 0, 0.15), inset 0 0 12px rgba(255, 102, 0, 0.05);
   position: relative;
