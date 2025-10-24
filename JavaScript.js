@@ -330,7 +330,7 @@ function showNews() {
 
     preview.innerHTML = `
       <h3>${item.title}</h3>
-      <p>${firstSentence}</p>
+      <p>${item.datum}</p>
     `;
 
     grid.appendChild(preview);
