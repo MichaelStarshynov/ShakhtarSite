@@ -372,14 +372,6 @@ window.coaches = [
 ];
   window.matches = [
 {
-date: "23-10-25",
-opponent: "Легія Варшава",
-time: "19:45",
-score: "1-2",
-place: "Хенрік-Рейман стадіон, Краків",
-competition: "Ліга Конференцй",
-},
-{
   date: "26-10-25",
   opponent: "Кудрівка",
   time: "15:30",
