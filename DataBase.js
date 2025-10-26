@@ -410,5 +410,13 @@ competition: "Кубок України",
   score: "",
   place: "Арена Львів, Львів",
   competition: "УПЛ",
+},
+{
+ date: "22-11-25",
+ opponent: "Оболонь Київ",
+ time: "14:00",
+ score: "",
+ place: "Оболонь Арена, Київ",
+ competition: "УПЛ",
 }
 ];
