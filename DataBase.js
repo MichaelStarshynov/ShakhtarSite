@@ -375,7 +375,7 @@ window.coaches = [
 date: "29-10-25",
 opponent: "Динамо Київ",
 time: "17:00",
-score: "",
+score: "2-1",
 place: "Стадіон імені Лобановського, Київ",
 competition: "Кубок України",
 },
