@@ -99,16 +99,16 @@ const pages = {
   Команда: { title: `Команда` },
   Матчі: { 
     title: `Матчі`, 
-    text:  `<p>Місце в УПЛ: 1 місце</p><p>Місце в Лізі Конференцій: 17</p><p>Місце в кубку України: виліт у 1/8</p>`
+    text:  `<p>Місце в УПЛ: 1 місце</p><p>Місце в Лізі Конференцій: 10</p><p>Місце в кубку України: виліт у 1/8</p>`
 
   },
   Квитки: {
     title: `Купити квитки`,
-    text: `Квитки можно купити <a href="https://tickets.shakhtar.com/" target="_blank">тут</a>.<br><img src="https://scontent.frtm1-1.fna.fbcdn.net/v/t39.30808-6/486299348_1204569017692845_2753996765057573885_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Xn-IOSVwtGIQ7kNvwHkalJG&_nc_oc=Adkrk1PInLHsdlf5tRLcFP0NZ6TsF1cZbwn6tmEpOkra0mcftOyIXYAoCvWSLCR0do8&_nc_zt=23&_nc_ht=scontent.frtm1-1.fna&_nc_gid=uqNqC-enYaQ3KT1y70rSqw&oh=00_AfdYAuRRnKzZYuiU9pIFpaObkYD1sRjIfouSMKYZc8v0Sw&oe=69011E4B" style="max-width:300px;">`
+    text: `Квитки можно купити <a href="https://tickets.shakhtar.com/" target="_blank">тут</a>.<br><img src="https://img.tsn.ua/cached/914/tsn-84c75562ec6649b329b5d1cd14f9fd3c/thumbs/1200x630/a1/40/948c51d0cd3ce4e03d81d1a75b5f40a1.jpg">`
   },
   Магазин: {
     title: `Купити атрибутику`,
-    text: `Атрибутику Шахтаря можно купити <a href="https://shop.shakhtar.com/ru/" target="_blank">тут</a>.<img src="https://i.postimg.cc/rytHhTcP/f86a5700-bfe6-4eee-8b64-98c186d8d6c0.jpg" style="max-width:300px;">`
+    text: `Атрибутику Шахтаря можно купити <a href="https://shop.shakhtar.com/ru/" target="_blank">тут</a>.<img src="https://i.postimg.cc/rytHhTcP/f86a5700-bfe6-4eee-8b64-98c186d8d6c0.jpg">`
   },
   Телеграм: {
     title: `Телеграм-канал`,

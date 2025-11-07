@@ -372,26 +372,10 @@ window.coaches = [
 ];
   window.matches = [
 {
-date: "29-10-25",
-opponent: "Динамо Київ",
-time: "17:00",
-score: "2-1",
-place: "Стадіон імені Лобановського, Київ",
-competition: "Кубок України",
-},
-{
-  date: "2-11-25",
-  opponent: "Динамо Київ",
-  time: "16:00",
-  score: "",
-  place: "Арена Львів, Львів",
-  competition: "УПЛ",
-},
-{
   date: "6-11-25",
   opponent: "Бре́йдаблік",
   time: "19:45",
-  score: "",
+  score: "2-0",
   place: "Хенрік-Рейман стадіон, Краків",
   competition: "Ліга Конференцій",
 },
@@ -419,4 +403,20 @@ score: "",
 place: "Таллагт Стадіум, Дублін",
 competition: "Ліга Конференцій",
 },
+{
+ date: "1-12-25",
+ opponent: "Кривбас",
+ time: "18:00",
+ score: "",
+ place: "Арена Львів, Львів",
+ competition: "УПЛ",
+},
+{
+date: "6-12-25",
+opponent: "Колос Ковалівка",
+time: "16:00",
+score: "",
+place: "Стадіон Колос, Ковалівка",
+competition: "УПЛ",
+}
 ];
