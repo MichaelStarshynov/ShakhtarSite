@@ -480,3 +480,52 @@ h2 {
     margin: 15px auto;
   }
 }
+/* Контейнер — 3 карточки в ряд */
+#managmentContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Карточка */
+.man-card {
+  width: 100%;
+  max-width: 260px;
+  padding: 18px;
+  border-radius: 16px;
+  background: #ffffff;
+  text-align: center;
+
+  border: 2px solid #f57c00; /* помаранчевий */
+  box-shadow: 0 4px 12px rgba(245, 124, 0, 0.25); /* тепла тінь */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Ховер — динамика */
+.man-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 18px rgba(245, 124, 0, 0.35);
+}
+
+/* Фото */
+.man-card img.man-photo {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border: 2px solid #000; /* чорна рамка в стилі Шахтаря */
+}
+
+/* Название */
+.man-card h3 {
+  color: #e65100; /* фирменный помаранчевый */
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Текст */
+.man-card p {
+  margin: 4px 0;
+  font-size: 15px;
+}

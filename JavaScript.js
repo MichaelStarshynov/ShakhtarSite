@@ -147,7 +147,6 @@ function showPage(pageKey) {
     showMatches();
     return;
   }
-
   const titleElem = document.createElement('h2');
   titleElem.textContent = page.title;
   content.appendChild(titleElem);
@@ -158,6 +157,7 @@ function showPage(pageKey) {
     content.appendChild(textElem);
   }
 }
+
 // Функція інформації гравців 
 
 function showPlayerDetails(player) {

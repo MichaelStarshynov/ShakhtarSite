@@ -370,12 +370,35 @@ window.coaches = [
     photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/oleksii-hai/gai_p2.png?h=610&iar=0&w=473"
   },
 ];
+window.managment = [
+{
+  name: "Рінат Ахметов",
+  age: "59",
+  position: "Президент клубу",
+  nationality: "Україна",
+  photo: "https://shakhtar.com/club/management/~/media/40793167d93e40558a9338a5cea9e807.ashx",
+},
+{
+  name: "Сергій Палкін",
+  age: "51",
+  position: "Генеральний директор",
+  nationality: "Україна",
+  photo: "https://shakhtar.com/club/management/~/media/169a7c0b31df4c9cba323559579c92bb.ashx",
+},
+{
+  name: "Дарійо Срна",
+  age: "43",
+  position: "Спортивний директор",
+  nationality: "Хорватія",
+  photo: "https://shakhtar.com/club/management/-/media/c730afc9ae8946be92bfe269a53b3e91.ashx",
+}
+];
   window.matches = [
 {
   date: "9-11-25",
   opponent: "СК Полтава",
   time: "18:00",
-  score: "",
+  score: "7-1",
   place: "Арена Львів, Львів",
   competition: "УПЛ",
 },
