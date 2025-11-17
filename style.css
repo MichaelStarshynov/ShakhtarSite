@@ -7,13 +7,12 @@ body {
   font-family: sans-serif;
   text-align: center;
   color: black;
-
-  background: linear-gradient(135deg, #ff4b1f, #000000);
+  background: red;
   background-attachment: fixed;
 }
 h1 {
-  background-color: orangered; 
-  color: black;            
+  background-color: red; 
+  color: white;            
   margin: 0;
   padding: 20px;
   font-size: 36px;
@@ -22,7 +21,7 @@ h1 {
 }
 
 #nav {
-  background-color: black;
+  background-color: white;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -32,8 +31,8 @@ h1 {
 }
 
 .nav-btn {
-  background-color: orangered;
-  color: black;
+  background-color: red;
+  color: white;
   border: none;
   padding: 10px 16px;
   font-size: 16px;
@@ -220,7 +219,7 @@ img:hover {
 
 
 .back-btn {
-  background-color: orangered;
+  background-color: red;
   color: white;
   padding: 8px 16px;
   margin-bottom: 20px;
@@ -231,7 +230,7 @@ img:hover {
 }
 
 .shop-btn {
-  background-color: orangered;
+  background-color: red;
   color: white;
   padding: 12px 24px;
   font-size: 18px;
@@ -367,8 +366,8 @@ img:hover {
 
 .match-card {
   background-color: #f9f9f9;
-  border-left: 5px solid black;
-  border-right: 5px solid orangered;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
   padding: 15px;
   margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -379,7 +378,7 @@ img:hover {
 }
 
 a {
-  color: orangered;
+  color: red;
 }
 .history-picture {
  width: 300px;
@@ -410,8 +409,8 @@ a {
   display: block;
   margin: 25px auto;
   border-radius: 15px;
-  border: 3px solid #ff5a00; /* помаранчевий акцент клубу */
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  border: 3px solid red; /* помаранчевий акцент клубу */
+  box-shadow: 0 4px 20px white(0,0,0,0.4);
   transition: transform 0.3s ease;
 }
 
@@ -429,7 +428,7 @@ h2 {
 
 /* Кнопка "Назад" */
 .back-btn {
-  background: #ff5a00;
+  background: red;
   color: white;
   border: none;
   border-radius: 8px;
@@ -443,7 +442,7 @@ h2 {
 }
 
 .back-btn:hover {
-  background: #e04e00;
+  background: red;
 }
 
 /* Опис гравця */
@@ -498,7 +497,7 @@ h2 {
   background: #ffffff;
   text-align: center;
 
-  border: 2px solid #f57c00; /* помаранчевий */
+  border: 2px solid red; /* помаранчевий */
   box-shadow: 0 4px 12px rgba(245, 124, 0, 0.25); /* тепла тінь */
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -519,7 +518,7 @@ h2 {
 
 /* Название */
 .man-card h3 {
-  color: #e65100; /* фирменный помаранчевый */
+  color: red; /* фирменный помаранчевый */
   font-size: 18px;
   margin-bottom: 8px;
 }
