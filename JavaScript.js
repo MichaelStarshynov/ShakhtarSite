@@ -21,9 +21,9 @@ const pages = {
       <h3 style="color:#e65100;">🔥AZ - its more than football!</h3>
       <p style="font-size:18px;">Its passion, fight, wins and emotions. we are AZ, we are power!</p>
       <p><strong>Join us, follow the matches, buy tickets and support team!</strong></p>
-      <button onclick="showPage('Квитки')" class="shop-btn">🎟️ Buy tickets for a match!</button>
-      <button onclick="showPage('Новини')" class="shop-btn">📰 Read news</button>
-      <button onclick="showPage('Команда')" class="shop-btn">👥 Team</button>
+      <button onclick="showPage('Tickets')" class="shop-btn">🎟️ Buy tickets for a match!</button>
+      <button onclick="showPage('News')" class="shop-btn">📰 Read news</button>
+      <button onclick="showPage('Team')" class="shop-btn">👥 Team</button>
       <img src="https://znaki.fm/static/content/thumbs/1600x900/4/3f/bpkw53---c16x9x50px50p--aadb263f6cc56a1ad1cde7bb1e5483f4.jpg" style="max-width:100%; border-radius:10px; margin:20px 0;">
     </div>`
   },
@@ -108,11 +108,11 @@ const pages = {
   },
   Tickets: {
     title: `Buying tickets`,
-    text: `You can buy tickets<a href="https://www.az.nl/wedstrijden/tickets" target="_blank">here</a>.<br><img src="https://az.nl/media/5folh2nk/240413184625_ep15030.jpg?rxy=0.512,0.5285285285285285&width=2560&height=1096&v=1da8f11fd6cc170">`
+    text: `You can buy tickets <a href="https://www.az.nl/wedstrijden/tickets" target="_blank">here</a>.<br><img src="https://az.nl/media/5folh2nk/240413184625_ep15030.jpg?rxy=0.512,0.5285285285285285&width=2560&height=1096&v=1da8f11fd6cc170">`
   },
   Shop: {
     title: `Shop`,
-    text: `Shop of AZ you can find<a href="https://www.az.nl/webshop" target="_blank">here</a>.<img src="https://www.inalkmaar.nl/storage/uploads/Locaties/AZ/AZ(4).jfif?v=1742904043900">`
+    text: `Shop of AZ you can find <a href="https://www.az.nl/webshop" target="_blank">here</a>.<img src="https://www.inalkmaar.nl/storage/uploads/Locaties/AZ/AZ(4).jfif?v=1742904043900">`
   },
   Telegram: {
     title: `Telegram Channel`,
@@ -204,7 +204,7 @@ function showTeam() {
   content.innerHTML = ''; // очищаем перед выводом
 
   const title = document.createElement('h2');
-  title.textContent = 'Склад команди';
+  title.textContent = 'Team';
   content.appendChild(title);
 
   // Категории игроков
@@ -299,7 +299,7 @@ function showMatches() {
     card.className = 'match-card';
 
     card.innerHTML = `
-      <p><strong>📅 Date:</strong> ${match.date}</p>
+      <p><strong>📅 Datum:</strong> ${match.date}</p>
       <p><strong>⚔️ Opponent:</strong> ${match.opponent}</p>
       <p><strong>🕒 Time (NL):</strong> ${match.time}</p>
       <p><strong>🎯 Score:</strong> ${match.score || "The match isn't played"}</p>
@@ -315,7 +315,7 @@ function showMatches() {
 
 // Новости
 function showNews() {
-  content.innerHTML = '<h2>Новини</h2>';
+  content.innerHTML = '<h2>News</h2>';
 
   const grid = document.createElement('div');
   grid.className = 'news-grid';
@@ -346,7 +346,7 @@ function showFullNews(id) {
   content.innerHTML = '';
 
   if (!item) {
-    content.innerHTML = '<p>Новину не знайдено.</p>';
+    content.innerHTML = '<p>There is no news</p>';
     return;
   }
 
