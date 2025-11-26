@@ -231,14 +231,6 @@ window.coaches = [
 ];
   window.matches = [
 {
-  date: "23-11-2025",
-  opponent: "SC Heerenveen",
-  time: "12:15",
-  score: "3-1",
-  place: "Abe Lenstra Stadion",
-  competition: "Eredivisie",
-},
-{
   date: "27-11-2025",
   opponent: "FC Shelbourne",
   time: "18:45",
@@ -277,5 +269,13 @@ window.coaches = [
   score: "",
   place: "AFAS Stadion",
   competition: "Eredivisie",
+},
+{
+  date: "18-12-25",
+  opponent: "Jagiellonia",
+  time: "21:00",
+  score: "",
+  place: "AFAS Stadion",
+  competition: "Conference League",
 }
 ];
