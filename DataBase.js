@@ -234,7 +234,7 @@ window.coaches = [
   date: "27-11-2025",
   opponent: "FC Shelbourne",
   time: "18:45",
-  score: "",
+  score: "2-0",
   place: "AFAS Stadion",
   competition: "Conference League",
 },
