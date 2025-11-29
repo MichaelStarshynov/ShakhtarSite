@@ -351,7 +351,7 @@ function showFullNews(id) {
   }
 
   const backBtn = document.createElement('button');
-  backBtn.textContent = '← Назад';
+  backBtn.textContent = '← Back';
   backBtn.className = 'back-btn';
   backBtn.onclick = showNews;
   content.appendChild(backBtn);
