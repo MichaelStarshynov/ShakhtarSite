@@ -194,6 +194,9 @@ function showPlayerDetails(player) {
     <p><strong>Position:</strong> ${player.position}</p>
     <p><strong>Age:</strong> ${player.age}</p>
     <p><strong>Nationality:</strong> ${player.nationality}</p>
+    <h4>Statistics</h4>
+    <p>⚽ <strong>Goals:</strong> ${player.goals}</p>
+    <p>👟 <strong>Assists:</strong> ${player.assist}</p>
   `;
   content.appendChild(info);
 }
