@@ -100,10 +100,10 @@ const pages = {
 },
 
 
-  Team: { title: `Команда` },
+  Team: { title: `Team` },
   Matches: { 
-    title: `Матчі`, 
-    text:  `<p>Place in Eredivisie: 3 place</p><p>Place in Conference League: 20</p><p>Place in cup: 1/16</p>`
+    title: `Matches`, 
+    text:  `<p>Place in Eredivisie: 4 place</p><p>Place in Conference League: 20</p><p>Place in cup: 1/16</p>`
 
   },
   Tickets: {

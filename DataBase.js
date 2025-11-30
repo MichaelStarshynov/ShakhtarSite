@@ -307,7 +307,7 @@ window.coaches = [
   date: "30-11-2025",
   opponent: "Twente",
   time: "16:45",
-  score: "",
+  score: "1-0",
   place: "De Grolsch Veste",
   competition: "Eredivisie",
 },
