@@ -1,5 +1,12 @@
 window.news = [
   {
+  id: 3,
+  datum: "1-12-2025",
+  title: "FC Twente 1-0 AZ Alkmaar",
+  image: "https://i.postimg.cc/Fs30sdMf/6495a26b-d5e0-414f-8454-914823d50256.jpg",
+  text: '<h3>AZ looses 3 match in the row in Eredivisie</h3><p>Starting XI: Owuso-Oduro, Dijkstra, Penetra, Goes, de Wit, Koopmeiners, Mijnans (C), Smit, Patati, Jensen and Parrott.</p><br><h4>First Half</h4><p>Th first half began with ball comtrol of AZ. In the 36 minute Rooij opened the score for Twente, but the goal dont counted due the foul on Alexandre Penetra.</p><br><h4>Secod Half</h4><p>The second half was more aggrisive than first. In first 17 minutes of the game 3 AZ players got a yellow card. In the 75 minute of the game D.Rots scored for Twente. In the 90+9 AZ got a penalty, tham could make it draw. But unfortunately Parrott didnt score after the penalty. 1-0 in Enschede and no points.</p><br><img src="https://www.shutterstock.com/editorial/image-editorial/M5TcY6x5N6TdUd50MDAxNDA=/alexandre-penetra-az-alkmaar-gestures-during-dutch-440nw-15993565fb.jpg" class="news-img"><p>Player of the match at our opinion is Alexandre Penetra, who was surely the best on the field.<p><br><h4>Highlights of the match:</h4><ul><li>❌⚽ 36 minute - Rooij (Canceld, foul)</li><li>⚽ 75 minute - Rots (Rooij)</li><li class="goalAZ">❌⚽90+9 - Troy Parrott (Missed penalty)</li></ul><br><p>🔜 Next match AZ will play against PEC Zwolle on 3 december.</p>',
+  },
+  {
     id: 2,
     datum: "28-11-25",
     title: "AZ Alkmaar 2-0 FC Shelbourne",
