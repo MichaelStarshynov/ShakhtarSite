@@ -304,14 +304,6 @@ window.coaches = [
 ];
   window.matches = [
 {
-  date: "30-11-2025",
-  opponent: "Twente",
-  time: "16:45",
-  score: "1-0",
-  place: "De Grolsch Veste",
-  competition: "Eredivisie",
-},
-{
   date: "3-12-2025",
   opponent: "PEC Zwolle",
   time: "20:00",
@@ -351,4 +343,12 @@ window.coaches = [
   place: "AFAS Stadion",
   competition: "Conference League",
 },
+{
+  date: "21-12-2025",
+  opponent: "Fortuna Sittard",
+  time: "16:45",
+  score: "",
+  place: "Fortuna Sittard Stadion",
+  competition: "Eredivisie",
+}
 ];
