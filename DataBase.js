@@ -309,7 +309,7 @@ window.coaches = [
   time: "20:00",
   score: "",
   place: "MAC³PARK Stadion",
-  competiton: "KNVB Beker",
+  competition: "KNVB Beker",
 },
 {
   date: "7-12-2025",
