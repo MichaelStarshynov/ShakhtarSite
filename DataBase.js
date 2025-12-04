@@ -307,7 +307,7 @@ window.coaches = [
   date: "3-12-2025",
   opponent: "PEC Zwolle",
   time: "20:00",
-  score: "",
+  score: "1-3",
   place: "MAC³PARK Stadion",
   competition: "KNVB Beker",
 },
