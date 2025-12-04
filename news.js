@@ -1,5 +1,13 @@
 window.news = [
   {
+    id: 4,
+    datum: "4-12-2025",
+    title: "PEC Zwolle 1-3 AZ Alkmaar",
+    image: "https://i.postimg.cc/rFcS7K6q/9120b680-0efa-44a2-be48-e31fb71b814d.jpg",
+    text: '<h3>AZ is through to 1/8 of the cup</h3><p>Starting XI: Owuso-Oduro, Chavez, Dekker, Penetra, de Wit, Koopmeiners, Smit, Mijnans (C), Parrott, Jensen and Patati.</p><br><h4>First half</h4><p>The first half was good for AZ, they controled the game. But in the 43 minute Kostons scored a goal for Zolle and ended time.</p><br><h4>Second half</h4><p>Second half as way better or AZ. In the 53 minute <strong>Sven Mijnans</strong> scored after the pass of Troy Parrott. The next 20 minute was game that as fully controled by AZ. In the 82 minute <strong>Mijnans</strong> scored after the assist of Mees de Wit. 9 minutes after <strong>Ibrahim Sadiq</strong> scored a banger after the pass of Dijkstra. The match ended 1-3.</p><br><img class="news-img" src="https://cdn.nos.nl/image/2025/12/03/1299943/3840x2160a.jpg"><p>The man of the match by our opinion is Sven Mijnans, who scored 2 goals.</p><br><h4>Highlights of the match: </h4><ul><li>⚽ 43 minute - Kostons (Floranus)</li><li class="goalAZ">⚽53 minute - Mijnans (Parrott)</li><li class="goalAZ">⚽ 82 minute - Mijnans (Mees de Wit)</li><li class="goalAZ">⚽ 90+2 minute -  Ibrahim Sadiq (Dijkstra)</li></ul><br><p>🔜 Next match AZ will play at home against Go Ahead Eageles on 7 december.</p>',
+  },
+
+  {
   id: 3,
   datum: "1-12-2025",
   title: "FC Twente 1-0 AZ Alkmaar",

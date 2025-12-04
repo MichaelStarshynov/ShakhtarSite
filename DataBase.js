@@ -7,7 +7,7 @@ window.team = [
     nationality: "Netherlands",
     photo: "https://www.az.nl/media/rvvouc4r/rome-jayden-owusu-oduro-18072025172430.png?width=584&height=584&v=1dbf8b7499903f0&format=webp&quality=90",
     description: "",
-    matches: "18",
+    matches: "19",
   },
   {
     name: "Hobie Verhulst",
@@ -69,7 +69,7 @@ window.team = [
     photo: "https://www.az.nl/media/4wuppswn/maxim-dekker-png-18072025172232.png?width=584&height=584&v=1dbf8b796b9e370&format=webp&quality=90",
     goals: "0",
     assist: "0",
-    matches: "7",
+    matches: "8",
   },
   {
     name: "Alexandre Penetra",
@@ -80,7 +80,7 @@ window.team = [
     photo: "https://www.az.nl/media/qoqh41ay/alexandre-penetra-png-180720251723007.png?width=584&height=584&v=1dbf8b7ab251780&format=webp&quality=90",
     goals: "1",
     assist: "0",
-    matches: "23",
+    matches: "24",
   },
   {
     name: "Andrea Natali",
@@ -102,7 +102,7 @@ window.team = [
     photo: "https://www.az.nl/media/0cdn2rfb/mateo-chvez-png-18072025172339.png?width=584&height=584&v=1dbf8b7bc8fb5c0&format=webp&quality=90",
     goals: "0",
     assist: "1",
-    matches: "13",
+    matches: "14",
   },
   {
     name: "Elijah Dijkstra",
@@ -113,7 +113,7 @@ window.team = [
     photo: "https://www.az.nl/media/l4vhrixa/elijah-dijkstra-png-180720251724007.png?width=584&height=584&v=1dbf8b7ea2ccdb0&format=webp&quality=90",
     goals: "0",
     assist: "0",
-    matches: "9",
+    matches: "10",
   },
   {
     name: "Billy Van Duijl",
@@ -145,7 +145,7 @@ window.team = [
     nationality: "Netherlands",
     photo: "https://www.az.nl/media/qv3n2ciz/mees-de-wit-png-18072025172228.png?width=584&height=584&v=1dbf8b8175be190&format=webp&quality=90",
     goals: "3",
-    assist: "4",
+    assist: "5",
     matches: "22",
   },
   {
@@ -157,7 +157,7 @@ window.team = [
     photo: "https://www.az.nl/media/nprl3we1/peer-koopmeiners-png-180720251722007.png?width=584&height=584&v=1dbf8b833ed6b30&format=webp&quality=90",
     goals: "0",
     assist: "2",
-    matches: "23",
+    matches: "24",
   },
   {
     name: "Jordy Clasie",
@@ -177,9 +177,9 @@ window.team = [
     position: "Midfielder",
     nationality: "Netherlands",
     photo: "https://www.az.nl/media/4mejhdqt/sven-mijnans-png-180720251722007.png?width=584&height=584&v=1dbf8b860025c80&format=webp&quality=90",
-    goals: "6",
+    goals: "2",
     assist: "8",
-    matches: "23",
+    matches: "24",
   },
   {
     name: "Dave Kwakman",
@@ -201,7 +201,7 @@ window.team = [
     photo: "https://www.az.nl/media/yebbapbq/kees-smit-png-18072025172235.png?width=584&height=584&v=1dbf8b9b7d01ff0&format=webp&quality=90",
     goals: "2",
     assist: "4",
-    matches: "22",
+    matches: "23",
   },
   {
     name: "Matěj Šín",
@@ -223,7 +223,7 @@ window.team = [
     photo: "https://www.az.nl/media/rwqf013h/smiling-soccer-player-in-red-29082025114432.png?rxy=0.44428969359331477,0.003865979381443299&width=584&height=584&v=1dc1b257ac4ccd0&format=webp&quality=90",
     goals: "2",
     assist: "2",
-    matches: "15",
+    matches: "16",
   },
   {
     name: "Troy Parrott",
@@ -233,8 +233,8 @@ window.team = [
     nationality: "Ireland",
     photo: "https://www.az.nl/media/avxkoy1y/troy-parrott-png-180720251722007.png?width=584&height=584&v=1dbf8b9da104860&format=webp&quality=90",
     goals: "7",
-    assist: "1",
-    matches: "17",
+    assist: "2",
+    matches: "18",
   },
   {
     name: "Ibrahim Sadiq",
@@ -243,9 +243,9 @@ window.team = [
     position: "Forward",
     nationality: "Ghana",
     photo: "https://www.az.nl/media/lzxnim3r/ibrahim-sadiq-png-18072025172256.png?width=584&height=584&v=1dbf8b9a0a46c50&format=webp&quality=90",
-    goals: "2",
+    goals: "3",
     assist: "0",
-    matches: "17",
+    matches: "18",
   },
   {
     name: "Isak Jensen",
@@ -256,7 +256,7 @@ window.team = [
     photo: "https://www.az.nl/media/irdanipt/isak-jensen-png-18072025172250.png?width=584&height=584&v=1dbf8b9a25550a0&format=webp&quality=90",
     goals: "1",
     assist: "3",
-    matches: "23",
+    matches: "24",
   },
   {
     name: "Lequincio Zeefuik",
@@ -278,7 +278,7 @@ window.team = [
     photo: "https://www.az.nl/media/grijfv2c/ro-zangelo-daal-png-180720251722007.png?width=584&height=584&v=1dbf8b9d6c981d0&format=webp&quality=90",
     goals: "1",
     assist: "0",
-    matches: "14",
+    matches: "15",
   },
   {
     name: "Mexx Meerdink",
