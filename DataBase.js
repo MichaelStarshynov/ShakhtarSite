@@ -112,7 +112,7 @@ window.team = [
     nationality: "Netherland",
     photo: "https://www.az.nl/media/l4vhrixa/elijah-dijkstra-png-180720251724007.png?width=584&height=584&v=1dbf8b7ea2ccdb0&format=webp&quality=90",
     goals: "0",
-    assist: "0",
+    assist: "1",
     matches: "10",
   },
   {
