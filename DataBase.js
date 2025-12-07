@@ -320,7 +320,7 @@ window.coaches = [
  competition: "Conference League",
 },
 {
-  date: "he match has been postponed",
+  date: "The match has been postponed",
   opponent: "Excelsior",
   time: "16:45",
   score: "",
