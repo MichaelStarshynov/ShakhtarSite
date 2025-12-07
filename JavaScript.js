@@ -103,7 +103,7 @@ const pages = {
   Team: { title: `Team` },
   Matches: { 
     title: `Matches`, 
-    text:  `<p>Place in Eredivisie: 4 place</p><p>Place in Conference League: 20</p><p>Place in cup: 1/8</p>`
+    text:  `<p>Place in Eredivisie: 5 place</p><p>Place in Conference League: 20</p><p>Place in cup: 1/8</p>`
 
   },
   Tickets: {
