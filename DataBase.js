@@ -304,14 +304,6 @@ window.coaches = [
 ];
   window.matches = [
 {
-  date: "3-12-2025",
-  opponent: "PEC Zwolle",
-  time: "20:00",
-  score: "1-3",
-  place: "MAC³PARK Stadion",
-  competition: "KNVB Beker",
-},
-{
   date: "7-12-2025",
   opponent: "Go Ahead Eagles",
   time: "14:30",
@@ -328,7 +320,7 @@ window.coaches = [
  competition: "Conference League",
 },
 {
-  date: "14-12-2025",
+  date: "he match has been postponed",
   opponent: "Excelsior",
   time: "16:45",
   score: "",
