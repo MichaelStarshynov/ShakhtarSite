@@ -342,5 +342,13 @@ window.coaches = [
   score: "",
   place: "Fortuna Sittard Stadion",
   competition: "Eredivisie",
-}
+},
+{
+date: "1-10-2026",
+opponent: "Volendam",
+time: "16:30",
+score: "",
+place: "AFAS Stadion",
+competition: "Eredivisie",
+},
 ];
