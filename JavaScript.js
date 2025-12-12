@@ -19,7 +19,7 @@ const pages = {
     title: 'Welcome at the site of AZ Alkmaar',
     text: ` <div style="text-align:center;">
       <h3 style="color:#e65100;">🔥AZ - its more than football!</h3>
-      <p style="font-size:18px;">Its passion, fight, wins and emotions. we are AZ, we are power!</p>
+      <p style="font-size:18px;">Its passion, fight, wins and emotions. We are AZ, we are power!</p>
       <p><strong>Join us, follow the matches, buy tickets and support team!</strong></p>
       <button onclick="showPage('Tickets')" class="shop-btn">🎟️ Buy tickets for a match!</button>
       <button onclick="showPage('News')" class="shop-btn">📰 Read news</button>
