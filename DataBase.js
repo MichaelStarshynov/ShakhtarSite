@@ -304,28 +304,12 @@ window.coaches = [
 ];
   window.matches = [
 {
-  date: "7-12-2025",
-  opponent: "Go Ahead Eagles",
-  time: "14:30",
-  score: "2-2",
-  place: "AFAS Stadion",
-  competition: "Eredivisie",
-},
-{
  date: "11-12-2025",
  opponent: "FC Drita",
  time: "18:45",
- score: "",
+ score: "0-3",
  place: "Stadiumi Fadil Vokrri - Pristina",
  competition: "Conference League",
-},
-{
-  date: "The match has been postponed",
-  opponent: "Excelsior",
-  time: "16:45",
-  score: "",
-  place: "AFAS Stadion",
-  competition: "Eredivisie",
 },
 {
   date: "18-12-25",
@@ -351,4 +335,20 @@ score: "",
 place: "AFAS Stadion",
 competition: "Eredivisie",
 },
+{
+date: "17-1-2026",
+opponent: "PEC Zwolle",
+time: "18:45",
+score: "",
+place: "Mac3Park Stadion",
+competition: "Eredivisie",
+},
+{
+  date: "25-1-2026",
+  opponent: "Telstar",
+  time: "12:15",
+  score: "",
+  place: "BUKO Stadion",
+  competition: "Eredivisie",
+}
 ];
