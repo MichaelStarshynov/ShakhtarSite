@@ -16,11 +16,12 @@ document.body.appendChild(content);
 // Страницы сайта
 const pages = {
   Головна: {
-    title: 'Втаємо вас на сайті ФК Шахтар Донецьк',
+    title: 'Вітаємо вас на сайті ФК Шахтар Донецьк',
     text: ` <div style="text-align:center;">
       <h3 style="color:#e65100;">🔥Шахтар - це більше ніж футбол</h3>
       <p style="font-size:18px;">Це пристрасть, боротьба, перемоги та емоції. Ми - Шахтар, Ми - Сила!</p>
       <p><strong>Приєднуйтесь до нас, слідкуйте за матчамі, купуйте квитки та підтримуйте команду!</strong></p>
+      <p>❗ Цей сайт не є офіційним сайтом Шахтаря.</p>
       <button onclick="showPage('Квитки')" class="shop-btn">🎟️ Купити квитки на матч!</button>
       <button onclick="showPage('Новини')" class="shop-btn">📰 Читайте новини</button>
       <button onclick="showPage('Команда')" class="shop-btn">👥 Команда</button>
@@ -309,7 +310,7 @@ function showMatches() {
     card.innerHTML = `
       <p><strong>📅 Дата:</strong> ${match.date}</p>
       <p><strong>⚔️ Суперник:</strong> ${match.opponent}</p>
-      <p><strong>🕒 Час:</strong> ${match.time}</p>
+      <p><strong>🕒 Час:</strong> ${match.time || "Час ще не відомо"}</p>
       <p><strong>🎯 Рахунок:</strong> ${match.score || "Матч ще не був зіграний"}</p>
       <p><strong>📍 Місце: </strong> ${match.place}</p>
       <p><strong>🏆 Турнір:</strong> ${match.competition}</p>
@@ -359,7 +360,7 @@ function showFullNews(id) {
   }
 
   const backBtn = document.createElement('button');
-  backBtn.textContent = '← Back';
+  backBtn.textContent = '← Назад';
   backBtn.className = 'back-btn';
   backBtn.onclick = showNews;
   content.appendChild(backBtn);

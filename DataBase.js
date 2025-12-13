@@ -352,5 +352,28 @@ window.coaches = [
  place: "Генрік Рейман Стадіон",
  competition: "Ліга Конференцій",
 },
-
+{
+date: "21-2-26",
+opponent: "Карпати ЛЬвів",
+time: "",
+score: "",
+place: "Арена Львів",
+competition: "УПЛ",
+},
+{
+date: "28-2-26",
+opponent: "Верес Рівне",
+time: "",
+score: "",
+place: "Арена Львів",
+competition: "УПЛ",
+},
+{
+date: "7-3-26",
+opponent: "ФК Олександрія",
+time: "",
+score: "",
+place: "ЦСК Ніка стадіон",
+competition: "УПЛ",
+},
 ];
