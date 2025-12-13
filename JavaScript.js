@@ -1,6 +1,6 @@
 // Заголовок сайта
 const h1 = document.createElement('h1');
-h1.textContent = "AZ Alkmaar";
+h1.textContent = "ФК Шахтар Донецьк";
 document.body.appendChild(h1);
 
 // Навигация
@@ -15,109 +15,113 @@ document.body.appendChild(content);
 
 // Страницы сайта
 const pages = {
-  Home: {
-    title: 'Welcome at the site of AZ Alkmaar',
+  Головна: {
+    title: 'Втаємо вас на сайті ФК Шахтар Донецьк',
     text: ` <div style="text-align:center;">
-      <h3 style="color:#e65100;">🔥AZ - its more than football!</h3>
-      <p style="font-size:18px;">Its passion, fight, wins and emotions. We are AZ, we are power!</p>
-      <p><strong>Join us, follow the matches, buy tickets and support team!</strong></p>
-      <button onclick="showPage('Tickets')" class="shop-btn">🎟️ Buy tickets for a match!</button>
-      <button onclick="showPage('News')" class="shop-btn">📰 Read news</button>
-      <button onclick="showPage('Team')" class="shop-btn">👥 Team</button>
-      <img src="https://znaki.fm/static/content/thumbs/1600x900/4/3f/bpkw53---c16x9x50px50p--aadb263f6cc56a1ad1cde7bb1e5483f4.jpg" style="max-width:100%; border-radius:10px; margin:20px 0;">
+      <h3 style="color:#e65100;">🔥Шахтар - це більше ніж футбол</h3>
+      <p style="font-size:18px;">Це пристрасть, боротьба, перемоги та емоції. Ми - Шахтар, Ми - Сила!</p>
+      <p><strong>Приєднуйтесь до нас, слідкуйте за матчамі, купуйте квитки та підтримуйте команду!</strong></p>
+      <button onclick="showPage('Квитки')" class="shop-btn">🎟️ Купити квитки на матч!</button>
+      <button onclick="showPage('Новини')" class="shop-btn">📰 Читайте новини</button>
+      <button onclick="showPage('Команда')" class="shop-btn">👥 Команда</button>
+      <img src="https://shakhtar.com/-/media/fcsd/club/philosophy-and-crest/puma_kit_1641820242.jpg?sc_lang=en" style="max-width:100%; border-radius:10px; margin:20px 0;">
     </div>`
   },
-  News: { title: `News of AZ` },
-  Club: { 
-  title: `Club - AZ Alkmaar`,
+  Новини: { title: `Новини Шахтаря` },
+  Клуб: { 
+  title: `Клуб - ФК Шахтар`,
   text: `
-    <h3>AZ Alkmaar is more than just a club. It represents Noord-Holland, passion, youth development, and a progressive football philosophy.</h3>
-    <p>AZ Alkmaar was founded in 1967 and has grown into one of the strongest and most respected clubs in the Netherlands, known for developing young talent and challenging the traditional top teams.</p>
-    
-    <h4>🏆 Achievements:</h4>
-    <ul>
-      <li>2x Eredivisie Champions</li>
-      <li>5x KNVB Cup Winners</li>
-      <li>2x Johan Cruyff Shield</li>
-      <li>UEFA Europa League semifinalists (2005, 2023)</li>
-    </ul>
+  <h3>ФК «Шахтар» Донецьк — це більше, ніж футбольний клуб. Це символ українського характеру, стійкості, розвитку молоді та сучасного європейського футболу.</h3>
+  <p>Заснований у 1936 році, «Шахтар» Донецьк став найуспішнішим клубом України XXI століття. Клуб відомий своєю сильною академією, поєднанням українських і бразильських талантів та прогресивною філософією гри.</p>
+  
+  <h4>🏆 Досягнення:</h4>
+  <ul>
+    <li>15× Чемпіон України</li>
+    <li>15× Володар Кубка України</li>
+    <li>9× Володар Суперкубка України</li>
+    <li>Володар Кубка УЄФА (2009)</li>
+  </ul>
 
-    <h4>🏟️ Home Stadium:</h4>
-    <p>AFAS Stadium is the home ground of AZ Alkmaar. It was opened in 2006 and has a capacity of over 19,000 spectators. Known for its modern design and great atmosphere, it stands as a symbol of AZ’s ambitions.</p>
-    <img src="https://www.az.nl/media/cbnj140h/stadion.jpeg?rxy=0.492,0.6124578919073548&width=2560&height=1096&v=1da73a39dbe2a40" 
-         alt="AZ Alkmaar home stadium: AFAS Stadium" 
-         style="max-width:300px; border-radius:10px;"
-         title="AFAS Stadium in Alkmaar">
+  <h4>🏟️ Домашній стадіон:</h4>
+  <p>«Донбас Арена», відкрита у 2009 році, є одним із найсучасніших стадіонів Східної Європи. Вміщуючи понад 52 000 глядачів, вона символізує амбіції, успіх і європейську ідентичність «Шахтаря». Зараз Шахтар проводить домашні матчі на Арена Львів.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Donetsk_Donbass_Arena_40.jpg/1200px-Donetsk_Donbass_Arena_40.jpg"
+       alt="Домашній стадіон ФК Шахтар Донецьк — Донбас Арена"
+       style="max-width:300px; border-radius:10px;"
+       title="Донбас Арена">
 
-    <h4>Records and Legends:</h4>
-    <ul>
-      <li>Top Scorer: Dirk Scheringa — Club legend and supporter of development</li>
-      <li>Most Appearances: Ron Vlaar — Defensive icon and fan favorite</li>
-      <li>Legendary Manager: Louis van Gaal — Led AZ to the Eredivisie title in 2009</li>
-      <li>Most Expensive Transfer: Myron Boadu → AS Monaco for €17 million</li>
-    </ul>
+  <h4>Рекорди та легенди:</h4>
+  <ul>
+    <li>Найбільше голів - Луїз Адріано - 128 голів</li>
+    <li>Найбільше матчів: Даріо Срна — капітан, лідер і символ клубу</li>
+    <li>Легендарний тренер: Мірча Луческу — привів «Шахтар» до європейського тріумфу у 2009 році</li>
+    <li>Найдорожчий трансфер: Мудрик → ФК Челсі (€100 млн)</li>
+  </ul>
 
-    <h3>Logo:</h3>
-    <img src="https://www.psv.nl/upload_mm/f/0/9/107815_fullimage_logo-az-240x240.png" 
-         title="AZ Alkmaar Logo" 
-         style="max-width:300px; border-radius:10px;">
-  `
+  <h3>Логотип клубу:</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/a/a2/FC_Shakhtar_Donetsk_Logo.svg/1297px-FC_Shakhtar_Donetsk_Logo.svg.png"
+       title="Логотип ФК Шахтар Донецьк"
+       style="max-width:300px; border-radius:10px;">
+`
 },
 
-  History: {
-  title: `History of AZ Alkmaar`,
-  text: `<br><img src="https://www.az.nl/media/pnwnp21c/ep2025102345140.jpg?width=2560&height=1440&v=1dc5223eb0e7b00"><br>
-     <p>AZ Alkmaar, founded in 1967 through the merger of Alkmaar '54 and FC Zaanstreek, has become one of the most respected and forward-thinking clubs in Dutch football. The club is known for its unique philosophy: working with talent, creativity, and ambition both on and off the pitch.</p>
-     
-     <h4>Origins and Early Development</h4>
-     <p>The club's foundational years set the tone for a bold and independent spirit. AZ quickly gained a reputation as a fierce competitor, and by the late 1970s and early 1980s, the club had established itself among the elite of Dutch football.</p>
-     
-     <h4>Golden Era of the 1980s</h4>
-     <p>AZ's first major success came in 1981, when the club won its first Eredivisie title under coach George Kessler. That same season, they reached the UEFA Cup final, narrowly losing to Ipswich Town. This period marked the club’s arrival on the European stage.</p>
-     <img class="history-picture" src="https://az.nl/media/yfpl1d32/caad6d8d04896ee3f57e04337f998a31-landskampioen8081.jpg" alt="AZ Alkmaar in the 1980s" title="AZ wins its first Eredivisie title in 1981">
-     
-     <h4>New Leadership and Modern Growth</h4>
-     <p>A new chapter began in the late 1990s with the leadership of Dirk Scheringa, who invested heavily in the club's infrastructure and ambitions. Talented players and innovative coaching helped AZ rise again in Dutch football.</p>
-     
-     <h4>Louis van Gaal Era</h4>
-     <p>The appointment of Louis van Gaal in 2005 brought historic success. AZ played modern, attacking football, culminating in winning the Eredivisie title in 2009. This achievement broke the dominance of the traditional top three and remains a cornerstone of the club’s legacy.</p>
-     <img class="history-picture" src="https://i.ytimg.com/vi/ys8fnGPtwos/maxresdefault.jpg" alt="AZ becomes Eredivisie champion in 2009" title="Eredivisie Champions 2009">
-     
-     <h4>AFAS Stadium and the Future</h4>
-     <p>Opened in 2006, AFAS Stadium is a modern, fan-friendly arena that symbolizes AZ’s long-term vision. Despite facing challenges, including a roof collapse in 2019, the club demonstrated resilience and continued growing stronger.</p>
-     <img class="history-picture" src="https://www.santosfootballplanet.nl/uploads/AFAS1ANP-434802676.jpg?v=1637841768" title="AFAS Stadium">
+  Історія: {
+  title: `Історія ФК «Шахтар» Донецьк`,
+  text: `
+    <br>
+    <img src="https://futkrichalki.ru/wp-content/uploads/2011/06/og-default.jpg">
+    <br>
 
-     <h4>Recent Success and Youth Development</h4>
-     <p>AZ remains one of the best clubs in the Netherlands for producing young talent. Players like Myron Boadu, Teun Koopmeiners, and Owen Wijndal are just a few examples of stars who emerged from AZ’s academy and took the next step in their careers internationally.</p>
-     <img class="history-picture" src="https://pbs.twimg.com/media/G2TEK_PasAAnia5?format=jpg&name=large" alt="Teun Koopmeiners, product of AZ academy" title="Teun Koopmeiners at AZ">
+    <p>ФК «Шахтар» Донецьк був заснований у 1936 році під назвою «Стахановець». Клуб швидко став символом індустріального Донбасу та уособленням працьовитості, характеру й командного духу. З роками «Шахтар» перетворився на один із найвідоміших і найуспішніших клубів Східної Європи.</p>
 
-     <h4>Identity and Culture</h4>
-     <p>AZ stands for innovation, hard work, and community. The club has always stood out for its professionalism, scouting, and disciplined football. The supporters are loyal, passionate, and deeply connected to the city and region.</p>
-     
-     <h4>Legacy and Vision</h4>
-     <p>With two Eredivisie titles, numerous European adventures, and a reputation for developing talent, AZ continues to look to the future. The club invests in youth academies, tactical innovation, and sustainable growth to remain a strong force in Dutch football and beyond. AZ Alkmaar’s history is one of ambition, identity, and the courage to challenge the status quo—and that journey is far from over.</p>
+    <h4>Початок і становлення</h4>
+    <p>Перші десятиліття існування клубу були періодом формування ідентичності. «Шахтар» регулярно виступав у чемпіонаті_toggle команд, здобуваючи репутацію міцного та непоступливого суперника, особливо у кубкових турнірах.</p>
+
+    <h4>Кубкові успіхи ХХ століття</h4>
+    <p>У радянський період «Шахтар» чотири рази вигравав Кубок СРСР (1961, 1962, 1980, 1983). Саме тоді клуб отримав прізвисько «кубкова команда», відоме далеко за межами України.</p>
+    <img class="history-picture" src="https://pictures.ua.tribuna.com/image/4b639bd9-2716-44df-9a41-a694983d4639?width=1920&quality=70" title="Шахтар — володар Кубка СРСР">
+
+    <h4>Незалежна Україна та нова ера</h4>
+    <p>Після здобуття Україною незалежності «Шахтар» став одним із лідерів національного футболу. У 2000-х роках клуб зробив стратегічний крок уперед, інвестуючи в інфраструктуру, селекцію та сучасну футбольну модель.</p>
+
+    <h4>Ера Мірчі Луческу</h4>
+    <p>Найуспішніший період в історії клубу пов’язаний з тренером Мірчею Луческу. Під його керівництвом «Шахтар» домінував в Україні та здобув історичну перемогу в Кубку УЄФА у 2009 році — перший європейський трофей в історії українського клубного футболу.</p>
+    <img class="history-picture" src="https://fanday.net/img/news/Drugoe3/shakhtaruefa-52r.webp" title="Перемога Шахтаря в Кубку УЄФА 2009">
+
+    <h4>Донбас Арена</h4>
+    <p>У 2009 році було відкрито «Донбас Арену» — ультрасучасний стадіон, який став символом нового рівня клубу. Арена швидко здобула визнання в Європі та приймала матчі Євро-2012.</p>
+    <img class="history-picture" src="https://fanday.net/img/news/Drugoe2/donbassarena.webp" title="Донбас Арена">
+
+    <h4>Війна та випробування</h4>
+    <p>З 2014 року «Шахтар» був змушений покинути Донецьк через війну. Попри втрату дому, клуб не зламався: він продовжив виступи на високому рівні, зберіг статус гранда українського футболу та став символом незламності.</p>
+
+    <h4>Академія та сучасність</h4>
+    <p>«Шахтар» відомий своєю сильною академією та вмінням розвивати таланти. Клуб поєднує українське ядро з технічними легіонерами, зберігаючи атакувальний, сучасний стиль гри.</p>
+
+    <h4>Спадщина та майбутнє</h4>
+    <p>Сьогодні ФК «Шахтар» Донецьк — це клуб із багатою історією, європейськими амбіціями та чітким баченням майбутнього. Попри всі труднощі, «Шахтар» дивиться вперед і залишається гордістю українського футболу.</p>
   `,
 },
 
 
-  Team: { title: `Team` },
-  Matches: { 
-    title: `Matches`, 
-    text:  `<p>Place in Eredivisie: 5 place</p><p>Place in Conference League: 13 place</p><p>Place in cup: 1/8</p>`
+
+  Команда: { title: `Team` },
+  Матчі: { 
+    title: `Матчі`, 
+    text:  `<p>Місце в УПЛ: 1 місце</p><p>Місце в Лізі Конференцій: 2 місце</p><p>Місце в Кубку України: виліт в 1/8</p>`
 
   },
-  Tickets: {
-    title: `Buying tickets`,
-    text: `You can buy tickets <a href="https://www.az.nl/wedstrijden/tickets" target="_blank">here</a>.<br><img src="https://az.nl/media/5folh2nk/240413184625_ep15030.jpg?rxy=0.512,0.5285285285285285&width=2560&height=1096&v=1da8f11fd6cc170">`
+  Квитки: {
+    title: `Купити квітки`,
+    text: `Квитки на матч можно купити <a href="https://tickets.shakhtar.com/" target="_blank">тут</a>.<br><img src="https://shakhtar.com/-/media/fcsd/news/2025/october/23_news/23_shakhtar_legia/gal/mls_4061.jpg?1765623518331">`
   },
-  Shop: {
-    title: `Shop`,
-    text: `Shop of AZ you can find <a href="https://www.az.nl/webshop" target="_blank">here</a>.<img src="https://www.inalkmaar.nl/storage/uploads/Locaties/AZ/AZ(4).jfif?v=1742904043900">`
+  Магазин: {
+    title: `Магазин`,
+    text: `Магазин Шахтаря можно знайти <a href="https://shop.shakhtar.com/" target="_blank">тут</a>.<img src="https://shakhtar.com/-/media/fcsd/news/2025/december/11_news/11_hamrunspartans_shakhtar/gal/mls_1328.jpg?1765623617258">`
   },
-  Telegram: {
-    title: `Telegram Channel`,
-    text: `<p>Follow our <a href="https://t.me/AlkmaarZaanstreek" target="_blank">Telegram channel</a> for more news.</p>
-    <img src="https://storage.pubble.nl/648e3015/content/2022/8/d3939f3d-01cc-4e42-9014-26afda304274_thumb1920.jpg" >`
+  Телеграм: {
+    title: `Телеграм Канал`,
+    text: `<p>Підпісуйтесь на наш <a href="https://t.me/FanShakhtarDonetsk" target="_blank">Телеграм канал</a> заради більше новин.</p>
+    <img src="https://shakhtar.com/-/media/fcsd/news/2025/december/6_news/6_kolos_shakhtar/gal/mls_4225.jpg?1765623759827" >`
   }
 };
 
@@ -139,15 +143,15 @@ function showPage(pageKey) {
 
   content.innerHTML = '';
 
-  if (pageKey === 'Team') {
+  if (pageKey === 'Команда') {
     showTeam();
     return;
   }
-  if (pageKey === 'News') {
+  if (pageKey === 'Новини') {
     showNews();
     return;
   }
-  if (pageKey === 'Matches') {
+  if (pageKey === 'Матчі') {
     showMatches();
     return;
   }
@@ -168,7 +172,7 @@ function showPlayerDetails(player) {
   content.innerHTML = ''; // очищаємо контент
 
   const backBtn = document.createElement('button');
-  backBtn.textContent = '← Back to the team';
+  backBtn.textContent = '← Повернутися';
   backBtn.className = 'back-btn';
   backBtn.onclick = showTeam;
   content.appendChild(backBtn);
@@ -190,14 +194,14 @@ function showPlayerDetails(player) {
   const info = document.createElement('div');
   info.className = 'player-info';
   info.innerHTML = `
-    <p><strong>Number:</strong> ${player.number}</p>
-    <p><strong>Position:</strong> ${player.position}</p>
-    <p><strong>Age:</strong> ${player.age}</p>
-    <p><strong>Nationality:</strong> ${player.nationality}</p>
+    <p><strong>Номер:</strong> ${player.number}</p>
+    <p><strong>Позіція:</strong> ${player.position}</p>
+    <p><strong>Вік:</strong> ${player.age}</p>
+    <p><strong>Національність:</strong> ${player.nationality}</p>
     <h4>Statistics</h4>
-    <p>⚽ <strong>Goals:</strong> ${player.goals || "0"}</p>
-    <p>👟 <strong>Assists:</strong> ${player.assist || "0"}</p>
-    <p>🏟️ <strong>Matches:</strong> ${player.matches}</p>
+    <p>⚽ <strong>Голи:</strong> ${player.goals || "0"}</p>
+    <p>👟 <strong>Передачі:</strong> ${player.assist || "0"}</p>
+    <p>🏟️ <strong>Матчі:</strong> ${player.matches}</p>
   `;
   content.appendChild(info);
 }
@@ -208,15 +212,15 @@ function showTeam() {
   content.innerHTML = ''; // очищаем перед выводом
 
   const title = document.createElement('h2');
-  title.textContent = 'Team';
+  title.textContent = 'Команда';
   content.appendChild(title);
 
   // Категории игроков
   const groups = {
-    'Goalkeepers': ['GK', 'Goalkeeper'],
-    'Defender': ['DF', 'Defender'],
-    'Midfielders': ['MF', 'Midfielder'],
-    'Forwards': ['FW', 'Forward']
+    'Воротарі': ['GK', 'Голкіпер'],
+    'Захістники': ['DF', 'Захістник', 'Лівій Захістник', 'Правий Захістник'],
+    'Півзахістники': ['MF', 'Півзахістник'],
+    'Нападники': ['FW', 'Нападник', 'Лівій Вінгер', 'Правий Вінгер']
   };
 
   // Перебор категорий
@@ -238,8 +242,8 @@ function showTeam() {
           <img src="${player.photo}" alt="${player.name}" class="player-photo" />
           <p><strong>#${player.number} ${player.name}</strong></p>
           <p>${player.position}</p>
-          <p>Age: ${player.age}</p>
-          <p>Nationality: ${player.nationality}</p>
+          <p>Вік: ${player.age}</p>
+          <p>Національність: ${player.nationality}</p>
         `;
 
         card.onclick = () => showPlayerDetails(player);
@@ -255,7 +259,7 @@ groupList.appendChild(card);
   // ---- Тренеры ----
   if (window.coaches && window.coaches.length > 0) {
     const coachesTitle = document.createElement('h3');
-    coachesTitle.textContent = 'Coaches';
+    coachesTitle.textContent = 'Тренери';
     content.appendChild(coachesTitle);
 
     const coachesList = document.createElement('div');
@@ -269,8 +273,8 @@ groupList.appendChild(card);
         <img src="${coach.photo}" alt="${coach.name}" class="coach-photo" />
         <p><strong>${coach.coach}</strong></p>
         <p>${coach.name}</p>
-        <p>Age: ${coach.age}</p>
-        <p>Nationality: ${coach.nationality}</p>
+        <p>Вік: ${coach.age}</p>
+        <pНаціональність: ${coach.nationality}</p>
       `;
 
       coachesList.appendChild(card);
@@ -282,18 +286,18 @@ groupList.appendChild(card);
 
  
 function showMatches() {
-  content.innerHTML = '<h2>Matches</h2>';
+  content.innerHTML = '<h2>Матчі</h2>';
 
   // берем текст из pages
   const info = document.createElement('div');
-  info.innerHTML = pages['Matches'].text;
+  info.innerHTML = pages['Матчі'].text;
   content.appendChild(info);
 
   const grid = document.createElement('div');
   grid.className = 'matches-grid';
 
   if (!window.matches || window.matches.length === 0) {
-    grid.innerHTML = '<p>There are no matches</p>';
+    grid.innerHTML = '<p>Матчів ще нема</p>';
     content.appendChild(grid);
     return;
   }
@@ -303,12 +307,12 @@ function showMatches() {
     card.className = 'match-card';
 
     card.innerHTML = `
-      <p><strong>📅 Datum:</strong> ${match.date}</p>
-      <p><strong>⚔️ Opponent:</strong> ${match.opponent}</p>
-      <p><strong>🕒 Time (NL):</strong> ${match.time}</p>
-      <p><strong>🎯 Score:</strong> ${match.score || "The match isn't played"}</p>
-      <p><strong>📍 Place</strong> ${match.place}</p>
-      <p><strong>🏆 Competition:</strong> ${match.competition}</p>
+      <p><strong>📅 Дата:</strong> ${match.date}</p>
+      <p><strong>⚔️ Суперник:</strong> ${match.opponent}</p>
+      <p><strong>🕒 Час:</strong> ${match.time}</p>
+      <p><strong>🎯 Рахунок:</strong> ${match.score || "Матч ще не був зіграний"}</p>
+      <p><strong>📍 Місце: </strong> ${match.place}</p>
+      <p><strong>🏆 Турнір:</strong> ${match.competition}</p>
     `;
 
     grid.appendChild(card);
@@ -319,7 +323,7 @@ function showMatches() {
 
 // Новости
 function showNews() {
-  content.innerHTML = '<h2>News</h2>';
+  content.innerHTML = '<h2>Новини</h2>';
 
   const grid = document.createElement('div');
   grid.className = 'news-grid';
@@ -336,7 +340,7 @@ function showNews() {
 
     preview.innerHTML = `
       <h3>${item.title}</h3>
-      <p style="color: black;">${item.datum}</p>
+      <p style="color: white;">${item.datum}</p>
     `;
 
     grid.appendChild(preview);
@@ -383,4 +387,4 @@ function showFullNews(id) {
 
 
 // Запуск - показываем главную страницу
-showPage('Home');
+showPage('Головна');
