@@ -332,7 +332,7 @@ window.coaches = [
   date: "14-12-25",
   opponent: "Епіцентр",
   time: "18:00",
-  score: "",
+  score: "5-0",
   place: "Арена Львів",
   competition: "УПЛ",
 },
