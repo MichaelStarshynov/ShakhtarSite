@@ -156,6 +156,9 @@ function showPage(pageKey) {
     showMatches();
     return;
   }
+  if (pageKey === 'Історія') {
+  showLegends();
+}
   const titleElem = document.createElement('h2');
   titleElem.textContent = page.title;
   content.appendChild(titleElem);
@@ -166,6 +169,37 @@ function showPage(pageKey) {
     content.appendChild(textElem);
   }
 }
+// Фнкія легенд
+
+function showLegends() {
+  content.innerHTML = '<h2>Легенди Шахтаря</h2>';
+
+  const grid = document.createElement('div');
+  grid.className = 'players-list';
+
+  if (!window.legends || window.legends.length === 0) {
+    grid.innerHTML = '<p>Легенди ще не додані</p>';
+  } else {
+    window.legends.forEach(legend => {
+      const card = document.createElement('div');
+      card.className = 'player-card';
+      card.innerHTML = `
+        <img src="${legend.photo}" alt="${legend.name}" class="legend-photo">
+        <h3>${legend.name}</h3>
+        <p><strong>Вік:</strong> ${legend.age}</p>
+        <p><strong>Роль:</strong> ${legend.position}</p>
+        <p><strong>Національність:</strong> ${legend.nationality}</p>
+        <p><strong>Матчі:</strong> ${legend.matches}</p>
+        <p><strong>Голи:</strong> ${legend.goals || "0"}</p>
+        <p><strong>Ассісти:</strong> ${legend.assist || "0"}</p>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  content.appendChild(grid);
+}
+
 
 // Функція інформації гравців 
 
@@ -275,7 +309,8 @@ groupList.appendChild(card);
         <p><strong>${coach.coach}</strong></p>
         <p>${coach.name}</p>
         <p>Вік: ${coach.age}</p>
-        <pНаціональність: ${coach.nationality}</p>
+        <p><strong>Національність:</strong> ${coach.nationality}</p>
+
       `;
 
       coachesList.appendChild(card);
@@ -310,7 +345,7 @@ function showMatches() {
     card.innerHTML = `
       <p><strong>📅 Дата:</strong> ${match.date}</p>
       <p><strong>⚔️ Суперник:</strong> ${match.opponent}</p>
-      <p><strong>🕒 Час:</strong> ${match.time || "Час ще не відомо"}</p>
+      <p><strong>🕒 Час (УКР):</strong> ${match.time || "Час ще не відомо"}</p>
       <p><strong>🎯 Рахунок:</strong> ${match.score || "Матч ще не був зіграний"}</p>
       <p><strong>📍 Місце: </strong> ${match.place}</p>
       <p><strong>🏆 Турнір:</strong> ${match.competition}</p>
@@ -329,19 +364,22 @@ function showNews() {
   const grid = document.createElement('div');
   grid.className = 'news-grid';
 
-  // Сортируем новости по дате (от новых к старым)
-  const sortedNews = [...window.news].sort((a, b) => new Date(b.date) - new Date(a.date));
+  // Сортируем новости: сначала закрепленные, потом остальные, внутри по дате
+  const sortedNews = [...window.news].sort((a, b) => {
+    if (a.pinned && !b.pinned) return -1;
+    if (!a.pinned && b.pinned) return 1;
+    return new Date(b.date) - new Date(a.date); // по дате внутри групп
+  });
 
   sortedNews.forEach(item => {
     const preview = document.createElement('div');
     preview.className = 'news-card';
     preview.onclick = () => showFullNews(item.id);
 
-    const firstSentence = item.text.split('.')[0] + '.';
-
     preview.innerHTML = `
       <h3>${item.title}</h3>
       <p style="color: white;">${item.datum}</p>
+      ${item.pinned ? '<p style="color: orangered;">📌 Закріплено</p>' : ''}
     `;
 
     grid.appendChild(preview);
@@ -375,8 +413,8 @@ function showFullNews(id) {
     img.alt = item.title;
     img.style.maxWidth = '100%';
     img.style.borderRadius = '10px';
-    img.style.margin = '20px auto'; // <-- тут auto по бокам
-  img.style.display = 'block';
+    img.style.margin = '20px auto';
+    img.style.display = 'block';
     content.appendChild(img);
   }
 
@@ -384,6 +422,7 @@ function showFullNews(id) {
   fullText.innerHTML = item.text;
   content.appendChild(fullText);
 }
+
 
 
 
