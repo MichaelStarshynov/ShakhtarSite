@@ -1,22 +1,12 @@
 window.team = [
   {
-    name: "Rome-Jayden Owuso-Oduro",
-    age: 21,
-    number: 1,
-    position: "Goalkeeper",
-    nationality: "Netherlands",
-    photo: "https://www.az.nl/media/rvvouc4r/rome-jayden-owusu-oduro-18072025172430.png?width=584&height=584&v=1dbf8b7499903f0&format=webp&quality=90",
-    description: "",
-    matches: "21",
-  },
-  {
     name: "Кирил Фесюн",
     age: "23",
     number: "23",
     position: "Голкіпер",
     nationality: "Україна",
     photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250160835.jpg",
-    matches: "5",
+    matches: "6",
   },
   {
    name: "Дмитро Різнік",
@@ -67,7 +57,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250087118.jpg",
    goals: "2",
    assist: "1",
-   matches: "28",
+   matches: "29",
   },
   {
    name: "Педро Енріке",
@@ -78,7 +68,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250187672.jpg",
    goals: "1",
    assist: "4",
-   matches: "22",
+   matches: "23",
   },
   {
    name: "Іраклі Азаров",
@@ -99,8 +89,8 @@ window.team = [
    nationality: "Бразілія",
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250176491.jpg",
    goals: "2",
-   assist: "4",
-   matches: "24",
+   assist: "3",
+   matches: "25",
   },
   {
    name: "Алаа Грам",
@@ -121,7 +111,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250064444.jpg",
    goals: "0",
    assist: "0",
-   matches: "26",
+   matches: "27",
   },{
    name: "Юхим Конопля",
    age: "26",
@@ -151,7 +141,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250193518.jpg",
    goals: "1",
    assist: "4",
-   matches: "24",
+   matches: "25",
   },{
    name: "Дмитро Криськів",
    age: "25",
@@ -161,7 +151,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250112978.jpg",
    goals: "0",
    assist: "0",
-   matches: "8",
+   matches: "9",
   },{
    name: "Ізакі Сілва",
    age: "18",
@@ -171,7 +161,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250212206.jpg",
    goals: "4",
    assist: "3",
-   matches: "17",
+   matches: "18",
   },{
    name: "Антон Глущенко",
    age: "21",
@@ -211,7 +201,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250134776.jpg",
    goals: "3",
    assist: "1",
-   matches: "26",
+   matches: "27",
   },{
    name: "Єгор Назарина",
    age: "28",
@@ -221,7 +211,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250123440.jpg",
    goals: "3",
    assist: "1",
-   matches: "15",
+   matches: "16",
   },
   {
    name: "Лассіна Траоре",
@@ -243,7 +233,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250187759.jpg",
    goals: "5",
    assist: "2",
-   matches: "14",
+   matches: "15",
   },{
    name: "Мар'ян Швед",
    age: "28",
@@ -261,9 +251,9 @@ window.team = [
    position: "Правий Вінгер",
    nationality: "Бразілія",
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250144964.jpg",
-   goals: "5",
+   goals: "6",
    assist: "9",
-   matches: "23",
+   matches: "24",
   },{
    name: "Невертон",
    age: "20",
@@ -271,9 +261,9 @@ window.team = [
    position: "Лівій Вінгер",
    nationality: "Бразілія",
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250187671.jpg",
-   goals: "4",
+   goals: "5",
    assist: "1",
-   matches: "23",
+   matches: "24",
   },
   {
    name: "Кауа Еліас",
@@ -282,9 +272,9 @@ window.team = [
    position: "Нападник",
    nationality: "Бразілія",
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250209227.jpg",
-   goals: "10",
+   goals: "11",
    assist: "4",
-   matches: "25",
+   matches: "26",
   },{
    name: "Аллісон Сантана",
    age: "20",
@@ -304,7 +294,7 @@ window.team = [
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250211402.jpg",
    goals: "1",
    assist: "1",
-   matches: "17",
+   matches: "18",
   },{
    name: "Лука Мейрелліш",
    age: "18",
@@ -312,9 +302,9 @@ window.team = [
    position: "Нападник",
    nationality: "Бразілія",
    photo: "https://img.uefa.com/imgml/TP/players/2019/2026/324x324/250212190.jpg",
-   goals: "6",
+   goals: "8",
    assist: "1",
-   matches: "16",
+   matches: "17",
   },
 ];
 window.coaches = [
@@ -338,7 +328,7 @@ window.coaches = [
 },
 {
  date: "18-12-25",
- opponent: "ФК Риека",
+ opponent: "ФК Ріека",
  time: "22:00",
  score: "",
  place: "Генрік Рейман Стадіон",
