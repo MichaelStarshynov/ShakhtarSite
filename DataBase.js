@@ -319,14 +319,6 @@ window.coaches = [
 ];
   window.matches = [
 {
-  date: "14-12-25",
-  opponent: "Епіцентр",
-  time: "18:00",
-  score: "5-0",
-  place: "Арена Львів",
-  competition: "УПЛ",
-},
-{
  date: "18-12-25",
  opponent: "ФК Ріека",
  time: "22:00",
@@ -364,6 +356,14 @@ competition: "УПЛ",
   time: "",
   score: "",
   place: "Арена Львів",
+  competition: "УПЛ",
+},
+{
+  date: "21-3-26",
+  opponent: "Зоря Луганськ",
+  time: "",
+  score: "",
+  place: "Стадіон імені Лобановського",
   competition: "УПЛ",
 }
 ];
