@@ -233,7 +233,7 @@ function showPlayerDetails(player) {
     <p><strong>Позіція:</strong> ${player.position}</p>
     <p><strong>Вік:</strong> ${player.age}</p>
     <p><strong>Національність:</strong> ${player.nationality}</p>
-    <h4>Statistics</h4>
+    <h4>Статистика:</h4>
     <p>⚽ <strong>Голи:</strong> ${player.goals || "0"}</p>
     <p>👟 <strong>Передачі:</strong> ${player.assist || "0"}</p>
     <p>🏟️ <strong>Матчі:</strong> ${player.matches}</p>
