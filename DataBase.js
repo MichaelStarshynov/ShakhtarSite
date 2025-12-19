@@ -6,7 +6,7 @@ window.team = [
     position: "Голкіпер",
     nationality: "Україна",
     photo: "https://shakhtar.com/-/media/fcsd/players/fesiun-kiril/fesiun_bio_25_26.png?h=610&iar=0&w=473",
-    matches: "6",
+    matches: "7",
   },
   {
    name: "Дмитро Різнік",
@@ -57,7 +57,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/bondar-valeriy/bondar_bio_25_26.png?h=610&iar=0&w=473",
    goals: "2",
    assist: "1",
-   matches: "29",
+   matches: "30",
   },
   {
    name: "Педро Енріке",
@@ -68,7 +68,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho_pedro-henrique-azevedo-pereira/pedro_henrique_bio_25_26.png?h=610&iar=0&w=473",
    goals: "1",
    assist: "4",
-   matches: "23",
+   matches: "24",
   },
   {
    name: "Іраклі Азаров",
@@ -90,7 +90,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/vinicius-tobias/tobias_bio_25_26.png?h=610&iar=0&w=473",
    goals: "2",
    assist: "3",
-   matches: "25",
+   matches: "26",
   },
   {
    name: "Алаа Грам",
@@ -111,7 +111,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/22-mykola-matviienko/matviienko_bio_25_26.png?h=610&iar=0&w=473",
    goals: "0",
    assist: "0",
-   matches: "27",
+   matches: "28",
   },{
    name: "Юхим Конопля",
    age: "26",
@@ -141,7 +141,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/gomes-marlon/marlon_gomes_bio_25_26.png?h=610&iar=0&w=473",
    goals: "1",
    assist: "4",
-   matches: "25",
+   matches: "26",
   },{
    name: "Дмитро Криськів",
    age: "25",
@@ -151,7 +151,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/kryskiv-dmytro/kryskiv_bio_25_26.png?h=610&iar=0&w=473",
    goals: "0",
    assist: "0",
-   matches: "9",
+   matches: "10",
   },{
    name: "Ізакі Сілва",
    age: "18",
@@ -161,7 +161,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/isaque-silva/isaque_silva_bio_2025-09-18.png?h=610&iar=0&w=473",
    goals: "4",
    assist: "3",
-   matches: "18",
+   matches: "19",
   },{
    name: "Антон Глущенко",
    age: "21",
@@ -201,7 +201,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/ocheretko-oleh/ocheretko_bio_25_26.png?h=610&iar=0&w=473",
    goals: "3",
    assist: "1",
-   matches: "27",
+   matches: "28",
   },{
    name: "Єгор Назарина",
    age: "28",
@@ -211,7 +211,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/nazaryna/nazaryna_bio_25_26.png?h=610&iar=0&w=473",
    goals: "3",
    assist: "1",
-   matches: "16",
+   matches: "17",
   },
   {
    name: "Лассіна Траоре",
@@ -233,7 +233,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/eguinaldo/eguinaldo_bio_25_26.png?h=610&iar=0&w=473",
    goals: "5",
    assist: "2",
-   matches: "15",
+   matches: "16",
   },{
    name: "Мар'ян Швед",
    age: "28",
@@ -253,7 +253,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_bio_25_26.png?h=610&iar=0&w=473",
    goals: "6",
    assist: "9",
-   matches: "24",
+   matches: "25",
   },{
    name: "Невертон",
    age: "20",
@@ -263,7 +263,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_bio_25_26.png?h=610&iar=0&w=473",
    goals: "5",
    assist: "1",
-   matches: "24",
+   matches: "25",
   },
   {
    name: "Кауан Еліас",
@@ -294,7 +294,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/ferreira-lucas/lukasferreira_bio_25_26.png?h=610&iar=0&w=473",
    goals: "1",
    assist: "1",
-   matches: "18",
+   matches: "19",
   },{
    name: "Лука Мейрелліш",
    age: "18",
@@ -304,7 +304,7 @@ window.team = [
    photo: "https://shakhtar.com/-/media/fcsd/players/luca-meirelles/luca_meirelles_bio_2025-09-18.png?h=610&iar=0&w=473",
    goals: "8",
    assist: "1",
-   matches: "17",
+   matches: "18",
   },
 ];
 window.coaches = [
