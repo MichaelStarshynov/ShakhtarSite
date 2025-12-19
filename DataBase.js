@@ -322,7 +322,7 @@ window.coaches = [
  date: "18-12-25",
  opponent: "ФК Ріека",
  time: "22:00",
- score: "",
+ score: "0-0",
  place: "Генрік Рейман Стадіон",
  competition: "Ліга Конференцій",
 },
