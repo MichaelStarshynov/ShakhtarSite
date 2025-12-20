@@ -143,7 +143,7 @@ const pages = {
           <td>35</td>
         </tr>
 
-        <tr>
+        <tr class="highlight-shakhtar">
           <td>2</td>
           <td class="team">Шахтар Донецьк</td>
           <td>16</td>
@@ -324,6 +324,460 @@ const pages = {
         </tr>
 
       </tbody>
+    </table>
+    <br>
+    <h4>Ліга Конференцій</h4>
+     <table class="league-table">
+      <thead>
+        <tr>
+          <th>М</th>
+          <th>КОМАНДА</th>
+          <th>И</th>
+          <th>В</th>
+          <th>Н</th>
+          <th>П</th>
+          <th>З</th>
+          <th>П</th>
+          <th>О</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td class="team">Страсбур</td>
+          <td>6</td>
+          <td>5</td>
+          <td>1</td>
+          <td>0</td>
+          <td>11</td>
+          <td>5</td>
+          <td>16</td>
+        </tr>
+
+          <tr>
+          <td>2</td>
+          <td class="team">Ракув</td>
+          <td>6</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>9</td>
+          <td>2</td>
+          <td>14</td>
+        </tr>
+
+           <tr>
+          <td>3</td>
+          <td class="team">AEK (Афіни)</td>
+          <td>6</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>14</td>
+          <td>7</td>
+          <td>13</td>
+        </tr>
+
+           <tr>
+          <td>4</td>
+          <td class="team">Спарта Прага</td>
+          <td>6</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>10</td>
+          <td>3</td>
+          <td>13</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td class="team">Райо Вальєкано</td>
+          <td>6</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>13</td>
+          <td>7</td>
+          <td>13</td>
+        </tr>
+
+          <tr class="highlight-shakhtar">
+          <td>6</td>
+          <td class="team">Шахтар Донецьк</td>
+          <td>6</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>10</td>
+          <td>5</td>
+          <td>13</td>
+        </tr>
+
+        <tr>
+          <td>7</td>
+          <td class="team">Майнц 05</td>
+          <td>6</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>7</td>
+          <td>3</td>
+          <td>13</td>
+        </tr>
+        
+         <tr>
+          <td>8</td>
+          <td class="team">АЕК Ларнака</td>
+          <td>6</td>
+          <td>4</td>
+          <td>1</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>12</td>
+        </tr>
+
+           <tr>
+          <td>9</td>
+          <td class="team">Лозанна</td>
+          <td>6</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>6</td>
+          <td>3</td>
+          <td>11</td>
+        </tr>
+
+         <tr>
+          <td>10</td>
+          <td class="team">Крістал Пелес</td>
+          <td>6</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>11</td>
+          <td>6</td>
+          <td>10</td>
+        </tr>
+ 
+           <tr>
+          <td>11</td>
+          <td class="team">Лех</td>
+          <td>6</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>12</td>
+          <td>8</td>
+          <td>10</td>
+        </tr>	
+
+            <tr>
+          <td>12</td>
+          <td class="team">Самсунспор</td>
+          <td>6</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+          <td>10</td>
+        </tr>
+      
+         <tr>
+          <td>13</td>
+          <td class="team">Целє</td>
+          <td>6</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>8</td>
+          <td>7</td>
+          <td>10</td>
+        </tr>
+
+          <tr>
+          <td>14</td>
+          <td class="team">АЗ Алкмар</td>
+          <td>6</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>7</td>
+          <td>7</td>
+          <td>10</td>
+        </tr>
+
+
+         <tr>
+          <td>15</td>
+          <td class="team">Фіорентіна</td>
+          <td>6</td>
+          <td>3</td>
+          <td>0</td>
+          <td>3</td>
+          <td>8</td>
+          <td>5</td>
+          <td>9</td>
+        </tr>
+
+           <tr>
+          <td>16</td>
+          <td class="team">Рієка</td>
+          <td>6</td>
+          <td>2</td>
+          <td>3</td>
+          <td>1</td>
+          <td>5</td>
+          <td>2</td>
+          <td>19</td>
+        </tr>
+
+           <tr>
+          <td>17</td>
+          <td class="team">Ягеллонія</td>
+          <td>6</td>
+          <td>2</td>
+          <td>3</td>
+          <td>1</td>
+          <td>5</td>
+          <td>4</td>
+          <td>9</td>
+        </tr>
+
+        <tr>
+  <td>18</td>
+  <td class="team">Омонія</td>
+  <td>6</td>
+  <td>2</td>
+  <td>2</td>
+  <td>2</td>
+  <td>5</td>
+  <td>4</td>
+  <td>8</td>
+</tr>
+
+<tr>
+  <td>19</td>
+  <td class="team">Ноах</td>
+  <td>6</td>
+  <td>2</td>
+  <td>2</td>
+  <td>2</td>
+  <td>6</td>
+  <td>7</td>
+  <td>8</td>
+</tr>
+
+<tr>
+  <td>20</td>
+  <td class="team">Дріта</td>
+  <td>6</td>
+  <td>2</td>
+  <td>2</td>
+  <td>2</td>
+  <td>4</td>
+  <td>8</td>
+  <td>8</td>
+</tr>
+
+<tr>
+  <td>21</td>
+  <td class="team">КуПС</td>
+  <td>6</td>
+  <td>1</td>
+  <td>4</td>
+  <td>1</td>
+  <td>6</td>
+  <td>5</td>
+  <td>7</td>
+</tr>
+
+<tr>
+  <td>22</td>
+  <td class="team">Шкендія</td>
+  <td>6</td>
+  <td>2</td>
+  <td>1</td>
+  <td>3</td>
+  <td>4</td>
+  <td>5</td>
+  <td>7</td>
+</tr>
+
+<tr>
+  <td>23</td>
+  <td class="team">Зріньскі</td>
+  <td>6</td>
+  <td>2</td>
+  <td>1</td>
+  <td>3</td>
+  <td>8</td>
+  <td>10</td>
+  <td>7</td>
+</tr>
+
+<tr>
+  <td>24</td>
+  <td class="team">Сігма</td>
+  <td>6</td>
+  <td>2</td>
+  <td>1</td>
+  <td>3</td>
+  <td>7</td>
+  <td>9</td>
+  <td>7</td>
+</tr>
+
+<tr>
+  <td>25</td>
+  <td class="team">Університатя</td>
+  <td>6</td>
+  <td>2</td>
+  <td>1</td>
+  <td>3</td>
+  <td>6</td>
+  <td>8</td>
+  <td>7</td>
+</tr>
+
+<tr>
+  <td>26</td>
+  <td class="team">Лінкольн Ред Імпс</td>
+  <td>6</td>
+  <td>2</td>
+  <td>1</td>
+  <td>3</td>
+  <td>7</td>
+  <td>15</td>
+  <td>7</td>
+</tr>
+
+<tr>
+  <td>27</td>
+  <td class="team">Динамо Київ</td>
+  <td>6</td>
+  <td>2</td>
+  <td>0</td>
+  <td>4</td>
+  <td>9</td>
+  <td>9</td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>28</td>
+  <td class="team">Легія</td>
+  <td>6</td>
+  <td>2</td>
+  <td>0</td>
+  <td>4</td>
+  <td>8</td>
+  <td>8</td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>29</td>
+  <td class="team">Слован</td>
+  <td>6</td>
+  <td>2</td>
+  <td>0</td>
+  <td>4</td>
+  <td>5</td>
+  <td>9</td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>30</td>
+  <td class="team">Брейдаблік</td>
+  <td>6</td>
+  <td>1</td>
+  <td>2</td>
+  <td>3</td>
+  <td>6</td>
+  <td>11</td>
+  <td>5</td>
+</tr>
+
+<tr>
+  <td>31</td>
+  <td class="team">Шемрок</td>
+  <td>6</td>
+  <td>1</td>
+  <td>1</td>
+  <td>4</td>
+  <td>7</td>
+  <td>13</td>
+  <td>4</td>
+</tr>
+
+<tr>
+  <td>32</td>
+  <td class="team">Хеккен</td>
+  <td>6</td>
+  <td>0</td>
+  <td>3</td>
+  <td>3</td>
+  <td>5</td>
+  <td>8</td>
+  <td>3</td>
+</tr>
+
+<tr>
+  <td>33</td>
+  <td class="team">Хамрун Спартанс</td>
+  <td>6</td>
+  <td>1</td>
+  <td>0</td>
+  <td>5</td>
+  <td>4</td>
+  <td>11</td>
+  <td>3</td>
+</tr>
+
+<tr>
+  <td>34</td>
+  <td class="team">Шелбурн</td>
+  <td>6</td>
+  <td>0</td>
+  <td>2</td>
+  <td>4</td>
+  <td>0</td>
+  <td>7</td>
+  <td>2</td>
+</tr>
+
+<tr>
+  <td>35</td>
+  <td class="team">Абердін</td>
+  <td>6</td>
+  <td>0</td>
+  <td>2</td>
+  <td>4</td>
+  <td>3</td>
+  <td>14</td>
+  <td>2</td>
+</tr>
+
+<tr>
+  <td>36</td>
+  <td class="team">Рапід</td>
+  <td>6</td>
+  <td>0</td>
+  <td>1</td>
+  <td>5</td>
+  <td>3</td>
+  <td>14</td>
+  <td>1</td>
+</tr>
+
+
+  </tbody>
     </table>
   `
 },

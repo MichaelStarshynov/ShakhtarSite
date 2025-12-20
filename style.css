@@ -557,3 +557,14 @@ h2 {
 .league-table tbody tr:hover {
   background: #ddd;
 }
+.highlight-shakhtar {
+  background: orangered;
+  color: #000;
+  font-weight: 700;
+}
+
+.highlight-shakhtar td {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background: orangered;
+}
