@@ -328,7 +328,7 @@ window.coaches = [
 },
 {
 date: "21-2-26",
-opponent: "Карпати ЛЬвів",
+opponent: "Карпати Львів",
 time: "",
 score: "",
 place: "Арена Львів",

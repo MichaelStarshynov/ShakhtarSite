@@ -508,3 +508,52 @@ h2 {
 .datumNews {
   color: white;
 }
+.league-table {
+  width: 100%;
+  max-width: 1100px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+/* Шапка */
+.league-table thead th {
+  background: #000;
+  color: #fff;
+  padding: 14px 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Строки */
+.league-table tbody tr {
+  background: #f0f0f0;
+}
+
+.league-table tbody tr:nth-child(even) {
+  background: #e6e6e6;
+}
+
+/* Ячейки */
+.league-table td {
+  padding: 14px 10px;
+  text-align: center;
+}
+
+/* Название команды — влево */
+.league-table td.team {
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+/* Очки — акцент */
+.league-table td.points {
+  font-weight: 700;
+}
+
+/* Наведение */
+.league-table tbody tr:hover {
+  background: #ddd;
+}

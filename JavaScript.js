@@ -111,6 +111,223 @@ const pages = {
     text:  `<p>Місце в УПЛ: 2 місце</p><p>Місце в Лізі Конференцій: 1/8 фіналу</p><p>Місце в Кубку України: виліт в 1/8</p>`
 
   },
+Таблиця: {
+  title: 'Таблиця',
+  text: `
+  <h4>УПЛ</h4>
+    <table class="league-table">
+      <thead>
+        <tr>
+          <th>М</th>
+          <th>КОМАНДА</th>
+          <th>И</th>
+          <th>В</th>
+          <th>Н</th>
+          <th>П</th>
+          <th>З</th>
+          <th>П</th>
+          <th>О</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td class="team">ЛНЗ Черкаси</td>
+          <td>16</td>
+          <td>11</td>
+          <td>2</td>
+          <td>3</td>
+          <td>20</td>
+          <td>8</td>
+          <td>35</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td class="team">Шахтар Донецьк</td>
+          <td>16</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+          <td>42</td>
+          <td>12</td>
+          <td>35</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td class="team">Поліся Житомир</td>
+          <td>16</td>
+          <td>9</td>
+          <td>3</td>
+          <td>4</td>
+          <td>25</td>
+          <td>11</td>
+          <td>30</td>
+        </tr>
+
+         <tr>
+          <td>4</td>
+          <td class="team">Динамо Київ</td>
+          <td>16</td>
+          <td>7</td>
+          <td>5</td>
+          <td>4</td>
+          <td>35</td>
+          <td>21</td>
+          <td>26</td>
+        </tr>
+
+         <tr>
+          <td>5</td>
+          <td class="team">Кривбас</td>
+          <td>16</td>
+          <td>7</td>
+          <td>5</td>
+          <td>4</td>
+          <td>28</td>
+          <td>24</td>
+          <td>26</td>
+        </tr>
+
+     <tr>
+          <td>6</td>
+          <td class="team">Колос Ковалівка</td>
+          <td>16</td>
+          <td>6</td>
+          <td>7</td>
+          <td>3</td>
+          <td>17</td>
+          <td>13</td>
+          <td>25</td>
+        </tr>
+
+           <tr>
+          <td>7</td>
+          <td class="team">Металіст 1925</td>
+          <td>15</td>
+          <td>6</td>
+          <td>6</td>
+          <td>3</td>
+          <td>18</td>
+          <td>12</td>
+          <td>24</td>
+        </tr>
+
+           <tr>
+          <td>8</td>
+          <td class="team">Зоря Луганьск</td>
+          <td>16</td>
+          <td>6</td>
+          <td>5</td>
+          <td>5</td>
+          <td>19</td>
+          <td>18</td>
+          <td>23</td>
+        </tr>
+
+            <tr>
+          <td>9</td>
+          <td class="team">Карпати Львів</td>
+          <td>16</td>
+          <td>4</td>
+          <td>7</td>
+          <td>5</td>
+          <td>20</td>
+          <td>21</td>
+          <td>19</td>
+        </tr>
+  
+         <tr>
+          <td>10</td>
+          <td class="team">Рух Львів</td>
+          <td>16</td>
+          <td>6</td>
+          <td>1</td>
+          <td>9</td>
+          <td>15</td>
+          <td>23</td>
+          <td>19</td>
+        </tr>
+ 
+         <tr>
+          <td>11</td>
+          <td class="team">Верес Рівне</td>
+          <td>15</td>
+          <td>4</td>
+          <td>6</td>
+          <td>5</td>
+          <td>13</td>
+          <td>17</td>
+          <td>18</td>
+        </tr>
+
+         <tr>
+          <td>12</td>
+          <td class="team">Оболонь Київ</td>
+          <td>16</td>
+          <td>4</td>
+          <td>5</td>
+          <td>7</td>
+          <td>12</td>
+          <td>27</td>
+          <td>17</td>
+        </tr>
+
+         <tr>
+          <td>13</td>
+          <td class="team">Кудрівка</td>
+          <td>16</td>
+          <td>4</td>
+          <td>3</td>
+          <td>9</td>
+          <td>19</td>
+          <td>30</td>
+          <td>15</td>
+        </tr>
+
+         <tr>
+          <td>14</td>
+          <td class="team">Епіцентр</td>
+          <td>16</td>
+          <td>7</td>
+          <td>5</td>
+          <td>4</td>
+          <td>18</td>
+          <td>27</td>
+          <td>14</td>
+        </tr>
+
+         <tr>
+          <td>15</td>
+          <td class="team">Олександрія</td>
+          <td>16</td>
+          <td>2</td>
+          <td>5</td>
+          <td>9</td>
+          <td>14</td>
+          <td>28</td>
+          <td>11</td>
+        </tr>
+
+         <tr>
+          <td>16</td>
+          <td class="team">Полтава</td>
+          <td>16</td>
+          <td>2</td>
+          <td>3</td>
+          <td>11</td>
+          <td>14</td>
+          <td>38</td>
+          <td>9</td>
+        </tr>
+
+      </tbody>
+    </table>
+  `
+},
+
   Квитки: {
     title: `Купити квітки`,
     text: `Квитки на матч можно купити <a href="https://tickets.shakhtar.com/" target="_blank">тут</a>.<br><img src="https://shakhtar.com/-/media/fcsd/news/2025/october/23_news/23_shakhtar_legia/gal/mls_4061.jpg?1765623518331">`
