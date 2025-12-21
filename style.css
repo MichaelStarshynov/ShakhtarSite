@@ -571,3 +571,11 @@ h2 {
   border-bottom: 2px solid #000;
   background: orangered;
 }
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;   /* 👈 горизонтальный скролл */
+}
+
+.league-table {
+  min-width: 700px;   /* таблица не сжимается в кашу */
+}
