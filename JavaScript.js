@@ -157,7 +157,7 @@ const pages = {
 
         <tr>
           <td>3</td>
-          <td class="team">Поліся Житомир</td>
+          <td class="team">Полісся Житомир</td>
           <td>16</td>
           <td>9</td>
           <td>3</td>
@@ -788,12 +788,12 @@ const pages = {
   },
   Магазин: {
     title: `Магазин`,
-    text: `Магазин Шахтаря можно знайти <a href="https://shop.shakhtar.com/" target="_blank">тут</a>.<img src="https://shakhtar.com/-/media/fcsd/news/2025/december/11_news/11_hamrunspartans_shakhtar/gal/mls_1328.jpg?1765623617258">`
+    text: `Магазин Шахтаря можно знайти <a href="https://shop.shakhtar.com/" target="_blank">тут</a>.<img src="https://shakhtar.com/-/media/fcsd/news/2025/december/14_news/14_shakhtar_epicentr/gal/mls_7639.jpg?1766308184780">`
   },
   Телеграм: {
     title: `Телеграм Канал`,
     text: `<p>Підпісуйтесь на наш <a href="https://t.me/FanShakhtarDonetsk" target="_blank">Телеграм канал</a> заради більше новин.</p>
-    <img src="https://shakhtar.com/-/media/fcsd/news/2025/december/6_news/6_kolos_shakhtar/gal/mls_4225.jpg?1765623759827" >`
+    <img src="https://shakhtar.com/-/media/fcsd/news/2025/november/2_news/2_shakhtar_dynamo/gal/mls_7241.jpg?1766308325474" >`
   }
 };
 

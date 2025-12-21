@@ -7,8 +7,11 @@ body {
   font-family: sans-serif;
   text-align: center;
   color: black;
-  background: orangered;
-  background-attachment: fixed;
+  background-image: url("https://sport24.ua/resources/photos/news/202204/e83330a4-4b6d-4a12-8bb3-3d866a46acb1.jpeg");
+  background-size: cover;        /* растягивает без искажений */
+  background-position: center;   /* по центру */
+  background-repeat: no-repeat;  /* без повторов */
+  background-attachment: fixed;  /* фиксированный фон */
 }
 h1 {
   background-color: orangered; 
