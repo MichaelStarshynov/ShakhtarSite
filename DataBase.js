@@ -444,7 +444,7 @@ window.legends = [
     photo: "https://i.postimg.cc/y8X7n6bc/marlos.png",
     matches: "287",
     assist: "65",
-    goal: "74",
+    goals: "74",
   },
   {
     name: "Мірча Луческу",
