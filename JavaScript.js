@@ -558,7 +558,7 @@ function showNews() {
     preview.innerHTML = `
       <h3>${item.title}</h3>
       <p style="color: white;">${item.datum}</p>
-      ${item.pinned ? '<p style="color: orangered;">📌 Закріплено</p>' : ''}
+      ${item.pinned ? '<p style="color: yellow;">📌 Закріплено</p>' : ''}
     `;
 
     grid.appendChild(preview);
