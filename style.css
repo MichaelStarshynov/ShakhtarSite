@@ -7,15 +7,15 @@ body {
   font-family: sans-serif;
   text-align: center;
   color: black;
-  background-image: url("https://sport24.ua/resources/photos/news/202204/e83330a4-4b6d-4a12-8bb3-3d866a46acb1.jpeg");
+  background-color: green;
   background-size: cover;        /* растягивает без искажений */
   background-position: center;   /* по центру */
   background-repeat: no-repeat;  /* без повторов */
   background-attachment: fixed;  /* фиксированный фон */
 }
 h1 {
-  background-color: orangered; 
-  color: Black;            
+  background-color: green; 
+  color: yellow;            
   margin: 0;
   padding: 20px;
   font-size: 36px;
@@ -34,8 +34,8 @@ h1 {
 }
 
 .nav-btn {
-  background-color: orangered;
-  color: black;
+  background-color: yellow;
+  color: green;
   border: none;
   padding: 10px 16px;
   font-size: 16px;
@@ -165,7 +165,7 @@ img:hover {
   padding: 20px;
   max-width: 340px;
   flex: 1 1 300px;
-  border: 2px solid #ff8c00;
+  border: 2px solid green;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   cursor: pointer;
@@ -179,7 +179,7 @@ img:hover {
 
 .news-card h4 {
   margin: 0 0 10px;
-  color: #ff8c00;
+  color: yellow;
   font-size: 20px;
   font-weight: 700;
 }
@@ -192,7 +192,7 @@ img:hover {
 }
 
 .back-btn {
-  background: #ff8c00;
+  background: yellow;
   color: #111;
   padding: 8px 16px;
   margin-bottom: 18px;
@@ -211,8 +211,8 @@ img:hover {
 
 
 .shop-btn {
-  background-color: orangered;
-  color: black;
+  background-color: yellow;
+  color: green;
   padding: 12px 24px;
   font-size: 18px;
   border: none;
@@ -347,8 +347,8 @@ img:hover {
 
 .match-card {
   background-color: #f9f9f9;
-  border-left: 5px solid orangered;
-  border-right: 5px solid black;
+  border-left: 5px solid green;
+  border-right: 5px solid yellow;
   padding: 15px;
   margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -359,7 +359,7 @@ img:hover {
 }
 
 a {
-  color: orangered;
+  color: green;
 }
 .history-picture {
  width: 300px;
@@ -389,7 +389,7 @@ a {
   display: block;
   margin: 25px auto;
   border-radius: 15px;
-  border: 3px solid orangered; /* помаранчевий акцент клубу */
+  border: 3px solid green; /* помаранчевий акцент клубу */
   box-shadow: 0 4px 20px white(0,0,0,0.4);
   transition: transform 0.3s ease;
 }
@@ -408,8 +408,8 @@ h2 {
 
 /* Кнопка "Назад" */
 .back-btn {
-  background: black;
-  color: orangered;
+  background: yellow;
+  color: green;
   border: none;
   border-radius: 8px;
   padding: 10px 20px;
@@ -506,7 +506,7 @@ h2 {
   font-size: 15px;
 }
 .goalShakhtar {
-  color: orangered;
+  color: green;
 }
 .datumNews {
   color: white;
@@ -560,16 +560,16 @@ h2 {
 .league-table tbody tr:hover {
   background: #ddd;
 }
-.highlight-shakhtar {
-  background: orangered;
-  color: #000;
+.highlight-polissya {
+  background: green;
+  color: yellow;
   font-weight: 700;
 }
 
-.highlight-shakhtar td {
+.highlight-polissya td {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
-  background: orangered;
+  background: green;
 }
 .table-wrapper {
   width: 100%;
