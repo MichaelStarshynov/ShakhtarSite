@@ -330,12 +330,12 @@ const pages = {
   },
   Магазин: {
     title: `Магазин`,
-    text: `Магазин Шахтаря можно знайти <a href="https://polissya.shop/" target="_blank">тут</a>.<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZm9tVdxb766BFW0UAh3U_NgXPiQ_r539qtA&s">`
+    text: `Магазин Шахтаря можно знайти <a href="https://polissya.shop/" target="_blank">тут</a>.<img src="https://polissyafc.com/uploads/image/71bdd71ece-img20250702104323836.jpg">`
   },
   Телеграм: {
     title: `Телеграм Канал`,
     text: `<p>Підпісуйтесь на наш <a href="https://t.me/PolyssiaZhytomyr" target="_blank">Телеграм канал</a> заради більше новин.</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLSLWWMSGe2UJCS1-qXD9Y_Su4ys5zgYaqTg&s" >`
+    <img src="https://i.postimg.cc/zf3n8sth/ac2e2812-6688-4c81-b44a-50c363ad05f3.jpg" >`
   }
 };
 
