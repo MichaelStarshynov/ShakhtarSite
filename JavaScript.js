@@ -330,7 +330,7 @@ const pages = {
   },
   Магазин: {
     title: `Магазин`,
-    text: `Магазин Шахтаря можно знайти <a href="https://polissya.shop/" target="_blank">тут</a>.<img src="https://polissyafc.com/uploads/image/71bdd71ece-img20250702104323836.jpg">`
+    text: `Магазин Полісся можно знайти <a href="https://polissya.shop/" target="_blank">тут</a>.<img src="https://polissyafc.com/uploads/image/71bdd71ece-img20250702104323836.jpg">`
   },
   Телеграм: {
     title: `Телеграм Канал`,
