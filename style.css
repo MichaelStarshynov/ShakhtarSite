@@ -7,15 +7,15 @@ body {
   font-family: sans-serif;
   text-align: center;
   color: black;
-  background-color: green;
+  background-color: orangered;
   background-size: cover;        /* растягивает без искажений */
   background-position: center;   /* по центру */
   background-repeat: no-repeat;  /* без повторов */
   background-attachment: fixed;  /* фиксированный фон */
 }
 h1 {
-  background-color: green; 
-  color: yellow;            
+  background-color: orangered; 
+  color: black;            
   margin: 0;
   padding: 20px;
   font-size: 36px;
@@ -23,26 +23,76 @@ h1 {
   text-align: center;
 }
 
+/* ===== ОСНОВНА НАВІГАЦІЯ ===== */
 #nav {
-  background-color: black;
-  padding: 10px;
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  justify-content: center; /* ⬅️ по центру */
+  gap: 6px;
+  padding: 10px 16px;
+  background: grey;        /* світло-сірий фон */
+
 }
 
+/* контейнер кнопки */
+.nav-item {
+  position: relative;
+}
+
+/* головні кнопки */
 .nav-btn {
-  background-color: yellow;
-  color: green;
+  background: transparent;
+  color: black;
   border: none;
-  padding: 10px 16px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* hover */
+.nav-btn:hover {
+  background: #e0e0e0;
+}
+
+/* активна сторінка */
+.nav-btn.active {
+  background: #d6d6d6;
+  color: #000;
+}
+
+/* ===== DROPDOWN ===== */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  z-index: 1000;
+}
+
+/* показ при hover */
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+/* пункти dropdown */
+.dropdown-item {
+  padding: 9px 14px;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+  color: #000;
 }
 
 img {
@@ -165,7 +215,7 @@ img:hover {
   padding: 20px;
   max-width: 340px;
   flex: 1 1 300px;
-  border: 2px solid green;
+  border: 2px solid orangered;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   cursor: pointer;
@@ -179,7 +229,7 @@ img:hover {
 
 .news-card h4 {
   margin: 0 0 10px;
-  color: yellow;
+  color: orangered;
   font-size: 20px;
   font-weight: 700;
 }
@@ -192,7 +242,7 @@ img:hover {
 }
 
 .back-btn {
-  background: yellow;
+  background: orangered;
   color: #111;
   padding: 8px 16px;
   margin-bottom: 18px;
@@ -211,8 +261,8 @@ img:hover {
 
 
 .shop-btn {
-  background-color: yellow;
-  color: green;
+  background-color: black;
+  color: orangered;
   padding: 12px 24px;
   font-size: 18px;
   border: none;
@@ -347,8 +397,8 @@ img:hover {
 
 .match-card {
   background-color: #f9f9f9;
-  border-left: 5px solid green;
-  border-right: 5px solid yellow;
+  border-left: 5px solid black;
+  border-right: 5px solid orangered;
   padding: 15px;
   margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -359,7 +409,7 @@ img:hover {
 }
 
 a {
-  color: green;
+  color: orangered;
 }
 .history-picture {
  width: 300px;
@@ -389,7 +439,7 @@ a {
   display: block;
   margin: 25px auto;
   border-radius: 15px;
-  border: 3px solid green; /* помаранчевий акцент клубу */
+  border: 3px solid orangered; /* помаранчевий акцент клубу */
   box-shadow: 0 4px 20px white(0,0,0,0.4);
   transition: transform 0.3s ease;
 }
@@ -408,8 +458,8 @@ h2 {
 
 /* Кнопка "Назад" */
 .back-btn {
-  background: yellow;
-  color: green;
+  background: orangered;
+  color: black;
   border: none;
   border-radius: 8px;
   padding: 10px 20px;
@@ -505,8 +555,8 @@ h2 {
   margin: 4px 0;
   font-size: 15px;
 }
-.goalPolissya {
-  color: green;
+.goalShakhtar {
+  color: orangered;
 }
 .datumNews {
   color: white;
@@ -560,16 +610,16 @@ h2 {
 .league-table tbody tr:hover {
   background: #ddd;
 }
-.highlight-polissya {
-  background: green;
-  color: yellow;
+.highlight-shakhtar {
+  background-color: orangered;
+  color: black;
   font-weight: 700;
 }
 
 .highlight-polissya td {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
-  background: green;
+  background: orangered;
 }
 .table-wrapper {
   width: 100%;
