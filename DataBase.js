@@ -430,6 +430,70 @@ window.coaches = [
     photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/oleksii-hai/gai_p2.png?h=610&iar=0&w=473",
   },
 ];
+
+window.legends =[
+   {
+      name: "Андрій Пятов",
+      photo: "https://shakhtar.com/-/media/fcsd/players/30-andriy-pyatov/bio_pyatov_2017.png?h=610&iar=0&w=473",
+      age: "41",
+      nationality: "Україна",
+      position: "Воротар",
+      matches: "482",
+      goals: "0",
+      assist: "0",
+   },
+   {
+      name: "Дарійо Срна",
+      photo: "https://shakhtar.com/-/media/fcsd/players/33-darijo-srna/srna2_.jpg?h=610&iar=0&w=473",
+      age: "43",
+      nationality: "Хорватіяя",
+      position: "Захисник",
+      matches: "536",
+      goals: "49",
+      assist: "129",
+   },
+   {
+      name: "Жадсон",
+      photo: "https://shakhtar.com/-/media/fcsd/legends/j/jadson_halfturn.jpg?h=610&iar=0&w=473",
+      age: "42",
+      nationality: "Бразілія",
+      position: "Півзахисник",
+      matches: "272",
+      goals: "64",
+      assist: "64",
+   },
+   {
+      name: "Андрій Воробей",
+      photo: "https://shakhtar.com/-/media/fcsd/legends/vorobey/vorobey-bio.png?h=610&iar=0&w=473",
+      age: "47",
+      nationality: "Україна",
+      position: "Нападник",
+      matches: "319",
+      goals: "114",
+      assist: "49",
+   },
+   {
+      name: "Луїз Адріано",
+      photo: "https://shakhtar.com/-/media/fcsd/legends/adriano/adriano-bio.png?h=610&iar=0&w=473",
+      age: "38",
+      nationality: "Бразілія",
+      position: "Нападник",
+      matches: "266",
+      goals: "128",
+      assist: "43",
+   },
+   {
+      name: "Мірча Луческу",
+      photo: "https://shakhtar.com/-/media/fcsd/legends/ml/ml.png?h=610&iar=0&w=473",
+      age: "80",
+      nationality: "Румунія",
+      position: "Головний тренер",
+      matches: "573",
+      goals: "0",
+      assist: "0",
+   },
+];
+
   window.matches = [
 {
  date: "18-12-25",

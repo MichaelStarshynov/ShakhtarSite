@@ -29,7 +29,7 @@ h1 {
   justify-content: center; /* ⬅️ по центру */
   gap: 6px;
   padding: 10px 16px;
-  background: grey;        /* світло-сірий фон */
+  background: black;        /* світло-сірий фон */
 
 }
 
@@ -41,8 +41,7 @@ h1 {
 /* головні кнопки */
 .nav-btn {
   background: transparent;
-  color: black;
-  border: none;
+  color: white;
   padding: 10px 14px;
   font-size: 14px;
   font-weight: 500;
@@ -53,7 +52,8 @@ h1 {
 
 /* hover */
 .nav-btn:hover {
-  background: #e0e0e0;
+  background: orangered;
+  color: white;
 }
 
 /* активна сторінка */
@@ -616,7 +616,7 @@ h2 {
   font-weight: 700;
 }
 
-.highlight-polissya td {
+.highlight-shakhtar td {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   background: orangered;
@@ -628,4 +628,43 @@ h2 {
 
 .league-table {
   min-width: 700px;   /* таблица не сжимается в кашу */
+}
+.legends-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.legend-card {
+  background: white;
+  color: black;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  border-left: 2px solid black;
+  border-right: 2px solid orangered;
+}
+
+.legend-card:hover {
+  transform: translateY(-5px);
+}
+
+.legend-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.legend-card h3 {
+  margin: 10px 0 5px;
+}
+
+.legend-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-weight: 700;
 }

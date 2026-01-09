@@ -74,6 +74,10 @@ const pages = {
          alt="Донбас Арена"
          style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
 
+         <img src="https://editorial.uefa.com/resources/0254-0f85ee245bfb-e31165c89211-1000/_-2012.jpeg" 
+         alt=" Трибуни Донбас Арени"
+         style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
+
     <h3>Арена Львів</h3>
     <p>Через війну на Донбассі, Шахтар був вимушений виіхати з Донецька та перестати грати на Донбасс Арені. Арена Львів це сучасній стадіон, який приймав матчі Євро-2012.</p>
 
@@ -86,7 +90,11 @@ const pages = {
      </ul>
 
      <img src="https://i0.wp.com/photo-lviv.in.ua/wp-content/uploads/2019/02/arena.jpg?fit=1280%2C849&ssl=1" 
-         alt="Донбас Арена"
+         alt="Арена Львів"
+         style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
+
+         <img src="https://upload.wikimedia.org/wikipedia/ru/6/68/Lviv_Arena_Lviv_15.JPG" 
+         alt="Трибуни Арени Львів"
          style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
   `
 },
@@ -134,6 +142,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
     text:  `<p>Місце в УПЛ: 2 місце</p><p>Місце в Кубку України: виліт в 1/8 фіналу</p>`
   },
    Тренери: { title: `Coaches` },
+   Легенди: { title: `Legends` },
 Таблиця: {
   title: 'Таблиця',
   text: `
@@ -371,7 +380,7 @@ const menuGroups = {
   'Клуб': ['Історія', 'Стадіон', 'Логотип'],
   'Матчі': ['Таблиця'],
   'Магазин': ['Квитки'],
-  'Команда': ['Тренери'],
+  'Команда': ['Тренери', 'Легенди'],
   'Телеграм': [],
 };
 
@@ -453,7 +462,11 @@ function showPage(pageKey) {
     return;
   }
  if (pageKey === 'Тренери') {
-    showCoaches(); // ось тут
+    showCoaches(); 
+    return;
+  }
+   if (pageKey === 'Легенди') {
+    showLegends(); 
     return;
   }
   const titleElem = document.createElement('h2');
@@ -467,6 +480,41 @@ function showPage(pageKey) {
   }
 }
 
+// легенди
+function showLegends() {
+  content.innerHTML = '';
+
+  const title = document.createElement('h2');
+  title.textContent = 'Легенди ФК Шахтар';
+  content.appendChild(title);
+
+  const container = document.createElement('div');
+  container.className = 'legends-container';
+
+  window.legends.forEach(legend => {
+    const card = document.createElement("div");
+    card.className = "legend-card";
+
+    card.innerHTML = `
+      <img src="${legend.photo}" alt="${legend.name}">
+      <h3>${legend.name}</h3>
+
+      <p><strong>Національність:</strong> ${legend.nationality}</p>
+      <p><strong>Вік:</strong> ${legend.age}</p>
+      <p><strong>Позиція:</strong> ${legend.position}</p>
+
+      <div class="legend-stats">
+        <span>🏟️ ${legend.matches}</span>
+        <span>⚽ ${legend.goals}</span>
+        <span>🎯 ${legend.assist}</span>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+
+  content.appendChild(container);
+}
 
 
 // Функція інформації гравців 
@@ -642,7 +690,7 @@ function showNews() {
     preview.innerHTML = `
       <h3>${item.title}</h3>
       <p style="color: white;">${item.datum}</p>
-      ${item.pinned ? '<p style="color: yellow;">📌 Закріплено</p>' : ''}
+      ${item.pinned ? '<p style="color: orangered;">📌 Закріплено</p>' : ''}
     `;
 
     grid.appendChild(preview);
