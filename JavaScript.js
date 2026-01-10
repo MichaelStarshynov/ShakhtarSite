@@ -77,7 +77,7 @@ const pages = {
          <img src="https://editorial.uefa.com/resources/0254-0f85ee245bfb-e31165c89211-1000/_-2012.jpeg" 
          alt=" Трибуни Донбас Арени"
          style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
-
+<br><hr><br>
     <h3>Арена Львів</h3>
     <p>Через війну на Донбассі, Шахтар був вимушений виіхати з Донецька та перестати грати на Донбасс Арені. Арена Львів це сучасній стадіон, який приймав матчі Євро-2012.</p>
 
@@ -370,7 +370,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
   },
   Телеграм: {
     title: `Телеграм Канал`,
-    text: `<p>Підпісуйтесь на наш <a href="https://t.me/PolyssiaZhytomyr" target="_blank">Телеграм канал</a> заради більше новин.</p>
+    text: `<p>Підпісуйтесь на наш <a href="https://t.me/FanShakhtarDonetsk" target="_blank">Телеграм канал</a> заради більше новин.</p>
     <img src="https://pic.sport.ua/images/news/0/10/126/orig_425350.jpg" >`
   }
 };
