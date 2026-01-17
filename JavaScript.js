@@ -6,12 +6,17 @@ document.body.appendChild(h1);
 // Навигация
 const nav = document.createElement('div');
 nav.id = 'nav';
+nav.style.display = 'flex';
+nav.style.alignItems = 'center';
+nav.style.gap = '20px';
 document.body.appendChild(nav);
 
 // Контент
 const content = document.createElement('div');
 content.id = 'content';
 document.body.appendChild(content);
+nav.style.position = 'relative';
+
 
 // Страницы сайта
 const pages = {
@@ -359,6 +364,51 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
     </table>
   `
 },
+Сезон: {
+  title: `Сезон 25/26`,
+  text: `
+    <h2>Сезон 2025/26</h2>
+
+    <p>
+      Сезон 2025/26 — це новий етап для ФК «Шахтар». Команда входить у нього
+      з оновленими амбіціями та новим тренерскій штабом.
+    </p>
+
+    <hr>
+
+    <h3>Форма сезону</h3>
+
+    <div id="kits" style="margin-bottom:20px;">
+      <button onclick="showKit('home')">Домашня</button>
+      <button onclick="showKit('away')">Виїзна</button>
+      <button onclick="showKit('third')">Третя</button>
+    </div>
+
+    <img id="kitImage"
+      style="width:260px; display:block; margin-bottom:10px;">
+
+    <p id="kitText">
+      Класична оранжево-чорна форма. Символ стабільності та характеру клубу.
+    </p>
+
+    <hr>
+
+    <h3>Очікування від сезону</h3>
+    <ul>
+      <li>Боротьба за чемпіонство УПЛ</li>
+      <li>Півфінал чи фінал Лігі Конференцій</li>
+      <li>Прогрес молодих гравців</li>
+    </ul>
+
+    <hr>
+
+    <h3>Погляд фаната</h3>
+    <p>
+      Цей сезон — не про ідеал, а про рух уперед.
+      Важливо бачити характер, дисципліну та віру до кінця.
+    </p>
+  `
+},
 
   Квитки: {
     title: `Купити квітки`,
@@ -382,9 +432,24 @@ const menuGroups = {
   'Магазин': ['Квитки'],
   'Команда': ['Тренери', 'Легенди'],
   'Телеграм': [],
+  'Сезон': [],
 };
 
+// Функція футболок на сторінці Сезон
 
+function showKit(type) {
+  const img = document.getElementById('kitImage');
+  const text = document.getElementById('kitText');
+
+  img.style.display = 'block';
+  img.style.opacity = '0';
+
+  setTimeout(() => {
+    img.src = kits[type].img;
+    text.textContent = kits[type].text;
+    img.style.opacity = '1';
+  }, 100);
+}
 
 // Создаем кнопки навигации + dropdown
 // всі підсторінки з dropdown

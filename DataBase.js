@@ -544,3 +544,17 @@ competition: "УПЛ",
   competition: "УПЛ",
 }
 ];
+const kits = {
+  home: {
+    img: 'https://shop.shakhtar.com/images/thumbnails/900/900/detailed/19/fc-shakhtar-puma-fcsd-home-authentic-jersey-77970601_oexn-le.webp.webp',
+    text: 'Класична оранжево-чорна форма. Символ стабільності та характеру клубу.'
+  },
+  away: {
+    img: 'https://shop.shakhtar.com/images/thumbnails/900/900/detailed/19/fc-shakhtar-puma-fcsd-away-authentic-jersey-77970702_l4eh-1a.webp.webp',
+    text: 'Світла виїзна форма для складних матчів поза домом.'
+  },
+  third: {
+    img: 'https://shop.shakhtar.com/images/thumbnails/900/900/detailed/19/fc-shakhtar-puma-fcsd-third-authentic-jersey-77970803_0zih-og.webp.webp',
+    text: 'Експериментальна форма для єврокубкових вечорів.'
+  }
+};

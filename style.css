@@ -26,8 +26,9 @@ h1 {
 /* ===== ОСНОВНА НАВІГАЦІЯ ===== */
 #nav {
   display: flex;
-  justify-content: center; /* ⬅️ по центру */
-  gap: 6px;
+  justify-content: center;   /* ✅ по центру */
+  align-items: center;
+  gap: 12px;
   padding: 10px 16px;
   background: black;        /* світло-сірий фон */
 
@@ -54,6 +55,7 @@ h1 {
 .nav-btn:hover {
   background: orangered;
   color: white;
+  scale: 1.09;
 }
 
 /* активна сторінка */
@@ -95,11 +97,6 @@ h1 {
   color: #000;
 }
 
-img {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 hr {
   width: 600px;
@@ -109,10 +106,6 @@ hr {
   margin: 20px auto; /* По центру */
 }
 
-
-.nav-btn:hover {
-  scale: 1.09;
-}
 
 #content {
   padding: 30px;
@@ -130,11 +123,14 @@ img {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   margin: 20px auto;
-  display: flex;
+  display: block;
   transition: transform 0.3s ease;
    display: flex;
   justify-content: center; /* по горизонтали */
   align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img:hover {
@@ -311,13 +307,6 @@ img:hover {
 }
 
 .match-card {
-  background: #f9f9f9;
-  padding: 15px;
-  border-radius: 10px;
-  max-width: 400px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-.match-card {
   background: #f9fbff;
   border: 1px solid #cdd9ed;
   border-radius: 14px;
@@ -327,6 +316,8 @@ img:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   font-family: 'Segoe UI', sans-serif;
   transition: all 0.3s ease;
+  border-left: 9px orangered;
+  border-right: 9px black;
 }
 
 .match-card:hover {
@@ -395,14 +386,7 @@ img:hover {
   margin-bottom: 20px;
 }
 
-.match-card {
-  background-color: #f9f9f9;
-  border-left: 5px solid black;
-  border-right: 5px solid orangered;
-  padding: 15px;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+
 
 .match-card div {
   margin: 5px 0;
@@ -668,3 +652,77 @@ h2 {
   margin-top: 10px;
   font-weight: 700;
 }
+/* Общий контейнер */
+#season {
+  font-family: 'Arial', sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Заголовки */
+#season h2 {
+  font-size: 28px;
+  color: #ff6600; /* оранжевый Шахтера */
+  margin-bottom: 15px;
+}
+
+#season h3 {
+  font-size: 22px;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff6600;
+  padding-bottom: 5px;
+}
+
+/* Параграфы */
+#season p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Список */
+#season ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+#season ul li {
+  margin-bottom: 8px;
+}
+
+/* Кнопки формы */
+#kits button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#kits button:hover {
+  background-color: #e65500;
+  transform: translateY(-2px);
+}
+
+/* Изображение формы */
+#kitImage {
+  width: 260px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
