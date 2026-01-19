@@ -182,7 +182,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
 
         <tr class="highlight-shakhtar">
           <td>2</td>
-          <td class="team">⚒️ Шахтар Донецьк</td>
+          <td class="team">Шахтар Донецьк</td>
           <td>16</td>
           <td>10</td>
           <td>5</td>
@@ -421,18 +421,59 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
     title: `Телеграм Канал`,
     text: `<p>Підпісуйтесь на наш <a href="https://t.me/FanShakhtarDonetsk" target="_blank">Телеграм канал</a> заради більше новин.</p>
     <img src="https://pic.sport.ua/images/news/0/10/126/orig_425350.jpg" >`
+  },
+  Менеджмент: {
+    title: "Менеджмент",
+  },
+  Результати: {
+    title: "Результати",
   }
+
+  
 };
 
 const menuGroups = {
   'Головна': [],
-  'Клуб': ['Історія', 'Стадіон', 'Логотип'],
-  'Матчі': ['Таблиця'],
+  'Клуб': ['Історія', 'Стадіон', 'Логотип', 'Менеджмент'],
+  'Матчі': ['Таблиця', 'Результати'],
   'Магазин': ['Квитки'],
   'Команда': ['Тренери', 'Легенди'],
   'Телеграм': [],
   'Сезон': [],
 };
+
+
+// Результати
+function showResults() {
+  content.innerHTML = '<h2>Результати матчів</h2>';
+
+  const grid = document.createElement('div');
+  grid.className = 'matches-grid';
+
+  if (!window.results || window.results.length === 0) {
+    grid.innerHTML = '<p>Результатів ще нема</p>';
+    content.appendChild(grid);
+    return;
+  }
+
+  window.results.forEach(match => {
+    const card = document.createElement('div');
+    card.className = 'match-card';
+
+    card.innerHTML = `
+      <p><strong>📅 Дата:</strong> ${match.date}</p>
+      <p><strong>⚔️ Суперник:</strong> ${match.opponent}</p>
+      <p><strong>🕒 Час (УКР):</strong> ${match.time}</p>
+      <p><strong>🎯 Рахунок:</strong> ${match.score}</p>
+      <p><strong>📍 Місце:</strong> ${match.place}</p>
+      <p><strong>🏆 Турнір:</strong> ${match.competition}</p>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  content.appendChild(grid);
+}
 
 // Функція футболок на сторінці Сезон
 
@@ -533,6 +574,14 @@ function showPage(pageKey) {
     showLegends(); 
     return;
   }
+  if (pageKey === 'Менеджмент') {
+    showManagment(); 
+    return;
+  }
+  if (pageKey === 'Результати') {
+  showResults();
+  return;
+}
   const titleElem = document.createElement('h2');
   titleElem.textContent = page.title;
   content.appendChild(titleElem);
@@ -572,6 +621,34 @@ function showLegends() {
         <span>⚽ ${legend.goals}</span>
         <span>🎯 ${legend.assist}</span>
       </div>
+    `;
+
+    container.appendChild(card);
+  });
+
+  content.appendChild(container);
+}
+// менеджмент
+function showManagment() {
+  content.innerHTML = '';
+
+  const title = document.createElement('h2');
+  title.textContent = 'Менеджмент ФК Шахтар';
+  content.appendChild(title);
+
+  const container = document.createElement('div');
+  container.className = 'legends-container';
+
+  window.managment.forEach(person => {
+    const card = document.createElement('div');
+    card.className = 'legend-card';
+
+    card.innerHTML = `
+      <img src="${person.photo}" alt="${person.name}">
+      <h3>${person.name}</h3>
+      <p><strong>Роль:</strong> ${person.role}</p>
+      <p><strong>Національність:</strong> ${person.nationality}</p>
+      <p><strong>Вік:</strong> ${person.age}</p>
     `;
 
     container.appendChild(card);
