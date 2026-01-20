@@ -298,6 +298,17 @@ window.team = [
      matches: "19",
   },
   {
+    name: "Проспер Обах",
+    age:"22",
+    number: "68",
+    position: "Півзахисник",
+    nationality: "Нігерія",
+    photo: "https://shakhtar.com/-/media/fcsd/players/obah-prosper/obah_p2.png?h=610&iar=0&w=473",
+    goals: "",
+    assist: "",
+    matches: "",
+  },
+  {
      name: "Лассіна Траоре",
      age: "24",
      number: "2",
