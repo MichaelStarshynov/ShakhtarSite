@@ -12,7 +12,7 @@ window.team = [
   },
   {
      name: "Дмитро Різник",
-     age: "26",
+     age: "27",
      number: "31",
      position: "Воротар",
      nationality: "Україна",
@@ -346,7 +346,7 @@ window.team = [
 window.coaches = [
     {
     name: "Арда Туран",
-    age: 38,
+    age: 39,
     position: "Тренерскій штаб",
     coach: "Головний тренер",
     nationality: "Турція",
@@ -417,7 +417,7 @@ window.coaches = [
     photo: "https://shakhtar.com/-/media/fcsd/coaches/first_team/ivan-bashtovyi/bashtovyi_bio_2025.png?h=610&iar=0&w=473",
   },
   {
-    name: "радіон Пальцун",
+    name: "Радіон Пальцун",
     age: "38",
     position: "Тренерскій штаб",
     coach: "Аналітік",
@@ -530,9 +530,9 @@ window.managment = [
   window.matches = [
 
 {
-date: "21-2-26",
+date: "22-2-26",
 opponent: "Карпати Львів",
-time: "",
+time: "15:30",
 score: "",
 place: "Арена Львів",
 competition: "УПЛ",
