@@ -84,7 +84,7 @@ const pages = {
          style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
 <br>
 <h3>Кірша</h3>
-<p>Тренерувальна база Шахтаря. Знаходиться 15 м від Донецьку. У 2014 опинилась у центрі бойових дій, внаслідок обстрілу була пошкоджена. </p>
+<p>Тренерувальна база Шахтаря. Знаходиться 15 км від Донецьку. У 2014 опинилась у центрі бойових дій, внаслідок обстрілу була пошкоджена. </p>
 <h4>Характеристики:</h4>
 <ul>
 <li>Кількість полей: 9 полей</li>
@@ -126,7 +126,7 @@ const pages = {
          <li>Рік видкриття: 2014</li>
          </ul>
 
-          <img src="https://s5o.ru/storage/simple/ua/edt/10/14/8e/7d/uaef1a1c0fa3d.jpg" 
+          <img src="https://fanday.net/img/news/UPL/Drugoe/svyatoshin.webp" 
          alt="Святошин"
          style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
   `
