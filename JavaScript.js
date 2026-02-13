@@ -92,7 +92,7 @@ const pages = {
 <li>Розташування: Донецьк, Україна</li>
 <li>Рік реконструції: 1999</li>
 </ul>
-<img src="https://vchasnoua.com//storage/images/news/2017/03/02/47530__max_gal.jpg" 
+<img src="https://alchetron.com/cdn/kirsha-training-centre-857dc2ef-7c77-4c36-991b-39879ae1d35-resize-750.jpeg" 
          alt="База Кірша"
          style="max-width:500px; border-radius:10px; display:block; margin:20px auto;">
 <hr>

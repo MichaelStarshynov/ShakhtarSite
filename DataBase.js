@@ -220,17 +220,6 @@ window.team = [
      matches: "19",
   },
   {
-     name: "Антон Глущенко",
-     age: "21",
-     number: "20",
-     position: "Півзахисник",
-     nationality: "Україна",
-     photo: "https://shakhtar.com/-/media/fcsd/players/hlushchenko/hlushchenko_bio__25_26.png?h=610&iar=0&w=473",
-     goals: "1",
-     assist: "",
-     matches: "5",
-  },
-  {
      name: "Артем Бондаренко",
      age: "25",
      number: "21",
