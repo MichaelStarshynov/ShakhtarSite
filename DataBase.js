@@ -131,17 +131,6 @@ window.team = [
      matches: "19",
   },
   {
-     name: "Мар'ян Фарина",
-     age: "22",
-     number: "74",
-     position: "Захистник",
-     nationality: "Україна",
-     photo: "https://shakhtar.com/-/media/fcsd/players/faryna-marian/faryna_bio_25_26.png?h=610&iar=0&w=473",
-     goals: "",
-     assist: "",
-     matches: "2",
-  },
-  {
      name: "Марлон Гомес",
      age: "22",
      number: "6",
@@ -522,23 +511,20 @@ window.managment = [
 date: "22-2-26",
 opponent: "Карпати Львів",
 time: "15:30",
-score: "",
 place: "Арена Львів",
 competition: "УПЛ",
 },
 {
 date: "28-2-26",
 opponent: "Верес Рівне",
-time: "",
-score: "",
+time: "15:30",
 place: "Арена Львів",
 competition: "УПЛ",
 },
 {
 date: "7-3-26",
 opponent: "Олександрія",
-time: "",
-score: "",
+time: "13:00",
 place: "ЦСК Ніка Стадіон",
 competition: "УПЛ",
 },
@@ -546,7 +532,6 @@ competition: "УПЛ",
   date: "14-3-26",
   opponent: "Металіст 1925",
   time: "",
-  score: "",
   place: "Арена Львів",
   competition: "УПЛ",
 },
@@ -554,7 +539,6 @@ competition: "УПЛ",
   date: "21-3-26",
   opponent: "Зоря Луганьск",
   time: "",
-  score: "",
   place: "Стадіон імені Валерія Лобановського",
   competition: "УПЛ",
 },
@@ -562,25 +546,10 @@ competition: "УПЛ",
 date: "04-04-26",
 opponent: "Рух Львів",
 time: "",
-score: "",
 place: "Арена Львів",
 competition: "УПЛ",
 },
 ];
-const kits = {
-  home: {
-    img: 'https://shop.shakhtar.com/images/thumbnails/900/900/detailed/19/fc-shakhtar-puma-fcsd-home-authentic-jersey-77970601_oexn-le.webp.webp',
-    text: 'Класична оранжево-чорна форма. Символ стабільності та характеру клубу.'
-  },
-  away: {
-    img: 'https://shop.shakhtar.com/images/thumbnails/900/900/detailed/19/fc-shakhtar-puma-fcsd-away-authentic-jersey-77970702_l4eh-1a.webp.webp',
-    text: 'Світла виїзна форма для складних матчів поза домом.'
-  },
-  third: {
-    img: 'https://shop.shakhtar.com/images/thumbnails/900/900/detailed/19/fc-shakhtar-puma-fcsd-third-authentic-jersey-77970803_0zih-og.webp.webp',
-    text: 'Експериментальна форма для єврокубкових вечорів.'
-  }
-};
 window.results = [
   {
     date: "18.12.25",
