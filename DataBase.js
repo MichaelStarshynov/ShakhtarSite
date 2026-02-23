@@ -78,7 +78,7 @@ window.team = [
   },
   {
      name: "Іраклі Азаров",
-     age: "23",
+     age: "24",
      number: "16",
      position: "Захистник",
      nationality: "Грузія",
@@ -89,7 +89,7 @@ window.team = [
   },
   {
      name: "Вінісіус Тобіас",
-     age: "21",
+     age: "22",
      number: "17",
      position: "Захистник",
      nationality: "Бразілія",
