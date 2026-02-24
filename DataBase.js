@@ -199,7 +199,7 @@ window.team = [
   },
   {
      name: "Ізакі Сілва",
-     age: "18",
+     age: "19",
      number: "14",
      position: "Півзахисник",
      nationality: "Бразілія",

@@ -180,6 +180,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
   title: 'Таблиця',
   text: `
   <h4>УПЛ</h4>
+  <div class="table-wrapper">
     <table class="league-table">
       <thead>
         <tr>
@@ -393,6 +394,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
 
       </tbody>
     </table>
+    </div>
   `
 },
   Квитки: {
@@ -465,21 +467,7 @@ function showResults() {
   content.appendChild(grid);
 }
 
-// Функція футболок на сторінці Сезон
 
-function showKit(type) {
-  const img = document.getElementById('kitImage');
-  const text = document.getElementById('kitText');
-
-  img.style.display = 'block';
-  img.style.opacity = '0';
-
-  setTimeout(() => {
-    img.src = kits[type].img;
-    text.textContent = kits[type].text;
-    img.style.opacity = '1';
-  }, 100);
-}
 
 // Создаем кнопки навигации + dropdown
 // всі підсторінки з dropdown
