@@ -199,49 +199,49 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
         <tr>
           <td>1</td>
           <td class="team">ЛНЗ Черкаси</td>
-          <td>16</td>
-          <td>11</td>
+          <td>17</td>
+          <td>12</td>
           <td>2</td>
           <td>3</td>
-          <td>20</td>
+          <td>22</td>
           <td>8</td>
-          <td>35</td>
+          <td>38</td>
         </tr>
 
         <tr class="highlight-shakhtar">
           <td>2</td>
           <td class="team">Шахтар Донецьк</td>
-          <td>16</td>
-          <td>10</td>
+          <td>17</td>
+          <td>11</td>
           <td>5</td>
           <td>1</td>
-          <td>42</td>
+          <td>45</td>
           <td>12</td>
-          <td>35</td>
+          <td>38</td>
         </tr>
 
         <tr>
           <td>3</td>
           <td class="team">Полісся Житомир</td>
-          <td>16</td>
-          <td>9</td>
+          <td>17</td>
+          <td>10</td>
           <td>3</td>
           <td>4</td>
-          <td>25</td>
+          <td>28</td>
           <td>11</td>
-          <td>30</td>
+          <td>33</td>
         </tr>
 
          <tr>
           <td>4</td>
           <td class="team">Динамо Київ</td>
-          <td>16</td>
-          <td>7</td>
+          <td>17</td>
+          <td>8</td>
           <td>5</td>
           <td>4</td>
-          <td>35</td>
+          <td>36</td>
           <td>21</td>
-          <td>26</td>
+          <td>29</td>
         </tr>
 
          <tr>
@@ -249,84 +249,87 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
           <td class="team">Кривбас</td>
           <td>16</td>
           <td>7</td>
-          <td>5</td>
+          <td>6</td>
           <td>4</td>
           <td>28</td>
           <td>24</td>
-          <td>26</td>
-        </tr>
-
-     <tr>
-          <td>6</td>
-          <td class="team">Колос Ковалівка</td>
-          <td>16</td>
-          <td>6</td>
-          <td>7</td>
-          <td>3</td>
-          <td>17</td>
-          <td>13</td>
-          <td>25</td>
+          <td>27</td>
         </tr>
 
            <tr>
-          <td>7</td>
+          <td>6</td>
           <td class="team">Металіст 1925</td>
-          <td>15</td>
+          <td>16</td>
           <td>6</td>
           <td>6</td>
           <td>3</td>
           <td>18</td>
           <td>12</td>
-          <td>24</td>
+          <td>25</td>
         </tr>
+
+     <tr>
+          <td>7</td>
+          <td class="team">Колос Ковалівка</td>
+          <td>17</td>
+          <td>6</td>
+          <td>7</td>
+          <td>4</td>
+          <td>17</td>
+          <td>15</td>
+          <td>25</td>
+        </tr>
+
+        
 
            <tr>
           <td>8</td>
           <td class="team">Зоря Луганьск</td>
-          <td>16</td>
+          <td>17</td>
+          <td>6</td>
           <td>6</td>
           <td>5</td>
-          <td>5</td>
-          <td>19</td>
-          <td>18</td>
-          <td>23</td>
+          <td>21</td>
+          <td>20</td>
+          <td>24</td>
         </tr>
 
-            <tr>
+  <tr>
           <td>9</td>
-          <td class="team">Карпати Львів</td>
+          <td class="team">Верес Рівне</td>
           <td>16</td>
+          <td>5</td>
+          <td>6</td>
+          <td>5</td>
+          <td>16</td>
+          <td>19</td>
+          <td>21</td>
+        </tr>
+        
+            <tr>
+          <td>10</td>
+          <td class="team">Карпати Львів</td>
+          <td>17</td>
           <td>4</td>
           <td>7</td>
-          <td>5</td>
+          <td>6</td>
           <td>20</td>
           <td>21</td>
-          <td>19</td>
+          <td>24</td>
         </tr>
-  
-         <tr>
-          <td>10</td>
+
+        <tr>
+          <td>11</td>
           <td class="team">Рух Львів</td>
-          <td>16</td>
+          <td>17</td>
           <td>6</td>
           <td>1</td>
-          <td>9</td>
+          <td>10</td>
           <td>15</td>
-          <td>23</td>
+          <td>24</td>
           <td>19</td>
         </tr>
- 
-         <tr>
-          <td>11</td>
-          <td class="team">Верес Рівне</td>
-          <td>15</td>
-          <td>4</td>
-          <td>6</td>
-          <td>5</td>
-          <td>13</td>
-          <td>17</td>
-          <td>18</td>
-        </tr>
+
 
          <tr>
           <td>12</td>
@@ -343,24 +346,24 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
          <tr>
           <td>13</td>
           <td class="team">Кудрівка</td>
-          <td>16</td>
+          <td>17</td>
           <td>4</td>
-          <td>3</td>
+          <td>4</td>
           <td>9</td>
-          <td>19</td>
-          <td>30</td>
-          <td>15</td>
+          <td>21</td>
+          <td>32</td>
+          <td>16</td>
         </tr>
 
          <tr>
           <td>14</td>
           <td class="team">Епіцентр</td>
-          <td>16</td>
-          <td>7</td>
-          <td>5</td>
+          <td>17</td>
           <td>4</td>
+          <td>2</td>
+          <td>11</td>
           <td>18</td>
-          <td>27</td>
+          <td>29</td>
           <td>14</td>
         </tr>
 
@@ -382,9 +385,9 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
           <td>16</td>
           <td>2</td>
           <td>3</td>
-          <td>11</td>
-          <td>14</td>
-          <td>38</td>
+          <td>12</td>
+          <td>16</td>
+          <td>41</td>
           <td>9</td>
         </tr>
 
