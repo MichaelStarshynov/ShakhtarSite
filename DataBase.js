@@ -56,7 +56,7 @@ window.team = [
   },
   {
      name: "Валерій Бондар",
-     age: "26",
+     age: "27",
      number: "5",
      position: "Захистник",
      nationality: "Україна",
@@ -522,11 +522,25 @@ place: "ЦСК Ніка Стадіон",
 competition: "УПЛ",
 },
 {
-  date: "14-3-26",
+  date: "12-3-26",
+  opponent: "Лех Познань",
+  time: "22:00",
+  place: "Центральний стадіон Лех",
+  competition: "Ліга Конференцій",
+},
+{
+  date: "15-3-26",
   opponent: "Металіст 1925",
-  time: "",
+  time: "18:00",
   place: "Арена Львів",
   competition: "УПЛ",
+},
+{
+ date: "19-3-26",
+ opponent: "Лех Познань",
+ time: "22:00",
+ place: "Стадіон імені Генрика Реймана",
+ competition: "Ліга Конференцій",
 },
 {
   date: "21-3-26",
@@ -535,20 +549,22 @@ competition: "УПЛ",
   place: "Стадіон імені Валерія Лобановського",
   competition: "УПЛ",
 },
-{
-date: "04-04-26",
-opponent: "Рух Львів",
-time: "",
-place: "Арена Львів",
-competition: "УПЛ",
-},
-{
-  date: "11-4-26",
-  opponent: "ЛНЗ Черкаси",
-  place: "Центральний стадіон Черкаси",
-  competition: "УПЛ",
-  time: "",
-},
+
+//{
+//date: "04-04-26",
+//opponent: "Рух Львів",
+//time: "",
+//place: "Арена Львів",
+//competition: "УПЛ",
+//},
+
+//{
+ // date: "11-4-26",
+ // opponent: "ЛНЗ Черкаси",
+ // place: "Центральний стадіон Черкаси",
+ // competition: "УПЛ",
+  //time: "",
+//},
 ];
 window.results = [
   {
