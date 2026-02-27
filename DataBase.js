@@ -19,7 +19,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/riznyk-dmytro/riznyk_bio_25_26.png?h=610&iar=0&w=473",
      goals: "",
      assist: "",
-     matches: "26",
+     matches: "27",
   },
   {
      name: "Денис Твардовський",
@@ -61,9 +61,9 @@ window.team = [
      position: "Захистник",
      nationality: "Україна",
      photo: "https://shakhtar.com/-/media/fcsd/players/bondar-valeriy/bondar_bio_25_26.png?h=610&iar=0&w=473",
-     goals: "2",
+     goals: "3",
      assist: "1",
-     matches: "31",
+     matches: "32",
   },
   {
      name: "Педро Енріке",
@@ -74,7 +74,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho_pedro-henrique-azevedo-pereira/pedro_henrique_bio_25_26.png?h=610&iar=0&w=473",
      goals: "1",
      assist: "4",
-     matches: "25",
+     matches: "26",
   },
   {
      name: "Іраклі Азаров",
@@ -118,7 +118,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/22-mykola-matviienko/matviienko_bio_25_26.png?h=610&iar=0&w=473",
      goals: "",
      assist: "",
-     matches: "29",
+     matches: "30",
   },{
      name: "Юхим Конопля",
      age: "26",
@@ -128,7 +128,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/konoplya/konoplia_bio_25_26.png?h=610&iar=0&w=473",
      goals: "2",
      assist: "4",
-     matches: "20",
+     matches: "21",
   },
   {
      name: "Марлон Гомес",
@@ -161,7 +161,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/kryskiv-dmytro/kryskiv_bio_25_26.png?h=610&iar=0&w=473",
      goals: "",
      assist: "",
-     matches: "10",
+     matches: "11",
   },
 
   {
@@ -184,7 +184,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_bio_25_26.png?h=610&iar=0&w=473",
      goals: "6",
      assist: "9",
-     matches: "26",
+     matches: "27",
   },
   {
      name: "Невертон",
@@ -195,7 +195,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_bio_25_26.png?h=610&iar=0&w=473",
      goals: "5",
      assist: "1",
-     matches: "25",
+     matches: "26",
   },
   {
      name: "Ізакі Сілва",
@@ -206,7 +206,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/isaque-silva/isaque_silva_bio_2025-09-18.png?h=610&iar=0&w=473",
      goals: "4",
      assist: "5",
-     matches: "20",
+     matches: "21",
   },
   {
      name: "Артем Бондаренко",
@@ -217,7 +217,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/bondarenko-artem/bondarenko_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "4",
-     matches: "28",
+     matches: "29",
   },
   {
      name: "Віктор Цуканов",
@@ -239,7 +239,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/ocheretko-oleh/ocheretko_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "2",
-     matches: "29",
+     matches: "30",
   },
   {
      name: "Єгор Назарина",
@@ -250,7 +250,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/nazaryna/nazaryna_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "1",
-     matches: "18",
+     matches: "19",
   },
   {
      name: "Аліссон Сантана",
@@ -261,7 +261,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/alisson/alisson_bio_25_26.png?h=610&iar=0&w=473",
      goals: "4",
      assist: "8",
-     matches: "14",
+     matches: "15",
   },
 
   {
@@ -284,7 +284,7 @@ window.team = [
     photo: "https://shakhtar.com/-/media/fcsd/players/obah-prosper/obah_p2.png?h=610&iar=0&w=473",
     goals: "",
     assist: "",
-    matches: "",
+    matches: "1",
   },
   {
      name: "Лассіна Траоре",
@@ -295,7 +295,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/traore-lassina/traore_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "",
-     matches: "4",
+     matches: "5",
   },
   {
      name: "Кауан Еліас",
@@ -318,7 +318,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/luca-meirelles/luca_meirelles_bio_2025-09-18.png?h=610&iar=0&w=473",
      goals: "8",
      assist: "1",
-     matches: "19",
+     matches: "20",
   },
 ];
 window.coaches = [
@@ -506,16 +506,8 @@ window.managment = [
 }
 ];
   window.matches = [
-
 {
-date: "28-2-26",
-opponent: "Верес Рівне",
-time: "15:30",
-place: "Арена Львів",
-competition: "УПЛ",
-},
-{
-date: "7-3-26",
+date: "6-3-26",
 opponent: "Олександрія",
 time: "13:00",
 place: "ЦСК Ніка Стадіон",
@@ -550,13 +542,13 @@ competition: "УПЛ",
   competition: "УПЛ",
 },
 
-//{
-//date: "04-04-26",
-//opponent: "Рух Львів",
-//time: "",
-//place: "Арена Львів",
-//competition: "УПЛ",
-//},
+{
+date: "04-04-26",
+opponent: "Рух Львів",
+time: "",
+place: "Арена Львів",
+competition: "УПЛ",
+},
 
 //{
  // date: "11-4-26",
@@ -567,6 +559,14 @@ competition: "УПЛ",
 //},
 ];
 window.results = [
+  {
+date: "28-2-26",
+opponent: "Верес Рівне",
+time: "15:30",
+score: "1-0",
+place: "Арена Львів",
+competition: "УПЛ",
+},
   {
 date: "22-2-26",
 opponent: "Карпати Львів",
