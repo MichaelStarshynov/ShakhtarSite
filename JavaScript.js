@@ -403,12 +403,12 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
   },
   Магазин: {
     title: `Магазин`,
-    text: `Магазин Шахтаря можно знайти <a href="https://shop.shakhtar.com/" target="_blank">тут</a>.<img src="https://isport.ua/i/68/35/33/683533/a40dcf34a7b4b0116c56565d6dd438df-resize_crop_1Xquality_100Xallow_enlarge_0Xw_1200Xh_630.jpg">`
+    text: `Магазин Шахтаря можно знайти <a href="https://shop.shakhtar.com/" target="_blank">тут</a>.<img src="https://shakhtar.com/-/media/fcsd/news/2025/november/2_news/2_shakhtar_dynamo/gal/mls_7035.jpg?1772202146137">`
   },
   Телеграм: {
     title: `Телеграм Канал`,
     text: `<p>Підпісуйтесь на наш <a href="https://t.me/FanShakhtarDonetsk" target="_blank">Телеграм канал</a> заради більше новин.</p>
-    <img src="https://pic.sport.ua/images/news/0/10/126/orig_425350.jpg" >`
+    <img src="https://shakhtar.com/-/media/fcsd/news/2025/october/29_news/29_uc_dynamo_shakhtar/gal/mls_2891.jpg?1772202038543" >`
   },
   Менеджмент: {
     title: "Менеджмент",
