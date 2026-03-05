@@ -311,13 +311,13 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
 <tr>
           <td>10</td>
           <td class="team">Оболонь Київ</td>
-          <td>17</td>
-          <td>5</td>
+          <td>18</td>
+          <td>6</td>
           <td>5</td>
           <td>7</td>
           <td>13</td>
-          <td>27</td>
-          <td>17</td>
+          <td>30</td>
+          <td>20</td>
         </tr>
 
 
@@ -372,12 +372,12 @@ text: `<h3>Логотип клубу:</h3> <img src="https://encrypted-tbn0.gsta
          <tr>
           <td>15</td>
           <td class="team">Олександрія</td>
-          <td>17</td>
+          <td>18</td>
           <td>2</td>
           <td>5</td>
-          <td>10</td>
+          <td>11</td>
           <td>14</td>
-          <td>29</td>
+          <td>32</td>
           <td>11</td>
         </tr>
 
