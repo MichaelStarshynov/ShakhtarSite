@@ -506,13 +506,7 @@ window.managment = [
 }
 ];
   window.matches = [
-{
-date: "6-3-26",
-opponent: "Олександрія",
-time: "13:00",
-place: "ЦСК Ніка Стадіон",
-competition: "УПЛ",
-},
+
 {
   date: "12-3-26",
   opponent: "Лех Познань",
