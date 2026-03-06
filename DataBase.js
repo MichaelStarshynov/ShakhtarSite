@@ -19,7 +19,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/riznyk-dmytro/riznyk_bio_25_26.png?h=610&iar=0&w=473",
      goals: "",
      assist: "",
-     matches: "27",
+     matches: "28",
   },
   {
      name: "Денис Твардовський",
@@ -63,7 +63,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/bondar-valeriy/bondar_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "1",
-     matches: "32",
+     matches: "33",
   },
   {
      name: "Педро Енріке",
@@ -73,8 +73,8 @@ window.team = [
      nationality: "Бразілія",
      photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho_pedro-henrique-azevedo-pereira/pedro_henrique_bio_25_26.png?h=610&iar=0&w=473",
      goals: "1",
-     assist: "4",
-     matches: "26",
+     assist: "5",
+     matches: "27",
   },
   {
      name: "Іраклі Азаров",
@@ -96,7 +96,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/vinicius-tobias/tobias_bio_25_26.png?h=610&iar=0&w=473",
      goals: "2",
      assist: "3",
-     matches: "27",
+     matches: "28",
   },
   {
      name: "Алаа Грам",
@@ -118,7 +118,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/22-mykola-matviienko/matviienko_bio_25_26.png?h=610&iar=0&w=473",
      goals: "",
      assist: "",
-     matches: "30",
+     matches: "31",
   },{
      name: "Юхим Конопля",
      age: "26",
@@ -128,7 +128,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/konoplya/konoplia_bio_25_26.png?h=610&iar=0&w=473",
      goals: "2",
      assist: "4",
-     matches: "21",
+     matches: "22",
   },
   {
      name: "Марлон Гомес",
@@ -139,7 +139,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/gomes-marlon/marlon_gomes_bio_25_26.png?h=610&iar=0&w=473",
      goals: "1",
      assist: "4",
-     matches: "27",
+     matches: "28",
   },
   {
      name: "Егіналду",
@@ -184,7 +184,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/pedrinho/pedrinho_bio_25_26.png?h=610&iar=0&w=473",
      goals: "6",
      assist: "9",
-     matches: "27",
+     matches: "28",
   },
   {
      name: "Невертон",
@@ -195,7 +195,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/newerton/newertton_bio_25_26.png?h=610&iar=0&w=473",
      goals: "5",
      assist: "1",
-     matches: "26",
+     matches: "27",
   },
   {
      name: "Ізакі Сілва",
@@ -206,7 +206,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/isaque-silva/isaque_silva_bio_2025-09-18.png?h=610&iar=0&w=473",
      goals: "4",
      assist: "5",
-     matches: "21",
+     matches: "22",
   },
   {
      name: "Артем Бондаренко",
@@ -239,7 +239,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/ocheretko-oleh/ocheretko_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "2",
-     matches: "30",
+     matches: "31",
   },
   {
      name: "Єгор Назарина",
@@ -250,7 +250,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/nazaryna/nazaryna_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "1",
-     matches: "19",
+     matches: "20",
   },
   {
      name: "Аліссон Сантана",
@@ -261,7 +261,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/alisson/alisson_bio_25_26.png?h=610&iar=0&w=473",
      goals: "4",
      assist: "8",
-     matches: "15",
+     matches: "16",
   },
 
   {
@@ -284,7 +284,7 @@ window.team = [
     photo: "https://shakhtar.com/-/media/fcsd/players/obah-prosper/obah_p2.png?h=610&iar=0&w=473",
     goals: "",
     assist: "",
-    matches: "1",
+    matches: "2",
   },
   {
      name: "Лассіна Траоре",
@@ -295,7 +295,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/traore-lassina/traore_bio_25_26.png?h=610&iar=0&w=473",
      goals: "3",
      assist: "",
-     matches: "5",
+     matches: "6",
   },
   {
      name: "Кауан Еліас",
@@ -306,7 +306,7 @@ window.team = [
      photo: "https://shakhtar.com/-/media/fcsd/players/elias-kaua/elias_bio_25_26.png?h=610&iar=0&w=473",
      goals: "11",
      assist: "4",
-     matches: "26",
+     matches: "27",
   },
 
   {
@@ -550,15 +550,23 @@ place: "Арена Львів",
 competition: "УПЛ",
 },
 
-//{
- // date: "11-4-26",
- // opponent: "ЛНЗ Черкаси",
- // place: "Центральний стадіон Черкаси",
- // competition: "УПЛ",
-  //time: "",
-//},
+{
+ date: "11-4-26",
+ opponent: "ЛНЗ Черкаси",
+ place: "Центральний стадіон Черкаси",
+  competition: "УПЛ",
+time: "",
+},
 ];
 window.results = [
+  {
+date: "6-3-26",
+opponent: "Олександрія",
+time: "13:00",
+place: "ЦСК Ніка Стадіон",
+competition: "УПЛ",
+score: "0-1"
+},
   {
 date: "28-2-26",
 opponent: "Верес Рівне",
