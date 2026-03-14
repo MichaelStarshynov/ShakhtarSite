@@ -7,15 +7,15 @@ body {
   font-family: sans-serif;
   text-align: center;
   color: black;
-  background-color: orangered;
+  background-color: green;
   background-size: cover;        /* растягивает без искажений */
   background-position: center;   /* по центру */
   background-repeat: no-repeat;  /* без повторов */
   background-attachment: fixed;  /* фиксированный фон */
 }
 h1 {
-  background-color: orangered; 
-  color: black;            
+  background-color: black; 
+  color: green;            
   margin: 0;
   padding: 20px;
   font-size: 36px;
@@ -53,8 +53,8 @@ h1 {
 
 /* hover */
 .nav-btn:hover {
-  background: orangered;
-  color: white;
+  background: green;
+  color: black;
   scale: 1.09;
 }
 
@@ -233,7 +233,7 @@ img:hover {
   padding: 20px;
   max-width: 340px;
   flex: 1 1 300px;
-  border: 2px solid orangered;
+  border: 2px solid green;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   cursor: pointer;
@@ -247,7 +247,7 @@ img:hover {
 
 .news-card h4 {
   margin: 0 0 10px;
-  color: orangered;
+  color: green;
   font-size: 20px;
   font-weight: 700;
 }
@@ -260,7 +260,7 @@ img:hover {
 }
 
 .back-btn {
-  background: orangered;
+  background: green;
   color: #111;
   padding: 8px 16px;
   margin-bottom: 18px;
@@ -280,7 +280,7 @@ img:hover {
 
 .shop-btn {
   background-color: black;
-  color: orangered;
+  color: green;
   padding: 12px 24px;
   font-size: 18px;
   border: none;
@@ -338,7 +338,7 @@ img:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   font-family: 'Segoe UI', sans-serif;
   transition: all 0.3s ease;
-  border-left: 9px orangered;
+  border-left: 9px green;
   border-right: 9px black;
 }
 
@@ -349,7 +349,7 @@ img:hover {
 
 .match-card .match-date {
   font-size: 14px;
-  color: #0066cc;
+  color: green;
   font-weight: bold;
   text-align: center;
 }
@@ -415,7 +415,7 @@ img:hover {
 }
 
 a {
-  color: orangered;
+  color: green;
 }
 .history-picture {
  width: 300px;
@@ -445,7 +445,7 @@ a {
   display: block;
   margin: 25px auto;
   border-radius: 15px;
-  border: 3px solid orangered; /* помаранчевий акцент клубу */
+  border: 3px solid green; /* помаранчевий акцент клубу */
   box-shadow: 0 4px 20px white(0,0,0,0.4);
   transition: transform 0.3s ease;
 }
@@ -462,20 +462,6 @@ h2 {
   margin-top: 15px;
 }
 
-/* Кнопка "Назад" */
-.back-btn {
-  background: orangered;
-  color: black;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 20px 0;
-  transition: background 0.2s ease;
-  display: inline-block;
-}
 
 
 /* Опис гравця */
@@ -542,7 +528,7 @@ h2 {
   background: #ffffff;
   text-align: center;
 
-  border: 2px solid orangered; /* помаранчевий */
+  border: 2px solid green; /* помаранчевий */
   box-shadow: 0 4px 12px rgba(245, 124, 0, 0.25); /* тепла тінь */
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -563,7 +549,7 @@ h2 {
 
 /* Название */
 .man-card h3 {
-  color: orangered; /* фирменный помаранчевый */
+  color: green; /* фирменный помаранчевый */
   font-size: 18px;
   margin-bottom: 8px;
 }
@@ -573,8 +559,8 @@ h2 {
   margin: 4px 0;
   font-size: 15px;
 }
-.goalShakhtar {
-  color: orangered;
+.goalPolissya {
+  color: green;
 }
 .datumNews {
   color: white;
@@ -629,7 +615,7 @@ h2 {
   background: #ddd;
 }
 .highlight-shakhtar {
-  background-color: orangered;
+  background-color: green;
   color: black;
   font-weight: 700;
 }
@@ -637,7 +623,7 @@ h2 {
 .highlight-shakhtar td {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
-  background: orangered;
+  background: green;
 }
 .table-wrapper {
   width: 100%;
@@ -662,7 +648,8 @@ h2 {
   text-align: center;
   transition: transform 0.2s ease;
   border-left: 2px solid black;
-  border-right: 2px solid orangered;
+  border-right: 2px solid green;
+  height: auto;
 }
 
 .legend-card:hover {
@@ -671,7 +658,7 @@ h2 {
 
 .legend-card img {
   width: 100%;
-  height: 260px;
+  height: 800pxpx;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -815,7 +802,7 @@ h2 {
 
 /* Подсветка Шахтёра */
 .highlight-shakhtar {
-  background: orangered !important;
+  background: green !important;
   color: black;
   font-weight: bold;
 }
@@ -870,4 +857,7 @@ h2 {
   margin: 0 15px 20px;
   font-size: 14px;
   color: #555;
+}
+strong {
+  color: green;
 }
