@@ -415,7 +415,7 @@ window.managment = [
   date: "18-23-26",
   opponent: "Кудрівка",
   time: "17:00",
-  place: "Оболонь Арена",
+  place: "Центральний стадіон Полісся",
   competition: "УПЛ",
 
 },
