@@ -657,8 +657,8 @@ h2 {
 }
 
 .legend-card img {
-  width: 100%;
-  height: 800pxpx;
+  width: auto;
+  height: 550;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -844,7 +844,7 @@ h2 {
 
 .legend-card img {
   width: 100%;
-  height: 260px;
+  height: 375px;
   object-fit: cover;
 }
 

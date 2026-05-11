@@ -19,7 +19,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/241/d35070b1aba6df16f5e4f2dd707f3e2d195240.jpg",
     goals: "",
     assists: "",
-    matches: "19",
+    matches: "26",
   },
   {
     name: "Георгій Бущан",
@@ -41,7 +41,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/208/84f72b08ff2a82168e157bdc1402cb6c195240.jpg",
     goals: "1",
     assists: "2",
-    matches: "24"
+    matches: "30"
   },
   {
     name: "Лукас Тейлор",
@@ -63,7 +63,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/234/f5e902acb4cccd452a610972dac1f268195240.jpg",
     goals: "1",
     assists: "1",
-    matches: "25",
+    matches: "32",
   },
   {
     name: "Жоао Віале",
@@ -83,9 +83,9 @@ window.team = [
     position: "Захистник",
     nationality: "Георгія",
     photo: "https://polissyafc.com/uploads/player/245/ec564717583fcbb7428639f6b94b4edd195240.jpg",
-    goals: "",
+    goals: "1",
     assists: "",
-    matches: "4",
+    matches: "10",
   },
   {
     name: "Едуард Сарапій",
@@ -94,9 +94,9 @@ window.team = [
     position: "Захистник",
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/247/54d33d96562255c37e23a88392bf4ccd195240.jpg",
-    goals: "4",
+    goals: "5",
     assists: "",
-    matches: "27",
+    matches: "34",
   },
   {
     name: "Анді Хадрой",
@@ -118,7 +118,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/343/b328137b4ce7f719e2d3e980f2f3d6d9195240.jpg",
     goals: "",
     assists: "1",
-    matches: "15",
+    matches: "16",
   },
 
   {
@@ -130,7 +130,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/349/86cc915c7d3120f175cabc8bb58da7b5195240.jpg",
     goals: "",
     assists: "",
-    matches: "4",
+    matches: "9",
   },
   {
     name: "Борис Крушинський",
@@ -140,8 +140,8 @@ window.team = [
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/204/ab9c1093b9a2429d435eeba59b083e3f195240.jpg",
     goals: "",
-    assists: "2",
-    matches: "17",
+    assists: "3",
+    matches: "19",
   },
   {
     name: "Олександр Назаренко",
@@ -152,18 +152,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/217/c757d4e87b7fbb29ca212afec422a27a195240.jpg",
     goals: "5",
     assists: "4",
-    matches: "27",
-  },
-  {
-    name: "Таллес Коста",
-    age: "23",
-    number: "6",
-    position: "Півзахисник",
-    nationality: "Бразілія",
-    photo: "https://polissyafc.com/uploads/player/235/5dc332d0e45a4a97fc3e9b448a13122e195240.jpg",
-    goals: "1",
-    assists: "1",
-    matches: "16",
+    matches: "32",
   },
   {
     name: "Олексій Гуцуляк",
@@ -172,9 +161,9 @@ window.team = [
     position: "Півзахисник",
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/239/0a3b0b3f16e07f400e54cd9a75c078ab195240.jpg",
-    goals: "5",
-    assists: "6",
-    matches: "23",
+    goals: "9",
+    assists: "7",
+    matches: "30",
   },
 
   {
@@ -186,7 +175,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/242/12c6f3275bfaf33e0f211c6893614aaf195240.jpg",
     goals: "",
     assists: "",
-    matches: "26",
+    matches: "32",
   },
   {
     name: "Богдан Лєднєв",
@@ -196,8 +185,8 @@ window.team = [
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/250/6af9766f5fa1a002a94a77dee88c38d4195240.jpg",
     goals: "1",
-    assists: "1",
-    matches: "10",
+    assists: "2",
+    matches: "12",
   },
   {
     name: "Максим Мельниченко",
@@ -208,7 +197,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/296/6fd49c9fae3b6f208aa5f84b7d797056195240.jpg",
     goals: "",
     assists: "",
-    matches: "3",
+    matches: "4",
   },
   {
     name: "Томер Йосефі",
@@ -228,9 +217,9 @@ window.team = [
     position: "Півзахисник",
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/299/422fc373d3ebea6ba95821bcb37ce2d4195240.jpg",
-    goals: "5",
-    assists: "2",
-    matches: "24",
+    goals: "7",
+    assists: "4",
+    matches: "31",
   },
 
   {
@@ -253,7 +242,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/345/f8af27c0ae2f73ce67d5c1279d45e25d195240.jpg",
     goals: "",
     assists: "1",
-    matches: "16",
+    matches: "18",
   },
   {
     name: "Максим Брагару",
@@ -262,8 +251,8 @@ window.team = [
     position: "Півзахисник",
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/346/02457253ff61a33f24554de3dc8f3930195240.jpg",
-    goals: "3",
-    assists: "2",
+    goals: "4",
+    assists: "4",
     matches: "15",
   },
   {
@@ -275,7 +264,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/348/3b48808e6a5a62d9cf2bd5afb2ef14de195240.jpg",
     goals: "1",
     assists: "1",
-    matches: "4",
+    matches: "10",
   },
 
   {
@@ -285,9 +274,9 @@ window.team = [
     position: "Нападник",
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/339/225c5aa5356e1efac5fee7bb3b052945195240.jpg",
-    goals: "3",
+    goals: "4",
     assists: "2",
-    matches: "23",
+    matches: "26",
   },
   {
     name: "Микола Гайдучик",
@@ -296,9 +285,9 @@ window.team = [
     position: "Нападник",
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/340/bcb4dec1ceb5d60207ea713386f71914195240.jpg",
-    goals: "9",
+    goals: "10",
     assists: "",
-    matches: "27",
+    matches: "34",
   },
   {
     name: "Ігор Краснопір",
@@ -308,8 +297,8 @@ window.team = [
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/350/bf57b20f1e5a162ee1e691f8c1e5cfc4195240.jpg",
     goals: "2",
-    assists: "1",
-    matches: "4",
+    assists: "2",
+    matches: "10",
   },
 ];
 window.coaches = [
@@ -410,53 +399,79 @@ window.managment = [
 },
 ];
   window.matches = [
-
-{
-  date: "18-23-26",
-  opponent: "Кудрівка",
-  time: "17:00",
-  place: "Оболонь Арена",
-  competition: "УПЛ",
-
-},
-{
-  date: "4-4-26",
-  opponent: "Верес Рівне",
-  time: "17:00",
-  place: "Центральний стадіон Полісся",
-  competition: "УПЛ",
-},
-{
-  date: "11-4-26",
-  opponent: "СК Полтава",
-  time: "",
-  place: "Стадіон Зірка",
-  competition: "УПЛ",
-},
-{
-date: "18-4-26",
-opponent: "Шахтар",
-time: "",
-place: "Арена Львів",
-competition: "УПЛ",
-},
-{
-date: "25-4-26",
-opponent: "Оболонь",
-time: "",
-place: "Центральний стадіон Полісся",
-competition: "УПЛ",
-},
-{
-date: "2-5-26",
-opponent: "Металіст 1925",
-time: "",
-place: "Центральний стадіон Полісся",
-competition: "УПЛ",
-},
+    {
+      date: "12-5-26",
+      opponent: "Епіцентр",
+      time: "15:30",
+      place: "Стадіон Романа Шухевича",
+      competition: "УПЛ",
+    },
+    {
+      date: "16-5-26",
+      opponent: "Зоря Луганьск",
+      time: "",
+      place: "Стадіон імені Лобановскьго",
+      competition: "УПЛ",
+    },
+    {
+      date: "23-5-26",
+      opponent: "Рух Львів",
+      time: "",
+      place: "Центральний стадіон Полісся",
+      competition: "УПЛ",
+    },
 ];
 window.results = [
 {
+  date: "8-5-26",
+  opponent: "Олександрія",
+  score: "2-1",
+  place: "Центральний стадіон Полісся",
+  competition: "УПЛ"
+},
+  {
+date: "2-5-26",
+opponent: "Металіст 1925",
+score: "0-1",
+place: "Центральний стадіон Полісся",
+competition: "УПЛ",
+},
+  {
+date: "25-4-26",
+opponent: "Оболонь",
+score: "3-1",
+place: "Центральний стадіон Полісся",
+competition: "УПЛ",
+},
+  {
+date: "18-4-26",
+opponent: "Шахтар",
+score: "1-0",
+place: "Арена Львів",
+competition: "УПЛ",
+},
+  {
+  date: "11-4-26",
+  opponent: "СК Полтава",
+  score: "0-4",
+  place: "Стадіон Зірка",
+  competition: "УПЛ",
+},
+  {
+  date: "4-4-26",
+  opponent: "Верес Рівне",
+  score: "1-1",
+  place: "Центральний стадіон Полісся",
+  competition: "УПЛ",
+},
+  {
+  date: "18-23-26",
+  opponent: "Кудрівка",
+  score: "2-0",
+  place: "Оболонь Арена",
+  competition: "УПЛ",
+},
+  {
   date: "14-2-26",
   opponent: "Кривбас",
   place: "Центральний стадіон Полісся",
