@@ -30,7 +30,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/347/64be70196e87b342517a3994fa358c2c195240.jpg",
     goals: "",
     assists: "",
-    matches: "1",
+    matches: "2",
   },
   {
     name: "Сергій Чоботенко",
@@ -63,7 +63,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/234/f5e902acb4cccd452a610972dac1f268195240.jpg",
     goals: "1",
     assists: "1",
-    matches: "32",
+    matches: "33",
   },
   {
     name: "Жоао Віале",
@@ -85,7 +85,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/245/ec564717583fcbb7428639f6b94b4edd195240.jpg",
     goals: "1",
     assists: "",
-    matches: "10",
+    matches: "11",
   },
   {
     name: "Едуард Сарапій",
@@ -96,7 +96,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/247/54d33d96562255c37e23a88392bf4ccd195240.jpg",
     goals: "5",
     assists: "",
-    matches: "34",
+    matches: "35",
   },
   {
     name: "Анді Хадрой",
@@ -118,7 +118,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/343/b328137b4ce7f719e2d3e980f2f3d6d9195240.jpg",
     goals: "",
     assists: "1",
-    matches: "16",
+    matches: "17",
   },
 
   {
@@ -130,7 +130,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/349/86cc915c7d3120f175cabc8bb58da7b5195240.jpg",
     goals: "",
     assists: "",
-    matches: "9",
+    matches: "10",
   },
   {
     name: "Борис Крушинський",
@@ -150,9 +150,9 @@ window.team = [
     position: "Півзахисник",
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/217/c757d4e87b7fbb29ca212afec422a27a195240.jpg",
-    goals: "5",
+    goals: "6",
     assists: "4",
-    matches: "32",
+    matches: "33",
   },
   {
     name: "Олексій Гуцуляк",
@@ -163,7 +163,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/239/0a3b0b3f16e07f400e54cd9a75c078ab195240.jpg",
     goals: "9",
     assists: "7",
-    matches: "30",
+    matches: "31",
   },
 
   {
@@ -175,7 +175,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/242/12c6f3275bfaf33e0f211c6893614aaf195240.jpg",
     goals: "",
     assists: "",
-    matches: "32",
+    matches: "33",
   },
   {
     name: "Богдан Лєднєв",
@@ -219,7 +219,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/299/422fc373d3ebea6ba95821bcb37ce2d4195240.jpg",
     goals: "7",
     assists: "4",
-    matches: "31",
+    matches: "32",
   },
 
   {
@@ -253,7 +253,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/346/02457253ff61a33f24554de3dc8f3930195240.jpg",
     goals: "4",
     assists: "4",
-    matches: "15",
+    matches: "16",
   },
   {
     name: "Ліндон Емерллаху",
@@ -264,7 +264,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/348/3b48808e6a5a62d9cf2bd5afb2ef14de195240.jpg",
     goals: "1",
     assists: "1",
-    matches: "10",
+    matches: "11",
   },
 
   {
@@ -276,7 +276,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/339/225c5aa5356e1efac5fee7bb3b052945195240.jpg",
     goals: "4",
     assists: "2",
-    matches: "26",
+    matches: "27",
   },
   {
     name: "Микола Гайдучик",
@@ -287,7 +287,7 @@ window.team = [
     photo: "https://polissyafc.com/uploads/player/340/bcb4dec1ceb5d60207ea713386f71914195240.jpg",
     goals: "10",
     assists: "",
-    matches: "34",
+    matches: "35",
   },
   {
     name: "Ігор Краснопір",
@@ -297,8 +297,8 @@ window.team = [
     nationality: "Україна",
     photo: "https://polissyafc.com/uploads/player/350/bf57b20f1e5a162ee1e691f8c1e5cfc4195240.jpg",
     goals: "2",
-    assists: "2",
-    matches: "10",
+    assists: "3",
+    matches: "11",
   },
 ];
 window.coaches = [
@@ -400,13 +400,6 @@ window.managment = [
 ];
   window.matches = [
     {
-      date: "12-5-26",
-      opponent: "Епіцентр",
-      time: "15:30",
-      place: "Стадіон Романа Шухевича",
-      competition: "УПЛ",
-    },
-    {
       date: "16-5-26",
       opponent: "Зоря Луганьск",
       time: "",
@@ -422,7 +415,14 @@ window.managment = [
     },
 ];
 window.results = [
-{
+   {
+      date: "12-5-26",
+      opponent: "Епіцентр",
+      score: "3-2",
+      place: "Арена Лівій Берег",
+      competition: "УПЛ",
+    },
+  {
   date: "8-5-26",
   opponent: "Олександрія",
   score: "2-1",
