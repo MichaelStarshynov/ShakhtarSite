@@ -400,7 +400,7 @@ window.managment = [
 ];
   window.matches = [
     {
-      date: "16-5-26",
+      date: "18-5-26",
       opponent: "Зоря Луганьск",
       time: "",
       place: "Стадіон імені Лобановскьго",

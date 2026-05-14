@@ -168,8 +168,22 @@ text: `<h3>Логотип клубу:</h3> <img src="https://upload.wikimedia.or
           <td>66</td>
         </tr>
 
-    <tr class="highlight-shakhtar">
+        
+         <tr>
           <td>2</td>
+          <td class="team">ЛНЗ Черкаси</td>
+          <td>27</td>
+          <td>16</td>
+          <td>6</td>
+          <td>5</td>
+          <td>36</td>
+          <td>16</td>
+          <td>54</td>
+        </tr>
+
+
+    <tr class="highlight-shakhtar">
+          <td>3</td>
           <td class="team">Полісся Житомир</td>
           <td>27</td>
           <td>17</td>
@@ -181,7 +195,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://upload.wikimedia.or
         </tr>
 
          <tr>
-          <td>3</td>
+          <td>2</td>
           <td class="team">ЛНЗ Черкаси</td>
           <td>27</td>
           <td>16</td>
