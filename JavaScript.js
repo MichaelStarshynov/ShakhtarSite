@@ -182,17 +182,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://upload.wikimedia.or
         </tr>
 
 
-    <tr class="highlight-shakhtar">
-          <td>3</td>
-          <td class="team">Полісся Житомир</td>
-          <td>27</td>
-          <td>17</td>
-          <td>4</td>
-          <td>5</td>
-          <td>47</td>
-          <td>18</td>
-          <td>55</td>
-        </tr>
+
 
          <tr>
           <td>2</td>
