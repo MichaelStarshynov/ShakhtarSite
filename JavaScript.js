@@ -130,7 +130,7 @@ text: `<h3>Логотип клубу:</h3> <img src="https://upload.wikimedia.or
   Команда: { title: `Team` },
   Матчі: { 
     title: `Матчі`, 
-    text:  `<p>Місце в УПЛ: 2 місце</p><p>Місце в Кубку України: виліт в 1/16 фіналу</p><p>Місце в Лізі Конференцій: виліт в 3 кваліфікаційному єтапі.</p>`
+    text:  `<p>Місце в УПЛ: 3 місце</p><p>Місце в Кубку України: виліт в 1/16 фіналу</p><p>Місце в Лізі Конференцій: виліт в 3 кваліфікаційному єтапі.</p>`
   },
    Тренери: { title: `Coaches` },
    Легенди: { title: `Legends` },
@@ -159,176 +159,177 @@ text: `<h3>Логотип клубу:</h3> <img src="https://upload.wikimedia.or
         <tr>
           <td>1</td>
           <td class="team">🏆Шахтар Донецьк</td>
-          <td>27</td>
-          <td>20</td>
+          <td>28</td>
+          <td>21</td>
           <td>6</td>
           <td>1</td>
-          <td>65</td>
-          <td>17</td>
-          <td>66</td>
+          <td>68</td>
+          <td>18</td>
+          <td>69</td>
         </tr>
 
         
          <tr>
           <td>2</td>
           <td class="team">ЛНЗ Черкаси</td>
-          <td>27</td>
-          <td>16</td>
+          <td>28</td>
+          <td>17</td>
           <td>6</td>
           <td>5</td>
-          <td>36</td>
+          <td>38</td>
           <td>16</td>
-          <td>54</td>
+          <td>7</td>
         </tr>
 
 
-
-
-         <tr>
-          <td>2</td>
-          <td class="team">ЛНЗ Черкаси</td>
-          <td>27</td>
-          <td>16</td>
-          <td>6</td>
-          <td>5</td>
-          <td>36</td>
-          <td>16</td>
-          <td>54</td>
+    <tr class="highlight-polissya">
+          <td>3</td>
+          <td class="team">Полісся Житомир</td>
+          <td>28</td>
+          <td>17</td>
+          <td>4</td>
+          <td>7</td>
+          <td>49</td>
+          <td>21</td>
+          <td>55</td>
         </tr>
+
 
          <tr>
           <td>4</td>
           <td class="team">Динамо Київ</td>
-          <td>27</td>
-          <td>14</td>
+          <td>28</td>
+          <td>15</td>
           <td>6</td>
           <td>7</td>
-          <td>59</td>
-          <td>33</td>
-          <td>48</td>
-        </tr>
-
-   <tr>
-          <td>5</td>
-          <td class="team">Металіст 1925</td>
-          <td>27</td>
-          <td>12</td>
-          <td>10</td>
-          <td>5</td>
-          <td>32</td>
-          <td>16</td>
-          <td>46</td>
-        </tr>
-
-     <tr>
-          <td>6</td>
-          <td class="team">Колос Ковалівка</td>
-          <td>27</td>
-          <td>12</td>
-          <td>10</td>
-          <td>5</td>
-          <td>28</td>
-          <td>21</td>
-          <td>46</td>
+          <td>61</td>
+          <td>34</td>
+          <td>51</td>
         </tr>
 
 
          <tr>
-          <td>7</td>
+          <td>5</td>
           <td class="team">Кривбас</td>
-          <td>27</td>
-          <td>12</td>
+          <td>28</td>
+          <td>13</td>
           <td>8</td>
           <td>7</td>
+          <td>50</td>
+          <td>42</td>
           <td>47</td>
-          <td>41</td>
-          <td>44</td>
+        </tr>
+
+
+   <tr>
+          <td>6</td>
+          <td class="team">Металіст 1925</td>
+          <td>28</td>
+          <td>12</td>
+          <td>11</td>
+          <td>5</td>
+          <td>34</td>
+          <td>18</td>
+          <td>47</td>
+        </tr>
+
+     <tr>
+          <td>7</td>
+          <td class="team">Колос Ковалівка</td>
+          <td>28</td>
+          <td>12</td>
+          <td>10</td>
+          <td>6</td>
+          <td>29</td>
+          <td>23</td>
+          <td>46</td>
         </tr>
 
 
            <tr>
           <td>8</td>
           <td class="team">Зоря Луганьск</td>
-          <td>27</td>
-          <td>10</td>
+          <td>28</td>
+          <td>11</td>
           <td>9</td>
           <td>8</td>
-          <td>38</td>
-          <td>34</td>
-          <td>39</td>
+          <td>40</td>
+          <td>35</td>
+          <td>42</td>
         </tr>
 
         <tr>
           <td>9</td>
           <td class="team">Карпати Львів</td>
-          <td>27</td>
+          <td>28</td>
           <td>9</td>
-          <td>10</td>
+          <td>11</td>
           <td>8</td>
-          <td>35</td>
-          <td>27</td>
           <td>37</td>
+          <td>29</td>
+          <td>38</td>
         </tr>
 
   <tr>
           <td>10</td>
           <td class="team">Верес Рівне</td>
-          <td>27</td>
+          <td>28</td>
           <td>7</td>
           <td>10</td>
-          <td>10</td>
-          <td>25</td>
-          <td>34</td>
+          <td>11</td>
+          <td>26</td>
+          <td>37</td>
           <td>31</td>
         </tr>
         
          <tr>
           <td>11</td>
           <td class="team">Епіцентр</td>
-          <td>27</td>
+          <td>28</td>
           <td>7</td>
           <td>6</td>
           <td>14</td>
-          <td>32</td>
-          <td>42</td>
-          <td>27</td>
+          <td>35</td>
+          <td>44</td>
+          <td>30</td>
         </tr>
 
-<tr>
+        
+         <tr>
           <td>12</td>
+          <td class="team">Кудрівка</td>
+          <td>28</td>
+          <td>6</td>
+          <td>7</td>
+          <td>15</td>
+          <td>29</td>
+          <td>45</td>
+          <td>25</td>
+        </tr>
+
+
+<tr>
+          <td>13</td>
           <td class="team">Оболонь Київ</td>
           <td>26</td>
           <td>5</td>
           <td>10</td>
-          <td>11</td>
-          <td>22</td>
-          <td>45</td>
-          <td>22</td>
+          <td>12</td>
+          <td>23</td>
+          <td>48</td>
+          <td>25</td>
         </tr>
 
-
-        
-         <tr>
-          <td>13</td>
-          <td class="team">Кудрівка</td>
-          <td>27</td>
-          <td>5</td>
-          <td>5</td>
-          <td>9</td>
-          <td>24</td>
-          <td>33</td>
-          <td>20</td>
-        </tr>
 
         <tr>
           <td>14</td>
           <td class="team">Рух Львів</td>
-          <td>27</td>
+          <td>28</td>
           <td>6</td>
           <td>3</td>
-          <td>18</td>
-          <td>18</td>
-          <td>44</td>
+          <td>19</td>
+          <td>20</td>
+          <td>53</td>
           <td>21</td>
         </tr>
 
@@ -337,24 +338,24 @@ text: `<h3>Логотип клубу:</h3> <img src="https://upload.wikimedia.or
          <tr>
           <td>15</td>
           <td class="team">Олександрія</td>
-          <td>26</td>
+          <td>27</td>
           <td>2</td>
           <td>7</td>
-          <td>17</td>
-          <td>19</td>
-          <td>51</td>
+          <td>18</td>
+          <td>20</td>
+          <td>53</td>
           <td>13</td>
         </tr>
 
          <tr>
           <td>16</td>
           <td class="team">Полтава</td>
-          <td>27</td>
+          <td>28</td>
           <td>2</td>
           <td>6</td>
           <td>19</td>
           <td>23</td>
-          <td>70</td>
+          <td>72</td>
           <td>12</td>
         </tr>
 

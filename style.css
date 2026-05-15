@@ -614,13 +614,13 @@ h2 {
 .league-table tbody tr:hover {
   background: #ddd;
 }
-.highlight-shakhtar {
+.highlight-polissya {
   background-color: green;
   color: black;
   font-weight: 700;
 }
 
-.highlight-shakhtar td {
+.highlight-polissya td {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   background: green;
@@ -801,7 +801,7 @@ h2 {
 }
 
 /* Подсветка Шахтёра */
-.highlight-shakhtar {
+.highlight-polissya {
   background: green !important;
   color: black;
   font-weight: bold;
